@@ -1,274 +1,212 @@
+﻿import Link from "next/link";
 import Image from "next/image";
+import HeroShowcase from "@/components/HeroShowcase";
+import ToolModals from "@/components/ToolModals";
+import NewsletterSignup from "@/components/NewsletterSignup";
+import { posts } from "@/content/posts";
 
-const featuredPosts = [
-  {
-    title: "Dubai Cost of Living 2026: Rent, Transport, Groceries, and Savings Tips",
-    category: "Living in Dubai",
-    publishedAt: "March 3, 2026",
-    excerpt:
-      "A practical month-by-month budgeting breakdown for professionals, families, and students moving to Dubai.",
-  },
-  {
-    title: "Best Areas to Live in Dubai for Families and Working Professionals",
-    category: "Neighborhood Guide",
-    publishedAt: "March 1, 2026",
-    excerpt:
-      "Compare commute, school access, rental ranges, and lifestyle across top residential communities.",
-  },
-  {
-    title: "Dubai Weekend Guide: Affordable Places, Events, and Local Food Spots",
-    category: "Lifestyle",
-    publishedAt: "February 27, 2026",
-    excerpt:
-      "Curated weekend ideas with realistic budgets so readers can plan better and avoid tourist traps.",
-  },
+const stats = [
+  { label: "Published Guides", value: "120+" },
+  { label: "Monthly Readers", value: "45K+" },
+  { label: "Updated Weekly", value: "4x" },
+  { label: "Core Categories", value: "10" },
 ];
 
-const faqs = [
-  {
-    question: "What kind of content will Dubai Trending Blog publish?",
-    answer:
-      "We publish original guides, local trend explainers, and practical city updates for residents, expats, and visitors in Dubai.",
-  },
-  {
-    question: "How often is this blog updated?",
-    answer:
-      "New and refreshed posts are added every week, with factual updates when regulations, prices, or city services change.",
-  },
-  {
-    question: "Is the information written by humans?",
-    answer:
-      "Yes. Content is edited with a clear editorial process, transparent sources, and a focus on helpful reader-first writing.",
-  },
+const tools = [
+  "Emirates ID Renewal Checklist",
+  "UAE Job Application Planner",
+  "Dubai Cost Calculator",
+  "Visa Document Organizer",
+  "Labour Complaint Steps",
+  "Nol Card Budget Tracker",
 ];
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Blog",
-  name: "Dubai Trending Blog",
-  description:
-    "Original Dubai-focused blog covering local lifestyle, city updates, travel plans, and business insights.",
-  url: "https://dubaitrendingblog.com",
-  inLanguage: "en",
-  publisher: {
-    "@type": "Organization",
-    name: "Dubai Trending Blog",
-  },
-};
+const quickCategories = [
+  { label: "Living", category: "Living in Dubai" },
+  { label: "Jobs", category: "Jobs" },
+  { label: "Labour", category: "Labour Law" },
+  { label: "Travel", category: "Travel" },
+  { label: "Business", category: "Business" },
+  { label: "Docs", category: "Documents" },
+];
+
+const primaryTools = tools.slice(0, 4);
 
 export const metadata = {
-  title: "Dubai Trending Blog Home",
+  title: "Dubai Trending Blog | Standard Web Blog with 10 Articles",
   description:
-    "Read practical Dubai guides on lifestyle, travel, real estate, and local business trends with clear and trustworthy information.",
-  keywords: [
-    "Dubai blog",
-    "Dubai trending news",
-    "Dubai lifestyle",
-    "Dubai travel guide",
-    "Dubai cost of living",
-    "Dubai local updates",
-  ],
+    "Explore 10 full Dubai-focused blog posts with images, category sections, and smooth navigation.",
   alternates: {
     canonical: "/",
   },
 };
 
 export default function Home() {
+  const latestPosts = posts.slice(5, 10);
+  const editorPicks = posts.slice(0, 3);
+
   return (
-    <main className="min-h-screen bg-gradient-to-b from-sky-50 via-slate-50 to-white text-slate-900">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+    <main className="min-h-screen bg-gradient-to-b from-slate-100 via-slate-50 to-white text-slate-900">
+      <HeroShowcase posts={posts} />
 
-      <header className="sticky top-0 z-20 border-b border-slate-200 bg-white/90 backdrop-blur">
-        <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-4 sm:px-6">
-          <p className="text-lg font-bold tracking-tight">Dubai Trending Blog</p>
-          <nav className="flex items-center gap-5 text-sm font-medium text-slate-700">
-            <a href="#latest" className="hover:text-slate-900">
-              Latest
-            </a>
-            <a href="#featured" className="hover:text-slate-900">
-              Featured
-            </a>
-            <a href="#faq" className="hover:text-slate-900">
-              FAQ
-            </a>
-          </nav>
+      <section className="mx-auto grid w-full max-w-6xl grid-cols-2 gap-3 px-4 pb-8 sm:grid-cols-4 sm:px-6">
+        {stats.map((item) => (
+          <div key={item.label} className="rounded-2xl border border-slate-200 bg-white p-4 text-center shadow-sm">
+            <p className="text-2xl font-black text-red-600">{item.value}</p>
+            <p className="mt-1 text-xs font-semibold uppercase tracking-wide text-slate-600">{item.label}</p>
+          </div>
+        ))}
+      </section>
+
+      <section className="mx-auto grid w-full max-w-6xl gap-6 px-4 pb-8 sm:px-6 lg:grid-cols-[1.4fr_1fr]">
+        <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h2 className="text-2xl font-black">Welcome to Dubai Trending Blog</h2>
+          <p className="mt-3 text-slate-700">
+            Daily practical posts on UAE jobs, Emirates ID, visa updates, transport,
+            labour rules, and local lifestyle planning.
+          </p>
+          <div className="mt-5 flex flex-wrap gap-2">
+            {["Dubai", "UAE Jobs", "Visa", "Emirates ID", "Labour"].map((tag) => (
+              <span key={tag} className="rounded bg-red-600 px-2 py-1 text-xs font-semibold text-white">
+                {tag}
+              </span>
+            ))}
+          </div>
+
+          <ToolModals tools={primaryTools} />
         </div>
-      </header>
 
-      <section className="mx-auto grid w-full max-w-6xl gap-8 px-4 pb-12 pt-12 sm:px-6 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
-        <div>
-          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-blue-700">
-            Updated: March 4, 2026
-          </p>
-          <h1 className="max-w-4xl text-3xl font-black leading-tight sm:text-5xl">
-            Dubai Trending Blog: Reliable Local Insights for Lifestyle, Travel,
-            and Business
-          </h1>
-          <p className="mt-5 max-w-3xl text-base leading-7 text-slate-700 sm:text-lg">
-            This blog is built for readers who want useful Dubai information
-            without noise. We focus on practical guides, verified updates, and
-            easy-to-understand explainers that help people make better daily
-            decisions.
-          </p>
-          <div className="mt-6 flex flex-wrap gap-3">
-            <span className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-700 shadow-sm ring-1 ring-slate-200">
-              Reader-first content
-            </span>
-            <span className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-700 shadow-sm ring-1 ring-slate-200">
-              SEO-ready structure
-            </span>
-            <span className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-700 shadow-sm ring-1 ring-slate-200">
-              Weekly updates
-            </span>
+        <aside className="space-y-4">
+          <div className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
+            <h2 className="text-lg font-extrabold">Quick Categories</h2>
+            <div className="mt-4 grid grid-cols-2 gap-2 text-sm">
+              {quickCategories.map((item) => (
+                <Link
+                  key={item.label}
+                  href={`/blog?category=${encodeURIComponent(item.category)}`}
+                  className="rounded-lg border border-slate-200 bg-slate-100 px-3 py-2 text-center font-semibold text-slate-700 transition hover:-translate-y-0.5 hover:border-blue-300 hover:bg-white hover:text-blue-700"
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          <div className="rounded-3xl border border-amber-300 bg-amber-50 p-5 shadow-sm">
+            <p className="text-xs font-bold uppercase tracking-wide text-amber-700">Demo Ad</p>
+            <h3 className="mt-2 text-lg font-bold text-slate-900">Sponsored Placement</h3>
+            <p className="mt-2 text-sm text-slate-700">
+              This is a demo ad block. Replace with approved AdSense unit after policy review.
+            </p>
+          </div>
+        </aside>
+      </section>
+
+      <section className="mx-auto w-full max-w-6xl px-4 pb-10 sm:px-6">
+        <div className="mb-5 flex items-center justify-between">
+          <h2 className="text-2xl font-black">Editor Picks</h2>
+          <Link href="/blog" className="text-sm font-bold text-blue-700 transition hover:text-blue-900">
+            Explore all
+          </Link>
+        </div>
+        <div className="grid gap-4 md:grid-cols-3">
+          {editorPicks.map((post) => (
+            <Link
+              key={post.slug}
+              href={`/blog/${post.slug}`}
+              className="group rounded-2xl border border-slate-200 bg-white p-4 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
+            >
+              <p className="text-xs font-semibold uppercase tracking-wide text-red-600">{post.category}</p>
+              <h3 className="mt-2 line-clamp-2 text-lg font-extrabold group-hover:text-blue-700">{post.title}</h3>
+              <p className="mt-2 text-sm text-slate-600">{post.date}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className="mx-auto w-full max-w-6xl px-4 pb-10 sm:px-6">
+        <div className="rounded-3xl border border-amber-300 bg-gradient-to-r from-amber-50 to-yellow-50 p-6 shadow-sm">
+          <p className="text-xs font-bold uppercase tracking-wide text-amber-700">Featured Ad Space</p>
+          <div className="mt-2 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+              <h3 className="text-2xl font-black text-slate-900">Promoted Partner Message</h3>
+              <p className="mt-1 text-sm text-slate-700">
+                This is a mid-page ad placement demo. Replace this block with your approved AdSense unit.
+              </p>
+            </div>
+            <button className="rounded-lg bg-slate-900 px-4 py-2 text-sm font-bold text-white transition hover:bg-slate-700">
+              Learn More
+            </button>
           </div>
         </div>
-        <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
-          <Image
-            src="/globe.svg"
-            alt="Dubai global city trends illustration"
-            width={420}
-            height={260}
-            className="mx-auto h-52 w-auto"
-            priority
-          />
-          <p className="mt-3 text-center text-sm text-slate-600">
-            Curated local insights with clear, practical, and trustworthy blog
-            content.
-          </p>
-        </div>
       </section>
 
-      <section id="latest" className="mx-auto w-full max-w-6xl px-4 pb-12 sm:px-6">
-        <div className="grid gap-4 sm:grid-cols-3">
-          <article className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-            <Image src="/window.svg" alt="City life icon" width={36} height={36} />
-            <p className="mt-2 text-xs font-semibold uppercase tracking-wide text-slate-500">
-              City Life
-            </p>
-            <h2 className="mt-2 text-lg font-bold">
-              Rent Trends, Commute Updates, and Family Living Tips
-            </h2>
-            <p className="mt-2 text-sm text-slate-600">
-              Weekly practical updates for residents and new arrivals.
-            </p>
-          </article>
-          <article className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-            <Image src="/globe.svg" alt="Travel icon" width={36} height={36} />
-            <p className="mt-2 text-xs font-semibold uppercase tracking-wide text-slate-500">
-              Travel
-            </p>
-            <h2 className="mt-2 text-lg font-bold">
-              Budget-Friendly Dubai Itineraries and Seasonal Guides
-            </h2>
-            <p className="mt-2 text-sm text-slate-600">
-              Smart plans for weekend exploration and first-time visitors.
-            </p>
-          </article>
-          <article className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-            <Image
-              src="/file.svg"
-              alt="Business insights icon"
-              width={36}
-              height={36}
-            />
-            <p className="mt-2 text-xs font-semibold uppercase tracking-wide text-slate-500">
-              Business
-            </p>
-            <h2 className="mt-2 text-lg font-bold">
-              SME Growth Insights, Digital Marketing, and Local Market Signals
-            </h2>
-            <p className="mt-2 text-sm text-slate-600">
-              Reader-first breakdowns of business opportunities in Dubai.
-            </p>
-          </article>
+      <section className="mx-auto w-full max-w-6xl px-4 pb-12 sm:px-6">
+        <div className="mb-5 flex items-center justify-between">
+          <h2 className="text-2xl font-black">More Latest Blogs</h2>
+          <Link href="/blog" className="text-sm font-bold text-blue-700 transition hover:text-blue-900">
+            View all 10 posts
+          </Link>
         </div>
-      </section>
 
-      <section
-        id="featured"
-        className="mx-auto w-full max-w-6xl border-y border-slate-200 bg-white px-4 py-12 sm:px-6"
-      >
-        <h2 className="text-2xl font-extrabold sm:text-3xl">Featured Posts</h2>
-        <p className="mt-2 max-w-2xl text-slate-700">
-          Freshly published content crafted to solve common Dubai living and
-          travel questions with clear, structured guidance.
-        </p>
-        <div className="mt-6 grid gap-5 sm:grid-cols-3">
-          {featuredPosts.map((post) => (
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {latestPosts.map((post) => (
             <article
-              key={post.title}
-              className="rounded-2xl border border-slate-200 bg-slate-50/70 p-5 transition hover:-translate-y-0.5 hover:bg-white hover:shadow-sm"
+              key={post.slug}
+              className="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg"
             >
-              <p className="text-xs font-semibold uppercase tracking-wide text-blue-700">
-                {post.category}
-              </p>
-              <h3 className="mt-2 text-lg font-bold leading-snug">{post.title}</h3>
-              <p className="mt-2 text-sm text-slate-600">{post.excerpt}</p>
-              <p className="mt-4 text-xs text-slate-500">
-                Published: {post.publishedAt}
-              </p>
+              <div className="relative h-44 w-full">
+                <Image src={post.image} alt={post.title} fill className="object-cover" />
+              </div>
+              <div className="p-4">
+                <p className="text-xs font-semibold uppercase tracking-wide text-blue-700">{post.category}</p>
+                <h3 className="mt-2 line-clamp-2 text-lg font-extrabold leading-snug transition group-hover:text-blue-800">
+                  {post.title}
+                </h3>
+                <p className="mt-2 line-clamp-2 text-sm text-slate-600">{post.excerpt}</p>
+                <p className="mt-3 text-xs text-slate-500">
+                  {post.date} • {post.readTime}
+                </p>
+                <Link
+                  href={`/blog/${post.slug}`}
+                  className="mt-4 inline-flex text-sm font-bold text-slate-900 transition hover:text-blue-700"
+                >
+                  Read article -&gt;
+                </Link>
+              </div>
             </article>
           ))}
         </div>
       </section>
 
-      <section className="mx-auto w-full max-w-6xl px-4 py-12 sm:px-6">
-        <article className="max-w-none rounded-3xl bg-slate-900 px-6 py-8 text-slate-100 sm:px-8">
-          <h2 className="text-2xl font-extrabold sm:text-3xl">
-            Why Readers Trust Dubai Trending Blog
-          </h2>
-          <p className="mt-4 leading-7 text-slate-200">
-            We focus on clear, useful writing designed to help people in real
-            situations, whether they are moving to Dubai, planning their budget,
-            or exploring better neighborhoods. Every article follows a simple
-            editorial promise: helpful first, clear second, and updated when
-            facts change.
-          </p>
-          <h3 className="mt-5 text-lg font-bold">What You Can Expect</h3>
-          <p className="mt-2 leading-7 text-slate-200">
-            You will find practical comparisons, transparent assumptions, and
-            guides written in plain language. We avoid vague claims and publish
-            content that users can apply immediately.
-          </p>
-          <h3 className="mt-5 text-lg font-bold">Editorial Approach</h3>
-          <p className="mt-2 leading-7 text-slate-200">
-            Content is structured for readability with proper headings, concise
-            summaries, and fact-checking before updates. This improves user
-            experience and search relevance while keeping quality consistent.
-          </p>
-        </article>
-      </section>
-
-      <section id="faq" className="mx-auto w-full max-w-6xl px-4 pb-12 sm:px-6">
-        <h2 className="text-2xl font-extrabold sm:text-3xl">
-          Frequently Asked Questions
-        </h2>
-        <div className="mt-5 space-y-3">
-          {faqs.map((item) => (
-            <details
-              key={item.question}
-              className="rounded-xl border border-slate-200 bg-white p-4"
-            >
-              <summary className="cursor-pointer text-sm font-semibold text-slate-900">
-                {item.question}
-              </summary>
-              <p className="mt-2 text-sm leading-6 text-slate-700">
-                {item.answer}
-              </p>
-            </details>
-          ))}
+      <section className="mx-auto w-full max-w-6xl px-4 pb-10 sm:px-6">
+        <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h2 className="text-2xl font-black">Popular Reader Tools</h2>
+          <ToolModals tools={tools} className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3" />
         </div>
       </section>
 
-      <footer className="border-t border-slate-200 bg-white">
-        <div className="mx-auto flex w-full max-w-6xl flex-col gap-2 px-4 py-6 text-sm text-slate-600 sm:px-6 sm:flex-row sm:items-center sm:justify-between">
-          <p>Copyright 2026 Dubai Trending Blog. All rights reserved.</p>
-          <p>Editorial-first content for residents, expats, and visitors.</p>
+      <section className="mx-auto w-full max-w-6xl px-4 pb-10 sm:px-6">
+        <div className="rounded-3xl border border-blue-200 bg-blue-50 p-6">
+          <h2 className="text-2xl font-black text-slate-900">Join Weekly Dubai Updates</h2>
+          <p className="mt-2 text-sm text-slate-700">
+            Get practical blog updates on jobs, documents, local services, and city living.
+          </p>
+          <NewsletterSignup />
         </div>
-      </footer>
+      </section>
+
+      <section className="mx-auto w-full max-w-6xl px-4 pb-16 sm:px-6">
+        <div className="rounded-3xl border border-slate-200 bg-slate-900 p-6 text-slate-100">
+          <h2 className="text-2xl font-black">Why this blog is AdSense-friendly</h2>
+          <ul className="mt-4 grid gap-2 text-sm text-slate-200 sm:grid-cols-2">
+            <li>Original long-form content</li>
+            <li>Clean navigation and internal linking</li>
+            <li>Dedicated article pages with clear structure</li>
+            <li>No misleading ad placement</li>
+          </ul>
+        </div>
+      </section>
     </main>
   );
 }

@@ -1,9 +1,13 @@
-import { Geist, Geist_Mono } from "next/font/google";
+﻿import { Geist_Mono, Mooli } from "next/font/google";
 import "./globals.css";
+import SiteFooter from "@/components/SiteFooter";
+import SocialSidebar from "@/components/SocialSidebar";
+import SiteNavbar from "@/components/SiteNavbar";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const mooli = Mooli({
+  variable: "--font-mooli",
   subsets: ["latin"],
+  weight: ["400"],
 });
 
 const geistMono = Geist_Mono({
@@ -36,11 +40,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className={`${mooli.variable} ${geistMono.variable} antialiased`}>
+        <SocialSidebar />
+        <div className="">
+          <SiteNavbar />
+          {children}
+          <SiteFooter />
+        </div>
       </body>
     </html>
   );
 }
+
