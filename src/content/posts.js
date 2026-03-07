@@ -12,7 +12,7 @@ export const posts = [
     readTime: "8 min read",
     author: "Editorial Desk",
     image:
-      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=80",
+      "/images/dubai-cost-of-living-2026.png",
     sections: [
       {
         heading: "Start With the Full Monthly Picture, Not Just the Salary",
@@ -54,7 +54,7 @@ export const posts = [
     readTime: "7 min read",
     author: "Dubai Local Team",
     image:
-      "https://images.unsplash.com/photo-1504274066651-8d31a536b11a?auto=format&fit=crop&w=1200&q=80",
+      "/images/best-areas-live-dubai.png",
     sections: [
       {
         heading: "Don't Pick a Neighborhood Based on One Good Visit",
@@ -96,7 +96,7 @@ export const posts = [
     readTime: "9 min read",
     author: "Legal Research Team",
     image:
-      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=80",
+      "/images/uae-labour-law-2026.png",
     sections: [
       {
         heading: "Most Labour Problems Start With an Unread Contract",
@@ -138,7 +138,7 @@ export const posts = [
     readTime: "6 min read",
     author: "City Explorer",
     image:
-      "https://images.unsplash.com/photo-1526498460520-4c246339dccb?auto=format&fit=crop&w=1200&q=80",
+      "/images/dubai-weekend-budget.png",
     sections: [
       {
         heading: "The Most Expensive Mistake Is No Plan at All",
