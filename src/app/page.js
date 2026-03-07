@@ -5,13 +5,6 @@ import ToolModals from "@/components/ToolModals";
 import NewsletterSignup from "@/components/NewsletterSignup";
 import { posts } from "@/content/posts";
 
-const stats = [
-  { label: "Published Guides", value: "120+" },
-  { label: "Monthly Readers", value: "45K+" },
-  { label: "Updated Weekly", value: "4x" },
-  { label: "Core Categories", value: "10" },
-];
-
 const tools = [
   "Emirates ID Renewal Checklist",
   "UAE Job Application Planner",
@@ -33,9 +26,9 @@ const quickCategories = [
 const primaryTools = tools.slice(0, 4);
 
 export const metadata = {
-  title: "Dubai Trending Blog | Standard Web Blog with 10 Articles",
+  title: "Dubai Trending | Practical Dubai Guides, Jobs, Documents, and City Living",
   description:
-    "Explore 10 full Dubai-focused blog posts with images, category sections, and smooth navigation.",
+    "Read practical Dubai guides covering jobs, documents, transport, neighborhood choices, and everyday city living.",
   alternates: {
     canonical: "/",
   },
@@ -49,21 +42,16 @@ export default function Home() {
     <main className="min-h-screen bg-gradient-to-b from-slate-100 via-slate-50 to-white text-slate-900">
       <HeroShowcase posts={posts} />
 
-      <section className="mx-auto grid w-full max-w-6xl grid-cols-2 gap-3 px-4 pb-8 sm:grid-cols-4 sm:px-6">
-        {stats.map((item) => (
-          <div key={item.label} className="rounded-2xl border border-slate-200 bg-white p-4 text-center shadow-sm">
-            <p className="text-2xl font-black text-red-600">{item.value}</p>
-            <p className="mt-1 text-xs font-semibold uppercase tracking-wide text-slate-600">{item.label}</p>
-          </div>
-        ))}
-      </section>
-
       <section className="mx-auto grid w-full max-w-6xl gap-6 px-4 pb-8 sm:px-6 lg:grid-cols-[1.4fr_1fr]">
         <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
           <h2 className="text-2xl font-black">Welcome to Dubai Trending Blog</h2>
           <p className="mt-3 text-slate-700">
-            Daily practical posts on UAE jobs, Emirates ID, visa updates, transport,
-            labour rules, and local lifestyle planning.
+            Dubai Trending publishes practical weekly guides on jobs, documents,
+            transport, neighborhood choices, and everyday city living.
+          </p>
+          <p className="mt-3 text-slate-700">
+            The goal is simple: help readers understand common Dubai topics in
+            clear English without filler, exaggerated claims, or confusing layouts.
           </p>
           <div className="mt-5 flex flex-wrap gap-2">
             {["Dubai", "UAE Jobs", "Visa", "Emirates ID", "Labour"].map((tag) => (
@@ -91,14 +79,6 @@ export default function Home() {
               ))}
             </div>
           </div>
-
-          <div className="rounded-3xl border border-amber-300 bg-amber-50 p-5 shadow-sm">
-            <p className="text-xs font-bold uppercase tracking-wide text-amber-700">Demo Ad</p>
-            <h3 className="mt-2 text-lg font-bold text-slate-900">Sponsored Placement</h3>
-            <p className="mt-2 text-sm text-slate-700">
-              This is a demo ad block. Replace with approved AdSense unit after policy review.
-            </p>
-          </div>
         </aside>
       </section>
 
@@ -121,23 +101,6 @@ export default function Home() {
               <p className="mt-2 text-sm text-slate-600">{post.date}</p>
             </Link>
           ))}
-        </div>
-      </section>
-
-      <section className="mx-auto w-full max-w-6xl px-4 pb-10 sm:px-6">
-        <div className="rounded-3xl border border-amber-300 bg-gradient-to-r from-amber-50 to-yellow-50 p-6 shadow-sm">
-          <p className="text-xs font-bold uppercase tracking-wide text-amber-700">Featured Ad Space</p>
-          <div className="mt-2 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-            <div>
-              <h3 className="text-2xl font-black text-slate-900">Promoted Partner Message</h3>
-              <p className="mt-1 text-sm text-slate-700">
-                This is a mid-page ad placement demo. Replace this block with your approved AdSense unit.
-              </p>
-            </div>
-            <button className="rounded-lg bg-slate-900 px-4 py-2 text-sm font-bold text-white transition hover:bg-slate-700">
-              Learn More
-            </button>
-          </div>
         </div>
       </section>
 
@@ -198,12 +161,12 @@ export default function Home() {
 
       <section className="mx-auto w-full max-w-6xl px-4 pb-16 sm:px-6">
         <div className="rounded-3xl border border-slate-200 bg-slate-900 p-6 text-slate-100">
-          <h2 className="text-2xl font-black">Why this blog is AdSense-friendly</h2>
+          <h2 className="text-2xl font-black">What Readers Can Expect</h2>
           <ul className="mt-4 grid gap-2 text-sm text-slate-200 sm:grid-cols-2">
-            <li>Original long-form content</li>
-            <li>Clean navigation and internal linking</li>
-            <li>Dedicated article pages with clear structure</li>
-            <li>No misleading ad placement</li>
+            <li>Original long-form articles with clear structure</li>
+            <li>Simple navigation across blog categories and legal pages</li>
+            <li>Practical topics for residents, expats, visitors, and job seekers</li>
+            <li>Readable English written for general audiences</li>
           </ul>
         </div>
       </section>

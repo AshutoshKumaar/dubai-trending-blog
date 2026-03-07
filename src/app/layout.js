@@ -1,7 +1,6 @@
-﻿import { Geist_Mono, Mooli } from "next/font/google";
+import { Geist_Mono, Mooli } from "next/font/google";
 import "./globals.css";
 import SiteFooter from "@/components/SiteFooter";
-import SocialSidebar from "@/components/SocialSidebar";
 import SiteNavbar from "@/components/SiteNavbar";
 
 const mooli = Mooli({
@@ -41,8 +40,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${mooli.variable} ${geistMono.variable} antialiased`}>
-        <SocialSidebar />
-        <div className="">
+        <div>
           <SiteNavbar />
           {children}
           <SiteFooter />
@@ -51,4 +49,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-

@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -8,6 +8,18 @@ export default function HeroShowcase({ posts }) {
   const slides = useMemo(() => posts.slice(0, 5), [posts]);
   const [activeIndex, setActiveIndex] = useState(0);
   const activePost = slides[activeIndex];
+
+  useEffect(() => {
+    if (slides.length < 2) {
+      return undefined;
+    }
+
+    const timer = setInterval(() => {
+      setActiveIndex((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
+    }, 500);
+
+    return () => clearInterval(timer);
+  }, [slides.length]);
 
   function goPrev() {
     setActiveIndex((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
@@ -28,23 +40,23 @@ export default function HeroShowcase({ posts }) {
             priority
             className="object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent" />
 
           <button
             type="button"
             onClick={goPrev}
             aria-label="Previous slide"
-            className="absolute left-3 top-1/2 -translate-y-1/2 rounded-full bg-white/25 px-3 py-2 text-3xl font-bold text-white backdrop-blur transition hover:bg-white/40"
+            className="absolute left-4 top-1/2 z-10 flex h-16 w-16 -translate-y-1/2 items-center justify-center rounded-full bg-white/20 text-4xl font-bold text-white backdrop-blur transition hover:bg-white/35"
           >
-            ‹
+            &#8249;
           </button>
           <button
             type="button"
             onClick={goNext}
             aria-label="Next slide"
-            className="absolute right-3 top-1/2 -translate-y-1/2 rounded-full bg-white/25 px-3 py-2 text-3xl font-bold text-white backdrop-blur transition hover:bg-white/40"
+            className="absolute right-4 top-1/2 z-10 flex h-16 w-16 -translate-y-1/2 items-center justify-center rounded-full bg-white/20 text-4xl font-bold text-white backdrop-blur transition hover:bg-white/35"
           >
-            ›
+            &#8250;
           </button>
 
           <div className="absolute bottom-0 w-full p-5 sm:p-7">

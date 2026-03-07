@@ -1,7 +1,6 @@
 ﻿import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import ArticleEngagement from "@/components/ArticleEngagement";
 import BlogImageGallery from "@/components/BlogImageGallery";
 import { getPostBySlug, posts } from "@/content/posts";
 import { getArticleExtras } from "@/content/articleExtras";
@@ -47,16 +46,8 @@ export default async function BlogPostPage({ params }) {
   const currentIndex = posts.findIndex((item) => item.slug === post.slug);
   const previousPost = posts[currentIndex - 1] ?? null;
   const nextPost = posts[currentIndex + 1] ?? null;
-  const fallbackGallery = [
-    "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1526495124232-a04e1849168c?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1499092346589-b9b6be3e94b2?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=80",
-  ];
   const galleryImages = Array.from(
-    new Set([post.image, ...extras.midImages, ...fallbackGallery])
+    new Set([post.image, ...extras.midImages, ...extras.steps.map((step) => step.image)])
   ).slice(0, 6);
 
   return (
@@ -112,13 +103,6 @@ export default async function BlogPostPage({ params }) {
               ))}
             </ul>
           </div>
-        </div>
-
-        <div className="mt-6 rounded-2xl border border-amber-300 bg-amber-50 p-4">
-          <p className="text-xs font-bold uppercase tracking-wide text-amber-700">Demo Ad</p>
-          <p className="mt-1 text-sm text-slate-700">
-            Sponsored content placeholder. Replace with approved AdSense code during production deployment.
-          </p>
         </div>
 
         <div className="mt-8 space-y-8">
@@ -193,8 +177,6 @@ export default async function BlogPostPage({ params }) {
             Build decisions around verified information, weekly tracking, and consistent planning. Small improvements compound fast in Dubai&apos;s dynamic environment.
           </p>
         </div>
-
-        <ArticleEngagement seedComments={extras.comments} />
 
         <nav className="mt-8 grid gap-4 sm:grid-cols-2">
           <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">

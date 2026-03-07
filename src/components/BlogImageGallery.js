@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 
 export default function BlogImageGallery({
@@ -8,8 +8,29 @@ export default function BlogImageGallery({
   title = "Blog image",
   overlay = null,
 }) {
-  const safeImages = images.length ? images : ["/next.svg"];
+  const safeImages = useMemo(
+    () => (images.length ? images : ["/next.svg"]),
+    [images]
+  );
   const [activeImage, setActiveImage] = useState(safeImages[0]);
+  const activeIndex = safeImages.indexOf(activeImage);
+
+  useEffect(() => {
+    if (safeImages.length < 2) {
+      return undefined;
+    }
+
+    const timer = setInterval(() => {
+      setActiveImage((current) => {
+        const currentIndex = safeImages.indexOf(current);
+        const nextIndex =
+          currentIndex === safeImages.length - 1 ? 0 : currentIndex + 1;
+        return safeImages[nextIndex];
+      });
+    }, 2500);
+
+    return () => clearInterval(timer);
+  }, [safeImages]);
 
   return (
     <section className="mt-6">
@@ -47,7 +68,7 @@ export default function BlogImageGallery({
             type="button"
             onClick={() => setActiveImage(image)}
             className={`relative h-20 overflow-hidden rounded-xl border transition sm:h-24 ${
-              activeImage === image
+              activeIndex === safeImages.indexOf(image)
                 ? "border-blue-500 ring-2 ring-blue-300/50"
                 : "border-slate-200 hover:border-slate-400"
             }`}
