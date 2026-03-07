@@ -26,7 +26,7 @@ const quickCategories = [
 const primaryTools = tools.slice(0, 4);
 
 export const metadata = {
-  title: "Dubai Trending | Practical Dubai Guides, Jobs, Documents, and City Living",
+  title: `Dubai Trending | ${posts.length} Practical Dubai Guides, Jobs, Documents, and City Living Articles`,
   description:
     "Read practical Dubai guides covering jobs, documents, transport, neighborhood choices, and everyday city living.",
   alternates: {
@@ -35,8 +35,8 @@ export const metadata = {
 };
 
 export default function Home() {
-  const latestPosts = posts.slice(5, 10);
-  const editorPicks = posts.slice(0, 3);
+  const editorPicks = posts.slice(0, 6);
+  const latestPosts = posts.slice(6, 18);
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-slate-100 via-slate-50 to-white text-slate-900">
@@ -89,7 +89,7 @@ export default function Home() {
             Explore all
           </Link>
         </div>
-        <div className="grid gap-4 md:grid-cols-3">
+        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
           {editorPicks.map((post) => (
             <Link
               key={post.slug}
@@ -108,7 +108,7 @@ export default function Home() {
         <div className="mb-5 flex items-center justify-between">
           <h2 className="text-2xl font-black">More Latest Blogs</h2>
           <Link href="/blog" className="text-sm font-bold text-blue-700 transition hover:text-blue-900">
-            View all 10 posts
+            View all {posts.length} posts
           </Link>
         </div>
 

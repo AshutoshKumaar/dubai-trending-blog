@@ -42,7 +42,7 @@ export default async function BlogIndexPage({ searchParams }) {
           <div>
             <p className="text-xs font-bold uppercase tracking-wider text-blue-700">Blog Directory</p>
             <h1 className="mt-1 text-4xl font-black">
-              {rawCategory ? `${rawCategory} Posts` : "All 10 Blog Posts"}
+              {rawCategory ? `${rawCategory} Posts (${filteredPosts.length})` : `All ${posts.length} Blog Posts`}
             </h1>
             {rawCategory ? (
               <Link
