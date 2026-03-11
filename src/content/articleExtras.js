@@ -15,10 +15,10 @@ const articleExtrasMap = {
       "Automate savings on day one — before lifestyle habits form around the leftover.",
     ],
     midImages: [
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1554224155-6a9d4b5d6e2b?auto=format&fit=crop&w=1200&q=80",
+      "/images/cost-living-mid-1.png",
+      "/images/cost-living-mid-2.png",
+      "/images/cost-living-mid-3.png",
+      "/images/cost-living-mid-4.png",
     ],
     steps: [
       {
@@ -26,28 +26,28 @@ const articleExtrasMap = {
         detail:
           "Start with what hits your account monthly — not the gross figure, not the bonus projection, not the promised commission. Build your budget on the predictable base only.",
         image:
-          "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1200&q=80",
+          "/images/cost-living-step-1.png",
       },
       {
         title: "Step 2: Set Your Housing Ceiling Before You Start Browsing",
         detail:
           "Apartment hunting without a hard rent limit is how people end up over-committed by 20 percent within the first month. Set the ceiling first, then look.",
         image:
-          "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=1200&q=80",
+          "/images/cost-living-step-2.png",
       },
       {
         title: "Step 3: Build a Weekly Spending System, Not a Monthly One",
         detail:
           "Monthly budgets create monthly surprises. Divide food, transport, and discretionary spend into weekly limits so you catch drift early, not on the 28th.",
         image:
-          "https://images.unsplash.com/photo-1518458028785-8fbcd101ebb9?auto=format&fit=crop&w=1200&q=80",
+          "/images/cost-living-step-3.png",
       },
       {
         title: "Step 4: Transfer Savings Before You See What's Left",
         detail:
           "Saving what's left over at month-end rarely works in a city that makes spending frictionless. Automate the transfer immediately after salary credit and budget from what remains.",
         image:
-          "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=1200&q=80",
+          "/images/cost-living-step-4.png",
       },
     ],
     budgetRows: [
@@ -85,10 +85,10 @@ const articleExtrasMap = {
       "Judge a neighborhood by its Tuesday evening, not its Friday afternoon.",
     ],
     midImages: [
-      "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+      "/images/areas-mid-1.png",
+      "/images/areas-mid-2.png",
+      "/images/areas-mid-3.png",
+      "/images/areas-mid-4.png",
     ],
     steps: [
       {
@@ -96,28 +96,28 @@ const articleExtrasMap = {
         detail:
           "Work, school, gym, your most-used supermarket. The right neighborhood is usually the one that puts these closest together, not the one with the most Instagram appeal.",
         image:
-          "https://images.unsplash.com/photo-1519302959554-a75be0afc82a?auto=format&fit=crop&w=1200&q=80",
+          "/images/areas-step-1.png",
       },
       {
         title: "Step 2: Add Up Total Living Cost, Not Just Rent",
         detail:
           "Cheaper rent in a far area can cost more when you factor in daily taxis, parking, and the restaurant meals you order because the commute left you too tired to cook.",
         image:
-          "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=1200&q=80",
+          "/images/areas-step-2.png",
       },
       {
         title: "Step 3: Visit During Rush Hour, Not During a Quiet Morning",
         detail:
           "Traffic patterns, parking availability, and neighborhood energy look very different during the evening rush. One honest visit tells you more than 10 online reviews.",
         image:
-          "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+          "/images/areas-step-3.png",
       },
       {
         title: "Step 4: Think About Twelve Months From Now, Not Move-In Day",
         detail:
           "Choose the area that still serves you after the novelty fades — when it's just a regular Tuesday and you need convenience, not inspiration.",
         image:
-          "https://images.unsplash.com/photo-1460317442991-0ec209397118?auto=format&fit=crop&w=1200&q=80",
+          "/images/areas-step-4.png",
       },
     ],
     budgetRows: [],

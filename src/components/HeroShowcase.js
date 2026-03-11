@@ -16,7 +16,7 @@ export default function HeroShowcase({ posts }) {
 
     const timer = setInterval(() => {
       setActiveIndex((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
-    }, 500);
+    }, 3000);
 
     return () => clearInterval(timer);
   }, [slides.length]);

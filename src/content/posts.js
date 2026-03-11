@@ -180,7 +180,7 @@ export const posts = [
     readTime: "8 min read",
     author: "Career Desk",
     image:
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80",
+      "/images/find-jobs-uae-fast.png",
     sections: [
       {
         heading: "More Applications Is Not the Answer",
@@ -222,7 +222,7 @@ export const posts = [
     readTime: "7 min read",
     author: "Documentation Desk",
     image:
-      "https://images.unsplash.com/photo-1586281380117-5a60ae2050cc?auto=format&fit=crop&w=1200&q=80",
+      "/images/emirates-id-renewal.png",
     sections: [
       {
         heading: "Most Renewal Problems Are Avoidable — If You Prepare First",
@@ -264,7 +264,7 @@ export const posts = [
     readTime: "5 min read",
     author: "Public Services Team",
     image:
-      "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1200&q=80",
+      "/images/uae-traffic-fine-guide.png",
     sections: [
       {
         heading: "Always Start With the Right Source",
@@ -306,7 +306,7 @@ export const posts = [
     readTime: "9 min read",
     author: "SME Research Unit",
     image:
-      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+      "/images/start-business-dubai.png",
     sections: [
       {
         heading: "Demand First. Everything Else Can Wait.",
@@ -348,7 +348,7 @@ export const posts = [
     readTime: "6 min read",
     author: "Transit Team",
     image:
-      "https://images.unsplash.com/photo-1468436385273-8abca6dfd8d3?auto=format&fit=crop&w=1200&q=80",
+      "/images/dubai-metro-nol-tips.png",
     sections: [
       {
         heading: "The Metro Rewards Consistent Habits",
@@ -390,7 +390,7 @@ export const posts = [
     readTime: "8 min read",
     author: "Growth Team",
     image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+      "/images/dubai-digital-marketing.png",
     sections: [
       {
         heading: "Doing More Is Not a Strategy",
@@ -436,7 +436,7 @@ export const posts = [
     readTime: "9 min read",
     author: "Visa Research Desk",
     image:
-      "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80",
+      "/images/dubai-visa-types-2026.png",
     sections: [
       {
         heading: "There Are More Visa Options Than Most Expats Realize",
@@ -478,7 +478,7 @@ export const posts = [
     readTime: "8 min read",
     author: "Visa Research Desk",
     image:
-      "https://images.unsplash.com/photo-1541873676-a18131494184?auto=format&fit=crop&w=1200&q=80",
+      "/images/uae-golden-visa-apply.png",
     sections: [
       {
         heading: "What the Golden Visa Actually Offers",
@@ -520,7 +520,7 @@ export const posts = [
     readTime: "10 min read",
     author: "SME Research Unit",
     image:
-      "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1200&q=80",
+      "/images/freelance-dubai-guide.png",
     sections: [
       {
         heading: "Freelancing Legally Is More Accessible Than People Think",
@@ -562,7 +562,7 @@ export const posts = [
     readTime: "8 min read",
     author: "Editorial Desk",
     image:
-      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80",
+      "/images/dubai-rental-guide.png",
     sections: [
       {
         heading: "Dubai Renting Basics Work Differently From Other Countries",
@@ -604,7 +604,7 @@ export const posts = [
     readTime: "7 min read",
     author: "Editorial Desk",
     image:
-      "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1200&q=80",
+      "/images/health-insurance-uae.png",
     sections: [
       {
         heading: "Health Insurance Is Compulsory — But Coverage Varies Enormously",
@@ -646,7 +646,7 @@ export const posts = [
     readTime: "7 min read",
     author: "Editorial Desk",
     image:
-      "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?auto=format&fit=crop&w=1200&q=80",
+      "/images/uae-banking-expats.png",
     sections: [
       {
         heading: "What You Need Before Walking Into Any Bank",
@@ -688,7 +688,7 @@ export const posts = [
     readTime: "9 min read",
     author: "Editorial Desk",
     image:
-      "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80",
+      "/images/school-guide-dubai.png",
     sections: [
       {
         heading: "The Dubai School Market Is Large — and Confusing at First",
@@ -730,7 +730,7 @@ export const posts = [
     readTime: "8 min read",
     author: "Documentation Desk",
     image:
-      "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80",
+      "/images/uae-driving-license.png",
     sections: [
       {
         heading: "First Question: Can You Convert Your Home Country License?",
@@ -772,7 +772,7 @@ export const posts = [
     readTime: "7 min read",
     author: "Legal Research Team",
     image:
-      "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=1200&q=80",
+      "/images/uae-gratuity-calculator.png",
     sections: [
       {
         heading: "What Gratuity Is and Who Is Entitled to It",
@@ -814,7 +814,7 @@ export const posts = [
     readTime: "6 min read",
     author: "Legal Research Team",
     image:
-      "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80",
+      "/images/uae-work-permit-guide.png",
     sections: [
       {
         heading: "Understanding the Employment Document System",
@@ -856,7 +856,7 @@ export const posts = [
     readTime: "8 min read",
     author: "Editorial Desk",
     image:
-      "https://images.unsplash.com/photo-1563656157432-67560011e209?auto=format&fit=crop&w=1200&q=80",
+      "/images/abu-dhabi-vs-dubai.png",
     sections: [
       {
         heading: "These Are Two Very Different Cities With Different Strengths",
@@ -898,7 +898,7 @@ export const posts = [
     readTime: "6 min read",
     author: "City Explorer",
     image:
-      "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80",
+      "/images/dubai-food-guide.png",
     sections: [
       {
         heading: "Dubai Has Outstanding Food — If You Know Where to Look",
@@ -940,7 +940,7 @@ export const posts = [
     readTime: "6 min read",
     author: "Editorial Desk",
     image:
-      "https://images.unsplash.com/photo-1580519542036-c47de6196ba5?auto=format&fit=crop&w=1200&q=80",
+      "/images/remittance-uae-guide.png",
     sections: [
       {
         heading: "The Difference Between Bank Transfer and Specialist Remittance Is Significant",
@@ -982,7 +982,7 @@ export const posts = [
     readTime: "7 min read",
     author: "SME Research Unit",
     image:
-      "https://images.unsplash.com/photo-1554224154-22dec7ec8818?auto=format&fit=crop&w=1200&q=80",
+      "/images/uae-tax-free-income.png",
     sections: [
       {
         heading: "Personal Income Tax: Still Zero, and That's Real",
@@ -1024,7 +1024,7 @@ export const posts = [
     readTime: "8 min read",
     author: "Editorial Desk",
     image:
-      "https://images.unsplash.com/photo-1512632578888-169bbbc64f33?auto=format&fit=crop&w=1200&q=80",
+      "/images/expat-life-dubai-guide.png",
     sections: [
       {
         heading: "The Things That Are Genuinely Great",
