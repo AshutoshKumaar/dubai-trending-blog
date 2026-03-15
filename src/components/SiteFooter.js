@@ -18,7 +18,7 @@ const policyLinks = [
 const socialLinks = [
   {
     label: "Facebook",
-    href: "https://facebook.com",
+    href: "https://www.facebook.com/abdul.karim.349136?rdid=4pU7j0oEI5Av63Wz&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1CLyxWLmgv%2F#",
     icon: (
       <svg viewBox="0 0 24 24" aria-hidden="true" className="h-4 w-4 fill-current">
         <path d="M13.5 21v-7h2.3l.4-2.7h-2.7V9.6c0-.8.2-1.3 1.3-1.3h1.5V5.9c-.3 0-1.1-.1-2.1-.1-2.1 0-3.5 1.3-3.5 3.7v1.8H8.5V14h2.2v7h2.8Z" />
@@ -27,7 +27,7 @@ const socialLinks = [
   },
   {
     label: "X",
-    href: "https://x.com",
+    href: " https://x.com/sheikhaMahera",
     icon: (
       <svg viewBox="0 0 24 24" aria-hidden="true" className="h-4 w-4 fill-current">
         <path d="M18.9 3H21l-4.6 5.2L21.8 21h-4.2l-3.3-4.4L10.4 21H8.2l4.9-5.6L2.8 3H7l3 4 3.6-4Zm-1.5 15.4h1.2L6.3 5.5H5.1l12.3 12.9Z" />
@@ -35,8 +35,8 @@ const socialLinks = [
     ),
   },
   {
-    label: "LinkedIn",
-    href: "https://linkedin.com",
+    label: "Instagram",
+    href: "https://www.instagram.com/abdul_karim_official_?igsh=aThyNGswaWRvYTVz",
     icon: (
       <svg viewBox="0 0 24 24" aria-hidden="true" className="h-4 w-4 fill-current">
         <path d="M6.9 8.5H3.8V20h3.1V8.5ZM5.4 3.9A1.8 1.8 0 1 0 5.4 7.5a1.8 1.8 0 0 0 0-3.6ZM20.2 13c0-3-1.6-4.8-4.3-4.8-1.6 0-2.5.9-2.9 1.5v-1.2h-3V20h3V14c0-1.6.3-3.1 2.3-3.1s2 1.9 2 3.2v5.9h3V13Z" />
