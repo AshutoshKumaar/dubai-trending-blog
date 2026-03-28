@@ -1,0 +1,89 @@
+{
+  "slug": "dubai-rental-guide-2026",
+  "prefix": "rental",
+  "outputDirectory": "C:\\Users\\User\\Pictures\\Gemini Bulk Images\\dubai-rental-guide-2026",
+  "generatedAt": "2026-03-28T17:18:38.514Z",
+  "items": [
+    {
+      "ok": true,
+      "group": "mid",
+      "index": 1,
+      "prompt": "A young couple viewing apartment with Dubai real estate agent in bright living room, editorial photography, no text, 16:9.",
+      "savedPath": "C:\\Users\\User\\Pictures\\Gemini Bulk Images\\dubai-rental-guide-2026\\rental-mid-01.jpg",
+      "fileName": "rental-mid-01.jpg",
+      "caption": ""
+    },
+    {
+      "ok": true,
+      "group": "mid",
+      "index": 2,
+      "prompt": "A person reading tenancy contract carefully at desk highlighting clauses, documentary photography, no text, 16:9.",
+      "savedPath": "C:\\Users\\User\\Pictures\\Gemini Bulk Images\\dubai-rental-guide-2026\\rental-mid-02.jpg",
+      "fileName": "rental-mid-02.jpg",
+      "caption": ""
+    },
+    {
+      "ok": true,
+      "group": "mid",
+      "index": 3,
+      "prompt": "A person verifying property ownership on Dubai REST app on phone, lifestyle photography, no text, 16:9.",
+      "savedPath": "C:\\Users\\User\\Pictures\\Gemini Bulk Images\\dubai-rental-guide-2026\\rental-mid-03.jpg",
+      "fileName": "rental-mid-03.jpg",
+      "caption": ""
+    },
+    {
+      "ok": true,
+      "group": "mid",
+      "index": 4,
+      "prompt": "A tenant registering Ejari contract online on laptop, modern home office, no text, 16:9.",
+      "savedPath": "C:\\Users\\User\\Pictures\\Gemini Bulk Images\\dubai-rental-guide-2026\\rental-mid-04.jpg",
+      "fileName": "rental-mid-04.jpg",
+      "caption": ""
+    },
+    {
+      "ok": true,
+      "group": "mid",
+      "index": 5,
+      "prompt": "A couple signing apartment rental agreement with real estate agent smiling, editorial lifestyle photography, no text, 16:9.",
+      "savedPath": "C:\\Users\\User\\Pictures\\Gemini Bulk Images\\dubai-rental-guide-2026\\rental-mid-05.jpg",
+      "fileName": "rental-mid-05.jpg",
+      "caption": ""
+    },
+    {
+      "ok": true,
+      "group": "step",
+      "index": 1,
+      "prompt": "A person calculating monthly rental budget on notebook before apartment search, documentary photography, no text, 16:9.",
+      "savedPath": "C:\\Users\\User\\Pictures\\Gemini Bulk Images\\dubai-rental-guide-2026\\rental-step-01.jpg",
+      "fileName": "rental-step-01.jpg",
+      "caption": ""
+    },
+    {
+      "ok": true,
+      "group": "step",
+      "index": 2,
+      "prompt": "A tenant verifying property ownership on smartphone before deposit payment, editorial photography, no text, 16:9.",
+      "savedPath": "C:\\Users\\User\\Pictures\\Gemini Bulk Images\\dubai-rental-guide-2026\\rental-step-02.jpg",
+      "fileName": "rental-step-02.jpg",
+      "caption": ""
+    },
+    {
+      "ok": true,
+      "group": "step",
+      "index": 3,
+      "prompt": "A renter carefully reviewing every lease clause at desk, documentary photography, no text, 16:9.",
+      "savedPath": "C:\\Users\\User\\Pictures\\Gemini Bulk Images\\dubai-rental-guide-2026\\rental-step-03.jpg",
+      "fileName": "rental-step-03.jpg",
+      "caption": ""
+    },
+    {
+      "ok": true,
+      "group": "step",
+      "index": 4,
+      "prompt": "A new tenant completing Ejari registration online after moving in, editorial lifestyle photography, no text, 16:9.",
+      "savedPath": "C:\\Users\\User\\Pictures\\Gemini Bulk Images\\dubai-rental-guide-2026\\rental-step-04.jpg",
+      "fileName": "rental-step-04.jpg",
+      "caption": ""
+    }
+  ]
+}

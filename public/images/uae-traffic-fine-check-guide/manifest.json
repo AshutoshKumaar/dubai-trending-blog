@@ -1,0 +1,79 @@
+{
+  "slug": "uae-traffic-fine-check-guide",
+  "prefix": "traffic",
+  "outputDirectory": "C:\\Users\\User\\Desktop\\Gemini Bulk Images\\uae-traffic-fine-check-guide",
+  "generatedAt": "2026-03-27T19:33:09.653Z",
+  "items": [
+    {
+      "ok": true,
+      "group": "mid",
+      "index": 1,
+      "prompt": "A person checking UAE traffic fines on official RTA Dubai app on smartphone, sitting in a parked modern car, calm organized mood, Dubai road visible through windshield, natural daylight, editorial lifestyle photography. No text in image. Wide 16:9 format.",
+      "savedPath": "C:\\Users\\User\\Desktop\\Gemini Bulk Images\\uae-traffic-fine-check-guide\\traffic-mid-01.jpg",
+      "fileName": "traffic-mid-01.jpg",
+      "caption": ""
+    },
+    {
+      "ok": true,
+      "group": "mid",
+      "index": 2,
+      "prompt": "Close up of a person's hands holding vehicle registration card and Emirates ID, important vehicle documents organized on car dashboard, neat and prepared mood, natural daylight, editorial documentary photography. No text in image. Wide 16:9 format.",
+      "savedPath": "C:\\Users\\User\\Desktop\\Gemini Bulk Images\\uae-traffic-fine-check-guide\\traffic-mid-02.jpg",
+      "fileName": "traffic-mid-02.jpg",
+      "caption": ""
+    },
+    {
+      "ok": true,
+      "group": "mid",
+      "index": 3,
+      "prompt": "A person carefully verifying traffic fine details on a tablet showing official UAE police website, checking plate number and violation details before payment, careful verification mood, modern home setting, warm lighting, editorial lifestyle photography. No text in image. Wide 16:9 format.",
+      "savedPath": "C:\\Users\\User\\Desktop\\Gemini Bulk Images\\uae-traffic-fine-check-guide\\traffic-mid-03.jpg",
+      "fileName": "traffic-mid-03.jpg",
+      "caption": ""
+    },
+    {
+      "ok": true,
+      "group": "mid",
+      "index": 4,
+      "prompt": "A person completing online payment for UAE traffic fine on laptop, secure payment screen visible, receipt being saved as screenshot, responsible and organized mood, modern desk setup, warm lighting, editorial documentary style. No text in image. Wide 16:9 format.",
+      "savedPath": "C:\\Users\\User\\Desktop\\Gemini Bulk Images\\uae-traffic-fine-check-guide\\traffic-mid-04.jpg",
+      "fileName": "traffic-mid-04.jpg",
+      "caption": ""
+    },
+    {
+      "ok": false,
+      "group": "mid",
+      "index": 5,
+      "prompt": "A person adding a monthly vehicle management reminder on phone calendar, organized routine habit mood, modern Dubai apartment, warm natural light, editorial lifestyle photography. No text in image. Wide 16:9 format.",
+      "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-image-preview:generateContent: fetch failed"
+    },
+    {
+      "ok": false,
+      "group": "step",
+      "index": 1,
+      "prompt": "A person gathering vehicle registration papers, Emirates ID and plate information before checking traffic fines, organized preparation on clean desk, methodical mood, warm natural light, editorial documentary photography. No text in image. Wide 16:9 format.",
+      "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-image-preview:generateContent: fetch failed"
+    },
+    {
+      "ok": false,
+      "group": "step",
+      "index": 2,
+      "prompt": "A person accessing official UAE RTA or police website on laptop to check traffic fines, official government portal visible on screen, safe and correct channel mood, modern home setup, editorial lifestyle photography. No text in image. Wide 16:9 format.",
+      "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-image-preview:generateContent: fetch failed"
+    },
+    {
+      "ok": false,
+      "group": "step",
+      "index": 3,
+      "prompt": "Close up of person carefully reading traffic fine details on screen, checking amount date and violation type before paying, verification mood, warm soft lighting, editorial documentary photography. No text in image. Wide 16:9 format.",
+      "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-image-preview:generateContent: fetch failed"
+    },
+    {
+      "ok": false,
+      "group": "step",
+      "index": 4,
+      "prompt": "A person saving traffic fine payment receipt on smartphone immediately after completing payment, organized record keeping habit, modern Dubai setting, warm lighting, editorial lifestyle photography. No text in image. Wide 16:9 format.",
+      "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-image-preview:generateContent: fetch failed"
+    }
+  ]
+}

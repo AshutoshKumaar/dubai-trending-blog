@@ -143,10 +143,10 @@ const articleExtrasMap = {
       "When you do need to escalate, facts and dates win. Emotion rarely does.",
     ],
     midImages: [
-      "https://images.unsplash.com/photo-1542744095-291d1f67b221?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1554224154-22dec7ec8818?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?auto=format&fit=crop&w=1200&q=80",
+      "/images/uae-labour-law-private-employees/labour-mid-01.jpg",
+      "/images/uae-labour-law-private-employees/labour-mid-02.jpg",
+      "/images/uae-labour-law-private-employees/labour-mid-03.jpg",
+      "/images/uae-labour-law-private-employees/labour-mid-04.jpg",
     ],
     steps: [
       {
@@ -154,28 +154,28 @@ const articleExtrasMap = {
         detail:
           "Salary structure, probation period, working hours, leave entitlement, notice obligations. Read these specifically — not just the headline numbers.",
         image:
-          "https://images.unsplash.com/photo-1521790797524-b2497295b8a0?auto=format&fit=crop&w=1200&q=80",
+          "/images/uae-labour-law-private-employees/labour-step-01.jpg",
       },
       {
         title: "Step 2: Build Your Employment Record Folder",
         detail:
           "Contract, payslips, leave approvals, written instructions from management. A digital folder that costs zero to maintain is invaluable if a dispute ever arises.",
         image:
-          "https://images.unsplash.com/photo-1521791055366-0d553872125f?auto=format&fit=crop&w=1200&q=80",
+          "/images/uae-labour-law-private-employees/labour-step-02.jpg",
       },
       {
         title: "Step 3: Define the Issue Clearly Before Raising It",
         detail:
           "Write down exactly what happened, on what dates, with what evidence. A clear issue statement is far more effective than an emotional conversation without specifics.",
         image:
-          "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?auto=format&fit=crop&w=1200&q=80",
+          "/images/uae-labour-law-private-employees/labour-step-03.jpg",
       },
       {
         title: "Step 4: Use the Right Escalation Path With Full Documentation",
         detail:
           "Internal resolution first. If that fails, official channels with your complete records. Organized evidence consistently produces better outcomes than rushed complaints.",
         image:
-          "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=1200&q=80",
+          "/images/uae-labour-law-private-employees/labour-step-04.jpg",
       },
     ],
     budgetRows: [],
@@ -201,10 +201,10 @@ const articleExtrasMap = {
       "Plan your return route before you leave home — end-of-day transport confusion is expensive.",
     ],
     midImages: [
-      "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=1200&q=80",
+      "/images/dubai-weekend-itinerary-budget/weekend-mid-01.jpg",
+      "/images/dubai-weekend-itinerary-budget/weekend-mid-02.jpg",
+      "/images/dubai-weekend-itinerary-budget/weekend-mid-03.jpg",
+      "/images/dubai-weekend-itinerary-budget/weekend-mid-04.jpg",
     ],
     steps: [
       {
@@ -212,28 +212,28 @@ const articleExtrasMap = {
         detail:
           "Order your stops geographically, not by enthusiasm. The route design decides your transport costs more than any other single factor.",
         image:
-          "https://images.unsplash.com/photo-1500534314209-a26db0f5b44a?auto=format&fit=crop&w=1200&q=80",
+          "/images/dubai-weekend-itinerary-budget/weekend-step-01.jpg",
       },
       {
         title: "Step 2: Set a Daily Food Range, Not a Total Weekend Budget",
         detail:
           "A daily food ceiling is easier to manage than an abstract weekend total. It also makes mid-day decisions faster and less stressful.",
         image:
-          "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80",
+          "/images/dubai-weekend-itinerary-budget/weekend-step-02.jpg",
       },
       {
         title: "Step 3: Pick One Paid Highlight Per Day",
         detail:
           "Structure the rest of the day around free public spaces — waterfront walks, heritage areas, local markets. That single paid experience lands better when it's not competing with six others.",
         image:
-          "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?auto=format&fit=crop&w=1200&q=80",
+          "/images/dubai-weekend-itinerary-budget/weekend-step-03.jpg",
       },
       {
         title: "Step 4: Lock In the Return Route Before You Leave",
         detail:
           "Tired, last-minute transport decisions are expensive. Know your ending station and return route before the day starts.",
         image:
-          "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=1200&q=80",
+          "/images/dubai-weekend-itinerary-budget/weekend-step-04.jpg",
       },
     ],
     budgetRows: [],
@@ -259,10 +259,10 @@ const articleExtrasMap = {
       "Track every application. You can't improve what you're not measuring.",
     ],
     midImages: [
-      "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=80",
+      "/images/how-to-find-jobs-in-uae-fast/jobs-mid-01.jpg",
+      "/images/how-to-find-jobs-in-uae-fast/jobs-mid-02.jpg",
+      "/images/how-to-find-jobs-in-uae-fast/jobs-mid-03.jpg",
+      "/images/how-to-find-jobs-in-uae-fast/jobs-mid-04.jpg",
     ],
     steps: [
       {
@@ -270,28 +270,28 @@ const articleExtrasMap = {
         detail:
           "Vague targeting produces vague results. Write down the exact job titles, industry sectors, and company types you're aiming for — then build everything else around that list.",
         image:
-          "https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?auto=format&fit=crop&w=1200&q=80",
+          "/images/how-to-find-jobs-in-uae-fast/jobs-step-01.jpg",
       },
       {
         title: "Step 2: Rewrite Your CV for Each Target Category",
         detail:
           "Your CV should speak the employer's language. Use their terminology, highlight the outcomes they care about, and open with a summary that's unmistakably relevant.",
         image:
-          "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=900&q=80",
+          "/images/how-to-find-jobs-in-uae-fast/jobs-step-02.jpg",
       },
       {
         title: "Step 3: Apply Across Multiple Channels Simultaneously",
         detail:
           "Job portals, company career pages, LinkedIn outreach to hiring managers, one or two specialist recruiters in your field. More input paths mean more probability of response.",
         image:
-          "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+          "/images/how-to-find-jobs-in-uae-fast/jobs-step-03.jpg",
       },
       {
         title: "Step 4: Review Results Weekly and Follow Up Deliberately",
         detail:
           "Which channels are generating responses? Which CV version performs better? A weekly review of your tracking sheet answers these questions and makes the next week more efficient.",
         image:
-          "https://images.unsplash.com/photo-1553028826-f4804a6dba3b?auto=format&fit=crop&w=1200&q=80",
+          "/images/how-to-find-jobs-in-uae-fast/jobs-step-04.jpg",
       },
     ],
     budgetRows: [],
@@ -317,10 +317,10 @@ const articleExtrasMap = {
       "Save all confirmations and collection updates the moment you receive them.",
     ],
     midImages: [
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1554224155-3a589877462f?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80",
+      "/images/emirates-id-renewal-process/eid-mid-01.jpg",
+      "/images/emirates-id-renewal-process/eid-mid-02.jpg",
+      "/images/emirates-id-renewal-process/eid-mid-03.jpg",
+      "/images/emirates-id-renewal-process/eid-mid-04.jpg",
     ],
     steps: [
       {
@@ -328,28 +328,28 @@ const articleExtrasMap = {
         detail:
           "Names must match the passport exactly. Scans must be clear and complete. Supporting documents must be valid. Check all three before you open the application portal.",
         image:
-          "https://images.unsplash.com/photo-1516383740770-fbcc5ccbece0?auto=format&fit=crop&w=1200&q=80",
+          "/images/emirates-id-renewal-process/eid-step-01.jpg",
       },
       {
         title: "Step 2: Fill the Form Slowly and Verify Each Entry",
         detail:
           "Slowing down for five minutes saves days of correction delays. Check each name field, number, and date against your physical documents before submitting.",
         image:
-          "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=1200&q=80",
+          "/images/emirates-id-renewal-process/eid-step-02.jpg",
       },
       {
         title: "Step 3: Track the Status Actively Every Few Days",
         detail:
           "Check the ICA smart services portal every two to three days. If a stage requires action, you'll catch it early instead of missing it for a week.",
         image:
-          "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80",
+          "/images/emirates-id-renewal-process/eid-step-03.jpg",
       },
       {
         title: "Step 4: Save Every Confirmation Before Closing the Page",
         detail:
           "Collection details, tracking numbers, receipt confirmations — save them immediately. You'll need them if any follow-up is required.",
         image:
-          "https://images.unsplash.com/photo-1450101215322-bf5cd27642fc?auto=format&fit=crop&w=1200&q=80",
+          "/images/emirates-id-renewal-process/eid-step-04.jpg",
       },
     ],
     budgetRows: [],
@@ -374,39 +374,35 @@ const articleExtrasMap = {
       "Build fine checks into a monthly vehicle management habit.",
     ],
     midImages: [
-      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&q=80",
+      "/images/uae-traffic-fine-check-guide/traffic-mid-01.jpg",
+      "/images/uae-traffic-fine-check-guide/traffic-mid-02.jpg",
+      "/images/uae-traffic-fine-check-guide/traffic-mid-03.jpg",
+      "/images/uae-traffic-fine-check-guide/traffic-mid-04.jpg",
     ],
     steps: [
       {
         title: "Step 1: Have Your Vehicle Details Ready Before You Start",
         detail:
           "Plate number, traffic file number, registration details. Having these on hand before opening the portal makes the process faster and avoids mid-session searches.",
-        image:
-          "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/uae-traffic-fine-check-guide/traffic-mid-01.jpg",
       },
       {
         title: "Step 2: Use Only Official or RTA-Approved Platforms",
         detail:
           "RTA website, Dubai Police app, or the relevant emirate's official traffic portal. Third-party sites may show outdated data and create confusion.",
-        image:
-          "https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/uae-traffic-fine-check-guide/traffic-mid-02.jpg",
       },
       {
         title: "Step 3: Verify the Fine Details Before Paying",
         detail:
           "Check plate number, violation type, date, and amount. This 60-second check prevents the wrong payment — which is difficult and time-consuming to reverse.",
-        image:
-          "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/uae-traffic-fine-check-guide/traffic-mid-03.jpg",
       },
       {
         title: "Step 4: Save Proof and Add a Monthly Check to Your Calendar",
         detail:
           "Save the receipt immediately. Then add a monthly vehicle management check to your calendar — fines caught early are always easier to manage.",
-        image:
-          "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/uae-traffic-fine-check-guide/traffic-mid-04.jpg",
       },
     ],
     budgetRows: [],
@@ -432,39 +428,35 @@ const articleExtrasMap = {
       "Weekly demand and margin reviews beat quarterly optimism every time.",
     ],
     midImages: [
-      "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1552664688-cf412ec27db2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?auto=format&fit=crop&w=1200&q=80",
+      "/images/start-small-business-in-dubai/business-mid-01.jpg",
+      "/images/start-small-business-in-dubai/business-mid-02.jpg",
+      "/images/start-small-business-in-dubai/business-mid-03.jpg",
+      "/images/start-small-business-in-dubai/business-mid-04.jpg",
     ],
     steps: [
       {
         title: "Step 1: Define One Specific Customer Problem",
         detail:
           "The businesses that gain early traction in Dubai are usually ones with a narrow, clearly stated offer. One problem, one customer type, one clear reason to choose you.",
-        image:
-          "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/start-small-business-in-dubai/business-step-01.jpg",
       },
       {
         title: "Step 2: Test Demand Before You Register the Business",
         detail:
           "Talk to ten potential customers before paying for a trade license. If you can't describe why they would choose you specifically, that's the answer you need first.",
-        image:
-          "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=900&q=80",
+        image: "/images/start-small-business-in-dubai/business-step-02.jpg",
       },
       {
         title: "Step 3: Set Up Simple Systems for Delivery and Tracking",
         detail:
           "Invoicing, lead tracking, client communication. Not complicated — just consistent. Early chaos is expensive in time and client confidence.",
-        image:
-          "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/start-small-business-in-dubai/business-step-03.jpg",
       },
       {
         title: "Step 4: Review Demand and Margin Every Single Week",
         detail:
           "What's selling? What's not? What costs are real? What's bringing leads? These questions, answered weekly, are how small businesses in Dubai actually grow.",
-        image:
-          "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/start-small-business-in-dubai/business-step-04.jpg",
       },
     ],
     budgetRows: [],
@@ -490,39 +482,35 @@ const articleExtrasMap = {
       "Stable routes improve faster than constantly-varied ones.",
     ],
     midImages: [
-      "https://images.unsplash.com/photo-1494515843206-f3117d3f51b7?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1519996529931-28324d5a630e?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1474487548417-781cb71495f3?auto=format&fit=crop&w=1200&q=80",
+      "/images/dubai-metro-and-nol-card-tips/metro-mid-01.jpg",
+      "/images/dubai-metro-and-nol-card-tips/metro-mid-02.jpg",
+      "/images/dubai-metro-and-nol-card-tips/metro-mid-03.jpg",
+      "/images/dubai-metro-and-nol-card-tips/metro-mid-04.jpg",
     ],
     steps: [
       {
         title: "Step 1: Lock In Your Standard Route",
         detail:
           "Choose your main route and stick with it long enough to optimize it. Constantly changing routes prevents learning what actually makes the commute better.",
-        image:
-          "https://images.unsplash.com/photo-1474487548417-781cb71495f3?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/dubai-metro-and-nol-card-tips/metro-step-01.jpg",
       },
       {
         title: "Step 2: Experiment With Departure Timing",
         detail:
           "Try leaving 15 to 20 minutes earlier for a week. Track whether total door-to-door time improves. For most Dubai routes, it does — especially at peak hours.",
-        image:
-          "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/dubai-metro-and-nol-card-tips/metro-step-02.jpg",
       },
       {
         title: "Step 3: Set a Weekly Nol Top-Up Habit",
         detail:
           "Sunday evening balance check. If it's below AED 30, top up. This two-minute habit eliminates one of the most common causes of morning commute stress.",
-        image:
-          "https://images.unsplash.com/photo-1517148815978-75f6acaaf32c?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/dubai-metro-and-nol-card-tips/metro-step-03.jpg",
       },
       {
         title: "Step 4: Monthly Spend Review — Then Improve",
         detail:
           "Pull your Nol transaction history monthly. Add any taxi or parking spend. That total number, once visible, tends to motivate better habits immediately.",
-        image:
-          "https://images.unsplash.com/photo-1529074963764-98f45c47344b?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/dubai-metro-and-nol-card-tips/metro-step-04.jpg",
       },
     ],
     budgetRows: [],
@@ -548,39 +536,35 @@ const articleExtrasMap = {
       "Report on qualified enquiries and conversion cost — not traffic and impressions.",
     ],
     midImages: [
-      "https://images.unsplash.com/photo-1557838923-2985c318be48?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+      "/images/dubai-digital-marketing-trends-2026/marketing-mid-01.jpg",
+      "/images/dubai-digital-marketing-trends-2026/marketing-mid-02.jpg",
+      "/images/dubai-digital-marketing-trends-2026/marketing-mid-03.jpg",
+      "/images/dubai-digital-marketing-trends-2026/marketing-mid-04.jpg",
     ],
     steps: [
       {
         title: "Step 1: Research Real Customer Questions First",
         detail:
           "Use Google autocomplete, 'People also ask', and competitor gaps to find what your audience is actually searching for. Build content around those questions specifically.",
-        image:
-          "https://images.unsplash.com/photo-1553484771-371a605b060b?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/dubai-digital-marketing-trends-2026/marketing-step-01.jpg",
       },
       {
         title: "Step 2: Audit Your Landing Pages Before Any New Campaign",
         detail:
           "Load speed, message match with ads, mobile display, clarity of next step. These four factors often explain underperformance more accurately than targeting or budget size.",
-        image:
-          "https://images.unsplash.com/photo-1516321310764-8d15f1d44d7d?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/dubai-digital-marketing-trends-2026/marketing-step-02.jpg",
       },
       {
         title: "Step 3: Measure What Connects to Revenue",
         detail:
           "Qualified leads, cost per conversion, repeat customer rate. If these aren't in your weekly report, the report isn't helping you make better decisions.",
-        image:
-          "https://images.unsplash.com/photo-1450101499163-8c6d9f4b1f67?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/dubai-digital-marketing-trends-2026/marketing-step-03.jpg",
       },
       {
         title: "Step 4: Improve Weekly — Small Iterations, Real Compounding",
         detail:
           "One small improvement per week to copy, targeting, or page structure compounds into significantly better performance over a quarter. Big redesigns rarely move the needle faster.",
-        image:
-          "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/dubai-digital-marketing-trends-2026/marketing-step-04.jpg",
       },
     ],
     budgetRows: [],
@@ -609,31 +593,31 @@ const articleExtrasMap = {
       "Freelance permits make independent working fully legal — and they're more affordable than expected.",
     ],
     midImages: [
-      "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1541873676-a18131494184?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+      "/images/dubai-visa-types-expats-2026/visa-mid-01.jpg",
+      "/images/dubai-visa-types-expats-2026/visa-mid-02.jpg",
+      "/images/dubai-visa-types-expats-2026/visa-mid-03.jpg",
+      "/images/dubai-visa-types-expats-2026/visa-mid-04.jpg",
     ],
     steps: [
       {
         title: "Step 1: Identify Which Category Matches Your Situation",
         detail: "Employment, freelance, investor, skilled talent, or student — each has different eligibility requirements. Start by matching your profile to the right category before anything else.",
-        image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/dubai-visa-types-expats-2026/visa-step-01.jpg",
       },
       {
         title: "Step 2: Gather the Required Documents Early",
         detail: "Each visa type has a specific document list. Getting these organized — passport, qualifications, salary proof, property documents — before starting the application prevents mid-process delays.",
-        image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/dubai-visa-types-expats-2026/visa-step-02.jpg",
       },
       {
         title: "Step 3: Submit Through the Correct Authority",
         detail: "ICP for most residency visas, DLD for property investor routes, MOHRE for employment. Knowing the right authority saves time and avoids mis-routed applications.",
-        image: "https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/dubai-visa-types-expats-2026/visa-step-03.jpg",
       },
       {
         title: "Step 4: Track and Complete the Emirates ID Process",
         detail: "Every UAE residency visa connects to an Emirates ID application. This runs parallel to the visa process — don't treat it as a separate, later step.",
-        image: "https://images.unsplash.com/photo-1586281380117-5a60ae2050cc?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/dubai-visa-types-expats-2026/visa-step-04.jpg",
       },
     ],
     budgetRows: [],
@@ -655,31 +639,31 @@ const articleExtrasMap = {
       "Proper attestation of foreign qualifications is the most common avoidable delay.",
     ],
     midImages: [
-      "https://images.unsplash.com/photo-1541873676-a18131494184?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1493946740644-2d8a1f1a6aff?auto=format&fit=crop&w=1200&q=80",
+      "/images/golden-visa-uae-how-to-apply/goldenvisa-mid-01.jpg",
+      "/images/golden-visa-uae-how-to-apply/goldenvisa-mid-02.jpg",
+      "/images/golden-visa-uae-how-to-apply/goldenvisa-mid-03.jpg",
+      "/images/golden-visa-uae-how-to-apply/goldenvisa-mid-04.jpg",
     ],
     steps: [
       {
         title: "Step 1: Confirm Your Qualifying Category",
         detail: "Investor, skilled talent, entrepreneur, or outstanding student — confirm which category applies before starting. Each has different documents and processing authorities.",
-        image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/golden-visa-uae-how-to-apply/goldenvisa-step-01.jpg",
       },
       {
         title: "Step 2: Get the Eligibility Certificate or Nomination",
         detail: "For property investors, this comes from the Dubai Land Department. For talent categories, the relevant ministry or federal authority issues the nomination. This is the starting document.",
-        image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/golden-visa-uae-how-to-apply/goldenvisa-step-02.jpg",
       },
       {
         title: "Step 3: Complete Medical Test and Emirates ID Application",
         detail: "Standard UAE residency process runs in parallel. Medical fitness test, biometrics for Emirates ID, and visa stamping follow after initial approval.",
-        image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/golden-visa-uae-how-to-apply/goldenvisa-step-03.jpg",
       },
       {
         title: "Step 4: Attest Foreign Documents Properly Before Submitting",
         detail: "Academic and professional credentials from outside the UAE need attestation from origin country foreign affairs and UAE embassy there. Prepare these well in advance.",
-        image: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/golden-visa-uae-how-to-apply/goldenvisa-step-04.jpg",
       },
     ],
     budgetRows: [],
@@ -701,31 +685,31 @@ const articleExtrasMap = {
       "LinkedIn is the primary client acquisition channel for UAE freelancers.",
     ],
     midImages: [
-      "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&w=1200&q=80",
+      "/images/freelance-in-dubai-complete-guide/freelance-mid-01.jpg",
+      "/images/freelance-in-dubai-complete-guide/freelance-mid-02.jpg",
+      "/images/freelance-in-dubai-complete-guide/freelance-mid-03.jpg",
+      "/images/freelance-in-dubai-complete-guide/freelance-mid-04.jpg",
     ],
     steps: [
       {
         title: "Step 1: Choose Your Free Zone Based on Activity Category",
         detail: "Dubai Media City for media/marketing, Dubai Internet City for tech, IFZA or Fujairah Creative City for broader business activities. Research which categories each zone supports before comparing prices.",
-        image: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/freelance-in-dubai-complete-guide/freelance-step-01.jpg",
       },
       {
         title: "Step 2: Apply for the Permit and Set Up Your Visa",
         detail: "Registration, medical test, Emirates ID — these run in sequence after initial permit approval. Allow four to six weeks for the full process to complete.",
-        image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/freelance-in-dubai-complete-guide/freelance-step-02.jpg",
       },
       {
         title: "Step 3: Open a Business Bank Account",
         detail: "Your trade license, visa, and passport enable business account opening. Wio Bank and digital options have reduced this from weeks to days for many freelancers.",
-        image: "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/freelance-in-dubai-complete-guide/freelance-step-03.jpg",
       },
       {
         title: "Step 4: Start Building Your Client Pipeline Before Day One",
         detail: "Update your LinkedIn to reflect UAE-based freelance status while the permit processes. Network at one or two industry events per month. Early clients through referral are significantly more reliable than cold outreach.",
-        image: "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/freelance-in-dubai-complete-guide/freelance-step-04.jpg",
       },
     ],
     budgetRows: [],
@@ -747,31 +731,31 @@ const articleExtrasMap = {
       "Visit during rush hour and school run times before signing.",
     ],
     midImages: [
-      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+      "/images/dubai-rental-guide-2026/rental-mid-01.jpg",
+      "/images/dubai-rental-guide-2026/rental-mid-02.jpg",
+      "/images/dubai-rental-guide-2026/rental-mid-03.jpg",
+      "/images/dubai-rental-guide-2026/rental-mid-04.jpg",
     ],
     steps: [
       {
         title: "Step 1: Set Your Budget Ceiling and Cheque Structure Expectation",
         detail: "Decide on your maximum monthly rent equivalent and confirm how many cheques you can manage upfront — two, four, or one annual — before starting your property search.",
-        image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/dubai-rental-guide-2026/rental-step-01.jpg",
       },
       {
         title: "Step 2: Verify the Property Ownership Before Paying Anything",
         detail: "Use the Dubai REST app to confirm the listed landlord actually owns the property. This takes two minutes and eliminates rental scam risk entirely.",
-        image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/dubai-rental-guide-2026/rental-step-02.jpg",
       },
       {
         title: "Step 3: Read the Lease Completely Before Signing",
         detail: "Maintenance responsibilities, notice period, auto-renewal terms, early termination penalty, DEWA connection responsibility. These vary by landlord — read each clause specifically.",
-        image: "https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/dubai-rental-guide-2026/rental-step-03.jpg",
       },
       {
         title: "Step 4: Complete Ejari Registration Within the First Week",
         detail: "Ejari makes your tenancy legally recognized. You'll need it for DEWA setup, some visa-related processes, and any formal dispute. Confirm the agent or landlord registers it — or do it yourself online.",
-        image: "https://images.unsplash.com/photo-1586281380117-5a60ae2050cc?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/dubai-rental-guide-2026/rental-step-04.jpg",
       },
     ],
     budgetRows: [],
@@ -792,31 +776,31 @@ const articleExtrasMap = {
       "Claim rejections can often be successfully appealed — don't accept the first decision blindly.",
     ],
     midImages: [
-      "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=1200&q=80",
+      "/images/health-insurance-uae-guide/health-mid-01.jpg",
+      "/images/health-insurance-uae-guide/health-mid-02.jpg",
+      "/images/health-insurance-uae-guide/health-mid-03.jpg",
+      "/images/health-insurance-uae-guide/health-mid-04.jpg",
     ],
     steps: [
       {
         title: "Step 1: Read Your Policy Document Properly on Day One",
         detail: "Covered benefits, exclusions, pre-authorization requirements, network list, claims process. Thirty minutes spent reading this prevents expensive surprises at the worst times.",
-        image: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/health-insurance-uae-guide/health-step-01.jpg",
       },
       {
         title: "Step 2: Find Your Network Before You Need It",
         detail: "Search your insurer's approved provider list and identify the GP clinic, specialist, and hospital closest to you that accepts your plan. Do this before you're sick.",
-        image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/health-insurance-uae-guide/health-step-02.jpg",
       },
       {
         title: "Step 3: Always Check Pre-Authorization Requirements",
         detail: "Before any non-emergency specialist visit or test, check whether your insurer requires pre-authorization. A quick call to the insurer's hotline is faster than managing a rejected claim later.",
-        image: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/health-insurance-uae-guide/health-step-03.jpg",
       },
       {
         title: "Step 4: Appeal Rejected Claims With Specific Documentation",
         detail: "Request the rejection reason in writing. Get supporting documentation from the treating physician. Most valid rejections due to process errors — not genuine exclusions — are reversed on appeal.",
-        image: "https://images.unsplash.com/photo-1516383740770-fbcc5ccbece0?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/health-insurance-uae-guide/health-step-04.jpg",
       },
     ],
     budgetRows: [],
@@ -838,31 +822,31 @@ const articleExtrasMap = {
       "Specialist remittance services consistently offer better rates than bank international transfers.",
     ],
     midImages: [
-      "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1518458028785-8fbcd101ebb9?auto=format&fit=crop&w=1200&q=80",
+      "/images/uae-banking-guide-expats/banking-mid-01.jpg",
+      "/images/uae-banking-guide-expats/banking-mid-02.jpg",
+      "/images/uae-banking-guide-expats/banking-mid-03.jpg",
+      "/images/uae-banking-guide-expats/banking-mid-04.jpg",
     ],
     steps: [
       {
         title: "Step 1: Prepare Documents Before Visiting Any Bank",
         detail: "Valid residence visa, Emirates ID or proof of application, passport, and salary certificate. Having all four ready means your first bank visit can result in a completed application.",
-        image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/uae-banking-guide-expats/banking-step-01.jpg",
       },
       {
         title: "Step 2: Choose the Right Account Type for Your Income Structure",
         detail: "Regular salary employees benefit from salary-designated accounts. Freelancers and variable-income professionals need accounts with manageable minimums that don't penalize irregular credit patterns.",
-        image: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/uae-banking-guide-expats/banking-step-02.jpg",
       },
       {
         title: "Step 3: Read the Fee Schedule Before Signing",
         detail: "Minimum balance fees, international transfer charges, SMS fees, card charges. All are listed in the schedule of charges — request it before opening, not after.",
-        image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/uae-banking-guide-expats/banking-step-03.jpg",
       },
       {
         title: "Step 4: Set Up Remittances Through a Specialist Service",
         detail: "If you send money abroad regularly, compare the full received amount through your bank versus Al Ansari, Wise, or LuLu Money. The difference over 12 months is often AED 500 to AED 1,000.",
-        image: "https://images.unsplash.com/photo-1580519542036-c47de6196ba5?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/uae-banking-guide-expats/banking-step-04.jpg",
       },
     ],
     budgetRows: [],
@@ -883,31 +867,31 @@ const articleExtrasMap = {
       "Visit schools during the school day, not just at open days.",
     ],
     midImages: [
-      "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80",
+      "/images/school-guide-dubai-families/school-mid-01.jpg",
+      "/images/school-guide-dubai-families/school-mid-02.jpg",
+      "/images/school-guide-dubai-families/school-mid-03.jpg",
+      "/images/school-guide-dubai-families/school-mid-04.jpg",
     ],
     steps: [
       {
         title: "Step 1: Decide on Curriculum First",
         detail: "British, American, IB, Indian, or other. International portability matters if relocation is possible. Home country alignment matters if university there is the goal. This decision shapes everything else.",
-        image: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/school-guide-dubai-families/school-step-01.jpg",
       },
       {
         title: "Step 2: Build a Shortlist Using KHDA Ratings Plus Location",
         detail: "Filter by curriculum and location first, then by KHDA rating. A school 10 minutes away with a 'Good' rating often creates better daily family logistics than an 'Outstanding' school 40 minutes away.",
-        image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/school-guide-dubai-families/school-step-02.jpg",
       },
       {
         title: "Step 3: Visit During the School Day",
         detail: "Request a mid-week morning visit, not just the open day. Watch how teachers interact with students, how the transition between classes works, how the school handles a noisy corridor. Real operations reveal culture.",
-        image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/school-guide-dubai-families/school-step-03.jpg",
       },
       {
         title: "Step 4: Ask the Questions That Reveal Culture, Not Just Results",
         detail: "How do you handle a struggling student? What's the teacher turnover rate? How do you communicate with parents when something isn't right? Good schools answer these confidently and specifically.",
-        image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/school-guide-dubai-families/school-step-04.jpg",
       },
     ],
     budgetRows: [],
@@ -928,31 +912,31 @@ const articleExtrasMap = {
       "Theory test preparation should use only RTA official practice materials.",
     ],
     midImages: [
-      "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1489824904134-891ab64532f1?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80",
+      "/images/uae-driving-license-guide/driving-mid-01.jpg",
+      "/images/uae-driving-license-guide/driving-mid-02.jpg",
+      "/images/uae-driving-license-guide/driving-mid-03.jpg",
+      "/images/uae-driving-license-guide/driving-mid-04.jpg",
     ],
     steps: [
       {
         title: "Step 1: Check Whether Your License Qualifies for Direct Conversion",
         detail: "GCC countries, most Western European nations, US, Canada, and Australia qualify. Most other nationalities must complete full training. Confirm this first — it determines your entire timeline.",
-        image: "https://images.unsplash.com/photo-1512632578888-169bbbc64f33?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/uae-driving-license-guide/driving-step-01.jpg",
       },
       {
         title: "Step 2: Register With an RTA-Approved Driving Institute",
         detail: "EDI, Dubai Driving Center, or Galadari are the main options. Bring passport, Emirates ID, visa copy, and eye test. Ask about waiting times for training slots before choosing.",
-        image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/uae-driving-license-guide/driving-step-02.jpg",
       },
       {
         title: "Step 3: Complete Theory and Practical Training Consistently",
         detail: "Study theory using the RTA app practice questions specifically. Schedule practical lessons at least three times per week — students who train consistently take significantly fewer total sessions.",
-        image: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/uae-driving-license-guide/driving-step-03.jpg",
       },
       {
         title: "Step 4: Pass the Road Test and Collect Your License",
         detail: "Road tests are conducted by RTA evaluators at the institute. Pass rate improves significantly for students who have completed at least 40+ hours of practical training. Budget for one to three test attempts.",
-        image: "https://images.unsplash.com/photo-1489824904134-891ab64532f1?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/uae-driving-license-guide/driving-step-04.jpg",
       },
     ],
     budgetRows: [],
@@ -973,31 +957,31 @@ const articleExtrasMap = {
       "Total gratuity is capped at the equivalent of two years' basic salary.",
     ],
     midImages: [
-      "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=1200&q=80",
+      "/images/uae-gratuity-end-of-service-calculator/gratuity-mid-01.jpg",
+      "/images/uae-gratuity-end-of-service-calculator/gratuity-mid-02.jpg",
+      "/images/uae-gratuity-end-of-service-calculator/gratuity-mid-03.jpg",
+      "/images/uae-gratuity-end-of-service-calculator/gratuity-mid-04.jpg",
     ],
     steps: [
       {
         title: "Step 1: Identify Your Basic Salary (Not Total Package)",
         detail: "Basic salary is the figure listed specifically as 'basic' on your payslip, excluding housing allowance, transport, phone, and any other additions. This is the only figure used for gratuity calculation.",
-        image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/uae-gratuity-end-of-service-calculator/gratuity-step-01.jpg",
       },
       {
         title: "Step 2: Calculate Using the Correct Formula for Your Service Length",
         detail: "Years 1-5: (Basic salary / 30) x 21 x number of years. Years beyond 5: add (Basic salary / 30) x 30 x additional years. Cap applies at two years' total basic salary.",
-        image: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/uae-gratuity-end-of-service-calculator/gratuity-step-02.jpg",
       },
       {
         title: "Step 3: Request a Written Breakdown From HR Before Departure",
         detail: "Ask HR to provide the calculation in writing before your last day. This creates a record and gives you time to identify discrepancies calmly rather than after you've already left.",
-        image: "https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/uae-gratuity-end-of-service-calculator/gratuity-step-03.jpg",
       },
       {
         title: "Step 4: Escalate to MOHRE if the Calculation Is Wrong",
         detail: "If internal resolution fails, MOHRE's dispute mechanism handles gratuity complaints. A complete file with contract, payslips, and your calculation ready significantly speeds this process.",
-        image: "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/uae-gratuity-end-of-service-calculator/gratuity-step-04.jpg",
       },
     ],
     budgetRows: [],
@@ -1018,31 +1002,31 @@ const articleExtrasMap = {
       "Keep copies of every work-related document in a digital folder from day one.",
     ],
     midImages: [
-      "https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=1200&q=80",
+      "/images/uae-work-permit-guide/workpermit-mid-01.jpg",
+      "/images/uae-work-permit-guide/workpermit-mid-02.jpg",
+      "/images/uae-work-permit-guide/workpermit-mid-03.jpg",
+      "/images/uae-work-permit-guide/workpermit-mid-04.jpg",
     ],
     steps: [
       {
         title: "Step 1: Understand the Three Documents and Their Functions",
         detail: "Residence visa = right to live here. Work permit = right to work for this employer. Emirates ID = primary identity document. All three must be valid simultaneously.",
-        image: "https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/uae-work-permit-guide/workpermit-step-01.jpg",
       },
       {
         title: "Step 2: Confirm Your Employer Is Following the Legal Process",
         detail: "Your employer should initiate work permit and visa processing before your start date. Employers asking employees to fund their own visa are violating UAE labour law.",
-        image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/uae-work-permit-guide/workpermit-step-02.jpg",
       },
       {
         title: "Step 3: Manage Job Transition Timing Carefully",
         detail: "When changing jobs, confirm your new employer has initiated the new work permit before your last day. Gaps in permit validity create unnecessary complications with residency continuity.",
-        image: "https://images.unsplash.com/photo-1542744095-291d1f67b221?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/uae-work-permit-guide/workpermit-step-03.jpg",
       },
       {
         title: "Step 4: Know Your Regulatory Framework",
         detail: "Mainland employees use MOHRE for disputes. Free zone employees use their specific free zone authority. Knowing which applies to your employment directs you to the right escalation channel immediately.",
-        image: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/uae-work-permit-guide/workpermit-step-04.jpg",
       },
     ],
     budgetRows: [],
@@ -1064,31 +1048,31 @@ const articleExtrasMap = {
       "Both cities offer excellent infrastructure — the right choice depends on your industry and lifestyle preference.",
     ],
     midImages: [
-      "https://images.unsplash.com/photo-1563656157432-67560011e209?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1504274066651-8d31a536b11a?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1526498460520-4c246339dccb?auto=format&fit=crop&w=1200&q=80",
+      "/images/abu-dhabi-vs-dubai-living-guide/abudhabidubai-mid-01.jpg",
+      "/images/abu-dhabi-vs-dubai-living-guide/abudhabidubai-mid-02.jpg",
+      "/images/abu-dhabi-vs-dubai-living-guide/abudhabidubai-mid-03.jpg",
+      "/images/abu-dhabi-vs-dubai-living-guide/abudhabidubai-mid-04.jpg",
     ],
     steps: [
       {
         title: "Step 1: Start With Your Industry and Employer Location",
         detail: "Where is your job? Federal government and oil sector roles are predominantly Abu Dhabi. Private sector, trade, and tourism are predominantly Dubai. Follow the work first.",
-        image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/abu-dhabi-vs-dubai-living-guide/abudhabidubai-step-01.jpg",
       },
       {
         title: "Step 2: Compare Total Monthly Costs Including Transport",
         detail: "Lower Abu Dhabi rent may be offset by higher costs if your work is in Dubai and you're commuting. Calculate the full monthly picture including travel time cost.",
-        image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/abu-dhabi-vs-dubai-living-guide/abudhabidubai-step-02.jpg",
       },
       {
         title: "Step 3: Consider Lifestyle Pace Honestly",
         detail: "Abu Dhabi is quieter, more family-oriented, less commercially driven. Dubai is faster, more international, more event-heavy. Neither is better — which do you want your daily life to feel like?",
-        image: "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/abu-dhabi-vs-dubai-living-guide/abudhabidubai-step-03.jpg",
       },
       {
         title: "Step 4: Visit Both Cities During a Regular Weekday Before Deciding",
         detail: "Not during a festival, not during a holiday. A regular Tuesday evening in both cities tells you more about day-to-day life than any comparison article.",
-        image: "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/abu-dhabi-vs-dubai-living-guide/abudhabidubai-step-04.jpg",
       },
     ],
     budgetRows: [],
@@ -1109,31 +1093,31 @@ const articleExtrasMap = {
       "Local casual dining beats random tourist-facing restaurants on both price and quality.",
     ],
     midImages: [
-      "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80",
+      "/images/dubai-food-guide-locals-expats/food-mid-01.jpg",
+      "/images/dubai-food-guide-locals-expats/food-mid-02.jpg",
+      "/images/dubai-food-guide-locals-expats/food-mid-03.jpg",
+      "/images/dubai-food-guide-locals-expats/food-mid-04.jpg",
     ],
     steps: [
       {
         title: "Step 1: Start Exploring in Al Karama and Al Rigga",
         detail: "These two areas have the best concentration of affordable, authentic South Asian, Arab, and East African food. Budget AED 20 to 35 per meal and expect to eat very well.",
-        image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/dubai-food-guide-locals-expats/food-step-01.jpg",
       },
       {
         title: "Step 2: Shop Fresh Produce at Neighborhood Vegetable Shops",
         detail: "Every residential area has small South Asian-run produce shops that undercut Carrefour and Spinneys on fresh vegetables and fruits. Find yours in the first week and make it a weekly habit.",
-        image: "https://images.unsplash.com/photo-1543168256-418811576931?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/dubai-food-guide-locals-expats/food-step-02.jpg",
       },
       {
         title: "Step 3: Plan One Meal Per Day Rather Than All Three",
         detail: "Decide your main meal in advance — especially lunch — and let the other two be flexible. Most overspending happens at the unplanned meals.",
-        image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/dubai-food-guide-locals-expats/food-step-03.jpg",
       },
       {
         title: "Step 4: Experience Friday Brunch at Least Once a Month",
         detail: "It's a Dubai institution that delivers genuine value at the mid-range price point. Block one Friday per month for it — it's an enjoyable social event that also covers the weekend's main meal efficiently.",
-        image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/dubai-food-guide-locals-expats/food-step-04.jpg",
       },
     ],
     budgetRows: [],
@@ -1154,31 +1138,31 @@ const articleExtrasMap = {
       "Large transfers above AED 55,000 may require routine documentation — this is normal.",
     ],
     midImages: [
-      "https://images.unsplash.com/photo-1580519542036-c47de6196ba5?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&w=1200&q=80",
+      "/images/remittance-sending-money-abroad-uae/remittance-mid-01.jpg",
+      "/images/remittance-sending-money-abroad-uae/remittance-mid-02.jpg",
+      "/images/remittance-sending-money-abroad-uae/remittance-mid-03.jpg",
+      "/images/remittance-sending-money-abroad-uae/remittance-mid-04.jpg",
     ],
     steps: [
       {
         title: "Step 1: Compare Total Received Amount, Not Just Fee",
         detail: "Google your currency pair mid-rate. Then check how much arrives through your current service. The gap between these two numbers is your actual cost — fees plus rate margin combined.",
-        image: "https://images.unsplash.com/photo-1580519542036-c47de6196ba5?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/remittance-sending-money-abroad-uae/remittance-step-01.jpg",
       },
       {
         title: "Step 2: Set a Rate Alert for Your Regular Transfer",
         detail: "If your currency pair fluctuates, set a rate alert through Wise or your preferred service for 5-7% above your average. Transfer slightly more when it hits — reduces frequency of smaller transfers.",
-        image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/remittance-sending-money-abroad-uae/remittance-step-02.jpg",
       },
       {
         title: "Step 3: Use Licensed Exchanges and Bank Channels Only",
         detail: "Al Ansari, Al Fardan, UAE Exchange, and registered banks all provide clean transaction records. Informal channels may offer marginally better rates with significantly higher practical and compliance risks.",
-        image: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/remittance-sending-money-abroad-uae/remittance-step-03.jpg",
       },
       {
         title: "Step 4: Keep Transaction Records for Every Transfer",
         detail: "Reference numbers, dates, amounts, and receiving bank confirmation. If a transfer is delayed or shows a discrepancy, these records resolve the situation far faster than starting a complaint without them.",
-        image: "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/remittance-sending-money-abroad-uae/remittance-step-04.jpg",
       },
     ],
     budgetRows: [],
@@ -1199,31 +1183,31 @@ const articleExtrasMap = {
       "VAT at 5% applies to most purchases — residential rent and basic food are key exemptions.",
     ],
     midImages: [
-      "https://images.unsplash.com/photo-1554224154-22dec7ec8818?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=1200&q=80",
+      "/images/uae-tax-free-income-guide/tax-mid-01.jpg",
+      "/images/uae-tax-free-income-guide/tax-mid-02.jpg",
+      "/images/uae-tax-free-income-guide/tax-mid-03.jpg",
+      "/images/uae-tax-free-income-guide/tax-mid-04.jpg",
     ],
     steps: [
       {
         title: "Step 1: Confirm What Personal Tax Applies (Usually None)",
         detail: "No income tax return to file, no PAYE, no withholding on salary. For most UAE residents, personal income tax from the UAE itself is genuinely zero and requires no action.",
-        image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/uae-tax-free-income-guide/tax-step-01.jpg",
       },
       {
         title: "Step 2: Check Your Home Country's Reporting Obligations",
         detail: "US citizens: annual filing required even abroad. UK citizens: check statutory residence tests. Most other nationalities: consult an international tax adviser in your first UAE year to confirm.",
-        image: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/uae-tax-free-income-guide/tax-step-02.jpg",
       },
       {
         title: "Step 3: Understand Corporate Tax If You Own a Business",
         detail: "Profits above AED 375,000 in a UAE-registered entity are taxed at 9%. Free zone businesses have separate qualifying rules. Engage a UAE-familiar accountant from your first operating year.",
-        image: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/uae-tax-free-income-guide/tax-step-03.jpg",
       },
       {
         title: "Step 4: Register for VAT When Required",
         detail: "Business owners with taxable turnover above AED 375,000 must register for VAT. Below this threshold, voluntary registration is available. Understand your position before trading starts.",
-        image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/uae-tax-free-income-guide/tax-step-04.jpg",
       },
     ],
     budgetRows: [],
@@ -1244,31 +1228,31 @@ const articleExtrasMap = {
       "Having a clear personal timeline for your UAE chapter — even a flexible one — helps every decision.",
     ],
     midImages: [
-      "https://images.unsplash.com/photo-1512632578888-169bbbc64f33?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1526498460520-4c246339dccb?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1504274066651-8d31a536b11a?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=80",
+      "/images/expat-life-dubai-realistic-guide/expat-mid-01.jpg",
+      "/images/expat-life-dubai-realistic-guide/expat-mid-02.jpg",
+      "/images/expat-life-dubai-realistic-guide/expat-mid-03.jpg",
+      "/images/expat-life-dubai-realistic-guide/expat-mid-04.jpg",
     ],
     steps: [
       {
         title: "Step 1: Get the Financial Advantage on Paper Within the First Month",
         detail: "Build your Dubai budget, set your savings transfer, and calculate what the tax-free income realistically means for your financial goals. The advantage is real — but only if you capture it intentionally.",
-        image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/expat-life-dubai-realistic-guide/expat-step-01.jpg",
       },
       {
         title: "Step 2: Plan Your First Summer Before It Arrives",
         detail: "Book annual leave for the July-August period before it fills up. Identify the indoor activities, clubs, and social structures that work during summer. Don't let it be a four-month endurance phase.",
-        image: "https://images.unsplash.com/photo-1526498460520-4c246339dccb?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/expat-life-dubai-realistic-guide/expat-step-02.jpg",
       },
       {
         title: "Step 3: Invest in Social Infrastructure Actively",
         detail: "Join one sports or social club, attend one industry networking event per month, accept most invitations in the first six months. Dubai's social scene requires some deliberate activation.",
-        image: "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/expat-life-dubai-realistic-guide/expat-step-03.jpg",
       },
       {
         title: "Step 4: Decide What 'Success' in Dubai Looks Like for You",
         detail: "Financial target, career milestone, life experience goal — whatever it is, having it defined makes decisions clearer. Expats who drift indefinitely without intention often look back with regret about what they didn't build.",
-        image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=80",
+        image: "/images/expat-life-dubai-realistic-guide/expat-step-04.jpg",
       },
     ],
     budgetRows: [],
@@ -1290,29 +1274,29 @@ const defaultExtras = {
     "Prefer clear process and preparation over reactive action under pressure.",
   ],
   midImages: [
-    "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1200&q=80",
+    "/images/start-small-business-in-dubai/business-mid-01.jpg",
+    "/images/uae-work-permit-guide/workpermit-mid-01.jpg",
   ],
   steps: [
     {
       title: "Step 1: Define What You're Actually Trying to Achieve",
       detail: "Start with a clear outcome in mind. Vague objectives produce vague progress — specific ones make the path forward obvious.",
-      image: "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=80",
+      image: "/images/start-small-business-in-dubai/business-step-01.jpg",
     },
     {
       title: "Step 2: Gather What You Need Before Starting",
       detail: "Documents, reference materials, account details, contact numbers — collect these before opening any form or making any call. It prevents mid-process gaps.",
-      image: "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?auto=format&fit=crop&w=1200&q=80",
+      image: "/images/uae-work-permit-guide/workpermit-step-01.jpg",
     },
     {
       title: "Step 3: Follow the Correct Sequence",
       detail: "Steps in official processes matter in order. Skipping or reordering them under time pressure is the most common source of avoidable delays and rejections.",
-      image: "https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&w=1200&q=80",
+      image: "/images/health-insurance-uae-guide/health-step-01.jpg",
     },
     {
       title: "Step 4: Review the Outcome and Save What Matters",
       detail: "Confirm the result, save confirmation records, and note what you'd do differently next time. One five-minute review at the end saves hours of confusion in the future.",
-      image: "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1200&q=80",
+      image: "/images/remittance-sending-money-abroad-uae/remittance-step-01.jpg",
     },
   ],
   budgetRows: [],
