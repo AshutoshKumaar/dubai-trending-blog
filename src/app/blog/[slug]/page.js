@@ -107,12 +107,12 @@ export default async function BlogPostPage({ params }) {
 
         <div className="mt-8 space-y-8">
           {post.sections.map((section, index) => (
-            <section key={section.heading} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+            <section key={index} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
               <h2 className="text-2xl font-extrabold">{section.heading}</h2>
               <div className="mt-3 space-y-3 text-base leading-7 text-slate-700">
-                {section.paragraphs.map((paragraph) => (
-                  <p key={paragraph}>{paragraph}</p>
-                ))}
+               {(section.paragraphs || []).map((paragraph) => (
+  <p key={paragraph}>{paragraph}</p>
+))}
               </div>
 
               {extras.midImages[index] ? (

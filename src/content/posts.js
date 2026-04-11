@@ -1055,7 +1055,171 @@ export const posts = [
         ],
       },
     ],
-  },
+  },{
+  slug: "how-to-switch-jobs-in-uae",
+  title: "How to Switch Jobs in the UAE Without Losing Your Mind (or Your Visa)",
+  excerpt:
+    "Changing jobs in the UAE involves more than just signing a new offer letter. Here's everything you need to know about timing, visa transfers, notice periods, and not burning bridges.",
+  category: "Jobs",
+  date: "March 26, 2026",
+  readTime: "8 min read",
+  author: "Career Desk",
+  image:
+    "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80",
+  sections: [
+    {
+      heading: "Job Switching in the UAE Is More Complicated Than Most People Expect",
+      paragraphs: [
+        "In most countries, switching jobs means handing in your notice, waiting out your notice period, and starting somewhere new. In the UAE, there are a few extra layers — visa transfers, labour card cancellations, and in some cases, cooling-off periods — that can catch people off guard if they haven't done it before.",
+        "None of it is impossibly complicated. But it does require a bit more planning than just accepting an offer and hoping everything sorts itself out. Get the sequence right and the whole thing is relatively smooth. Get it wrong and you might find yourself with a gap in residency or a gratuity dispute you didn't see coming.",
+      ],
+    },
+    {
+      heading: "Read Your Current Contract Before You Do Anything Else",
+      paragraphs: [
+        "Before you even tell your new employer yes, go back and read your current employment contract. Specifically, look at three things: your notice period, whether there's a non-compete clause, and how your gratuity is calculated. Notice periods in the UAE are commonly 30 days but can be 60 or 90 days depending on your seniority and what was agreed when you joined.",
+        "Non-compete clauses exist in some UAE contracts and restrict you from joining direct competitors for a period after leaving. They're not always enforceable, but they're worth being aware of before you accept an offer from a company your current employer would consider a competitor. A quick consultation with an employment lawyer is cheap compared to the headache of getting this wrong.",
+      ],
+    },
+    {
+      heading: "The Visa Transfer Process — What Actually Happens",
+      paragraphs: [
+        "When you change jobs in the UAE, your residence visa needs to transfer from your old employer to your new one. Your old employer cancels your current work permit and visa, and your new employer initiates a new one. The timing of this matters a lot. Ideally, your new employer starts the new visa process before your last day at the old company so there's minimal gap.",
+        "Once your visa is cancelled, you typically have 30 days to either get a new visa sponsored or leave the country. Most smooth job transitions happen quickly enough that this isn't an issue. But if you're between jobs for any reason, it's worth understanding that timeline so you're not caught out.",
+      ],
+    },
+    {
+      heading: "Don't Leave Without Getting What You're Owed",
+      paragraphs: [
+        "Before your last day, make sure your end-of-service gratuity calculation is correct and that you receive it. Get the breakdown in writing from HR. Check that it's been calculated on your basic salary only — not your total package — and that the years of service are correct.",
+        "Also collect copies of everything: your service certificate, final salary confirmation, and any other documentation that confirms your employment history. These come up more often than you'd expect when applying for visas, bank accounts, or new jobs in the future. Getting them at the time is much easier than chasing them from a former employer months later.",
+      ],
+    },{
+  slug: "uae-salary-negotiation-guide",
+  title: "How to Negotiate Your Salary in the UAE: What Actually Works",
+  excerpt:
+    "Most people leave money on the table because they negotiate wrong. Here's how UAE salary conversations actually work — and how to have them without awkwardness.",
+  category: "Jobs",
+  date: "March 25, 2026",
+  readTime: "7 min read",
+  author: "Career Desk",
+  image:
+    "https://images.unsplash.com/photo-1553028826-f4804a6dba3b?auto=format&fit=crop&w=1200&q=80",
+  sections: [
+    {
+      heading: "Most People Negotiate Wrong — and Leave Money on the Table",
+      paragraphs: [
+        "Salary negotiation in the UAE makes a lot of people uncomfortable. There's a common worry that pushing back on an offer will make you seem difficult, or that the offer will get withdrawn, or that you'll damage the relationship before you've even started. Almost none of this actually happens when you negotiate professionally.",
+        "What does happen, regularly, is that people accept the first number offered because they don't know how the market works or they're not sure how to open the conversation. The result is years of being underpaid relative to colleagues at the same level who negotiated better on their first day. The gap compounds quickly.",
+      ],
+    },
+    {
+      heading: "Know the Market Before You Walk Into Any Conversation",
+      paragraphs: [
+        "The single most important preparation you can do before negotiating is understanding what the market actually pays for your role and experience level. LinkedIn Salary Insights, Bayt salary reports, GulfTalent data, and conversations with recruiters who work in your sector are all useful sources. Cross-reference a few — salary data in the UAE varies significantly depending on the source.",
+        "When you know the market range, you negotiate from information rather than guesswork. You can say specifically why your expectation is reasonable. And you're much less likely to undersell yourself because you don't know what's normal.",
+      ],
+    },
+    {
+      heading: "The Conversation Itself — How to Actually Do It",
+      paragraphs: [
+        "When an offer comes in below your expectation, don't respond immediately with a counter. First, express genuine interest in the role. Then ask if there's flexibility on the package. This framing — interest first, then flexibility question — keeps the conversation collaborative rather than adversarial.",
+        "If they confirm there's room to move, give a specific number rather than a range. Ranges anchor to the bottom. If you say 'I was thinking between 25,000 and 28,000,' they hear 25,000. If your target is 27,000, say 27,000. Be prepared to explain why with market data and your specific experience, not with personal financial needs — what you need to pay rent is irrelevant to them.",
+      ],
+    },
+    {
+      heading: "It's Not Just About the Base Number",
+      paragraphs: [
+        "In the UAE, total compensation includes base salary, housing allowance, transport allowance, health insurance quality, annual flight allowance, and end-of-service gratuity — which is calculated on basic salary only, so a higher basic with lower allowances is actually better for your long-term gratuity calculation.",
+        "If the base number genuinely can't move, ask about other components. An extra flight ticket, better health insurance, a higher housing allowance, or an earlier performance review date are all negotiable in many companies. The total package is what matters, and experienced negotiators know that base salary is just one part of it.",
+      ],
+    },
+  ],
+},
+  ],
+}, {
+  slug: "uae-linkedin-profile-guide",
+  title: "Your LinkedIn Profile Is Losing You Jobs in the UAE — Here's How to Fix It",
+  excerpt:
+    "Recruiters in the UAE spend about 10 seconds on your profile. Here's what they're looking for, what kills applications immediately, and how to make your profile actually work for you.",
+  category: "Jobs",
+  date: "March 24, 2026",
+  readTime: "6 min read",
+  author: "Career Desk",
+  image:
+    "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?auto=format&fit=crop&w=1200&q=80",
+  sections: [
+    {
+      heading: "LinkedIn in the UAE Is Not Optional — It's How the Market Works",
+      paragraphs: [
+        "In many job markets, LinkedIn is a useful supplement to other job search methods. In the UAE, it's closer to essential. A significant portion of mid-to-senior level hiring happens through LinkedIn — either through direct recruiter outreach, through hiring managers searching for candidates, or through applications submitted via the platform. If your profile is weak, you're invisible to a large chunk of the market.",
+        "The frustrating reality is that most people set up their LinkedIn profile once, never really think about it again, and wonder why they're not getting inbound interest. The profile that worked in your home country probably needs a complete overhaul for the UAE market.",
+      ],
+    },
+    {
+      heading: "The Photo and Headline Matter More Than You Think",
+      paragraphs: [
+        "Your profile photo is the first thing anyone sees. In the UAE professional market, a clear, professional headshot in appropriate business attire makes a real difference to whether someone clicks through. Casual selfies, group photos cropped down, or no photo at all send an immediate signal that you're not taking the platform seriously.",
+        "Your headline is the second thing. Most people put their current job title there and nothing else. That's wasted space. Your headline should communicate what you do and who you help — something like 'Digital Marketing Manager | B2B Lead Generation | Dubai' is more searchable and more informative than just 'Marketing Manager at Company X.'",
+      ],
+    },
+    {
+      heading: "The Summary Section Is Where Most Profiles Fall Apart",
+      paragraphs: [
+        "The About section is consistently the most underused part of a LinkedIn profile. People either leave it blank, write something generic about being 'results-driven and passionate,' or paste in their CV summary word for word. None of these work.",
+        "Write your About section like you're explaining your professional background to someone smart who has 30 seconds to understand who you are. What do you do, what have you achieved, and what kind of opportunity are you looking for? Keep it specific, keep it honest, and write it in first person. A good About section gets read. A generic one gets skipped.",
+      ],
+    },
+    {
+      heading: "Activity and Connections Are What Trigger the Algorithm",
+      paragraphs: [
+        "A complete, well-written profile that sits dormant doesn't get much traction on LinkedIn. The platform rewards activity — commenting thoughtfully on posts in your industry, sharing relevant content occasionally, and connecting with people you've actually met or worked with. You don't need to post daily or turn into a LinkedIn influencer. Even light activity a couple of times a week significantly increases your profile visibility.",
+        "For UAE-specific job searching, make sure your location is set to the UAE and your Open to Work settings are configured correctly. Recruiters filter by location constantly. If your profile still shows your home country as your location, you're being filtered out before anyone even reads your name.",
+      ],
+    },
+  ],
+},{
+  slug: "uae-job-market-reality-2026",
+  title: "The UAE Job Market in 2026: What's Actually Happening and How to Position Yourself",
+  excerpt:
+    "Hiring is up in some sectors and slower in others. Here's an honest read on where the opportunities are, what employers are looking for, and how to improve your chances in the current market.",
+  category: "Jobs",
+  date: "March 23, 2026",
+  readTime: "8 min read",
+  author: "Career Desk",
+  image:
+    "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+  sections: [
+    {
+      heading: "The Market Is Not One Thing — It Depends Entirely on Your Sector",
+      paragraphs: [
+        "Anyone telling you the UAE job market is simply 'good' or 'bad' in 2026 is giving you a useless answer. The reality is much more specific. Technology, fintech, healthcare, tourism, logistics, and renewable energy are all seeing active hiring. Financial services and real estate have slowed from their 2022-2023 peaks but are still moving. Retail and hospitality are heavily dependent on tourism numbers which remain strong.",
+        "The mistake most job seekers make is treating the market as one uniform thing. Your experience is going to be completely different depending on what you do, how senior you are, whether you're targeting free zone or mainland companies, and whether your skills are scarce or widely available in the local talent pool.",
+      ],
+    },
+    {
+      heading: "What Employers in the UAE Are Actually Looking For Right Now",
+      paragraphs: [
+        "The skills conversation has shifted. Technical skills are still important, but employers in 2026 are placing heavier weight on people who can demonstrate real business impact — not just execution. Can you show revenue generated, cost reduced, process improved, or team developed? Numbers and outcomes matter more than job descriptions full of responsibilities.",
+        "There's also growing preference across many sectors for candidates who have regional experience. If you're coming from outside the UAE and the region, being able to show you understand how business works here — the relationship-first culture, the pace of decision making, the regulatory environment — gives you a real advantage over someone with strong credentials but no regional context.",
+      ],
+    },
+    {
+      heading: "The Honest Truth About Networking in the UAE",
+      paragraphs: [
+        "The UAE job market runs on relationships to a degree that surprises most people who come from markets where skills and CVs do most of the work. A warm introduction from someone inside a company will consistently outperform a cold application through a portal, even when the cold applicant is more qualified on paper. This isn't cynicism — it's just how decisions get made here.",
+        "Building that network takes time, but the starting points are practical: industry events, professional associations, alumni networks, LinkedIn connections with people you've met in person, and simply being visible and useful in your professional community. The people who find the best opportunities in Dubai are usually the ones who made consistent network investment before they needed it.",
+      ],
+    },
+    {
+      heading: "How to Actually Stand Out in the Current Market",
+      paragraphs: [
+        "Three things consistently separate candidates who move quickly through processes from those who don't: a CV that speaks the employer's language rather than listing generic responsibilities, preparation that shows genuine knowledge of the company and role rather than surface-level research, and follow-up that's professional and persistent without being annoying.",
+        "The bar for these things is honestly not that high because most candidates don't do them well. A tailored CV, a cover message that references specific things about the role, and a follow-up email a week after applying already puts you ahead of the majority. That's the realistic opportunity in this market.",
+      ],
+    },
+  ],
+},
 ];
 
 export function getPostBySlug(slug) {

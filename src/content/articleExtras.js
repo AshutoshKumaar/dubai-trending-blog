@@ -1259,7 +1259,261 @@ const articleExtrasMap = {
     comments: [
       { name: "Sarah M.", text: "The most realistic Dubai guide I've read. The summer preparation advice and the social investment point are exactly what no one tells you before you arrive.", rating: 5 },
     ],
-  },
+  },"how-to-switch-jobs-in-uae": {
+  intro: [
+    "Switching jobs in the UAE is something most expats do at least once — sometimes twice — during their time here. And every time, there's a moment where someone realizes the process is more layered than they expected.",
+    "The visa piece, the notice period, the gratuity calculation — none of it is complicated once you understand it. But getting the sequence wrong can create real problems that take weeks to untangle.",
+    "This guide is the one you should read before you accept the next offer, not after.",
+  ],
+  highlights: [
+    "Read your current contract before you do anything else — especially notice period and non-compete clauses.",
+    "Get your gratuity calculation in writing before your last day.",
+    "Your new employer should start visa processing before you leave the old one.",
+    "Collect all your employment documents on the way out — service certificate, salary confirmation, everything.",
+  ],
+  midImages: [
+    "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1553028826-f4804a6dba3b?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+  ],
+  steps: [
+    {
+      title: "Step 1: Read Your Current Contract Completely",
+      detail:
+        "Notice period, non-compete clause, gratuity terms. Know exactly what you've signed before you say yes to anyone else.",
+      image:
+        "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=80",
+    },
+    {
+      title: "Step 2: Confirm New Employer Will Start Visa Immediately",
+      detail:
+        "Before your last day, confirm your new employer has initiated the work permit process. Gaps in visa status create unnecessary complications.",
+      image:
+        "https://images.unsplash.com/photo-1521790797524-b2497295b8a0?auto=format&fit=crop&w=1200&q=80",
+    },
+    {
+      title: "Step 3: Get Gratuity Calculation in Writing",
+      detail:
+        "Ask HR for a written breakdown before you leave. Check the basic salary figure and years of service are both correct.",
+      image:
+        "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=1200&q=80",
+    },
+    {
+      title: "Step 4: Collect All Documents on Your Last Day",
+      detail:
+        "Service certificate, final salary slip, NOC if applicable. These are much harder to get once you've left.",
+      image:
+        "https://images.unsplash.com/photo-1586281380117-5a60ae2050cc?auto=format&fit=crop&w=1200&q=80",
+    },
+  ],
+  budgetRows: [],
+  comments: [
+    {
+      name: "Karan S.",
+      text: "The visa timing point saved me a lot of stress. My previous job switch had a 2 week gap and it was genuinely stressful. This time I confirmed the new process started before I handed in my notice.",
+      rating: 5,
+    },
+    {
+      name: "Fatima A.",
+      text: "The gratuity in writing advice is so important. I nearly accepted a wrong calculation because I didn't know to ask for the breakdown.",
+      rating: 5,
+    },
+  ],
+},
+
+"uae-salary-negotiation-guide": {
+  intro: [
+    "There's a version of salary negotiation that feels awkward, risks the offer, and gets you nowhere. And there's a version that's calm, professional, and regularly gets people 10 to 20 percent more than the first number offered.",
+    "The difference is almost entirely in preparation and framing — not in being aggressive or playing games.",
+    "This guide is about the second version.",
+  ],
+  highlights: [
+    "Research the market rate before any conversation — negotiate from information, not guesswork.",
+    "Express interest first, then ask about flexibility — never lead with the counter.",
+    "Give a specific number, not a range. Ranges anchor to the bottom.",
+    "If base can't move, negotiate allowances, flight tickets, review dates, and insurance quality.",
+  ],
+  midImages: [
+    "https://images.unsplash.com/photo-1553028826-f4804a6dba3b?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=1200&q=80",
+  ],
+  steps: [
+    {
+      title: "Step 1: Research the Market Rate for Your Role",
+      detail:
+        "LinkedIn Salary, GulfTalent, Bayt reports, and recruiter conversations. Cross-reference at least three sources before forming your expectation.",
+      image:
+        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80",
+    },
+    {
+      title: "Step 2: Express Interest Before Asking for Flexibility",
+      detail:
+        "Lead with genuine enthusiasm for the role. Then ask if there's flexibility on the package. This framing keeps the conversation collaborative.",
+      image:
+        "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?auto=format&fit=crop&w=1200&q=80",
+    },
+    {
+      title: "Step 3: Give One Specific Number",
+      detail:
+        "If your target is AED 27,000, say AED 27,000. Justify it with market data and your specific experience — not your personal expenses.",
+      image:
+        "https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&w=1200&q=80",
+    },
+    {
+      title: "Step 4: If Base Won't Move, Negotiate the Rest",
+      detail:
+        "Housing allowance, transport, flight tickets, health insurance tier, performance review timing. Total package is what matters.",
+      image:
+        "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80",
+    },
+  ],
+  budgetRows: [],
+  comments: [
+    {
+      name: "Rohit M.",
+      text: "The specific number vs range advice is genuinely the most useful thing I've read about negotiation. Used it last month and it worked exactly as described.",
+      rating: 5,
+    },
+    {
+      name: "Sara K.",
+      text: "I always thought asking would risk the offer. It never has. This guide gives you the exact framing to make it feel natural.",
+      rating: 5,
+    },
+  ],
+},
+
+"uae-linkedin-profile-guide": {
+  intro: [
+    "A lot of people in the UAE are actively looking for work with a LinkedIn profile that's working against them — and they have no idea.",
+    "The platform is genuinely how a large chunk of mid-to-senior hiring happens here. If your profile isn't right, you're invisible to recruiters who are actively looking for someone with your exact background.",
+    "This isn't about gaming the algorithm. It's about making sure your profile accurately represents what you can do — in a way that takes ten seconds to understand.",
+  ],
+  highlights: [
+    "Professional headshot is non-negotiable in the UAE market.",
+    "Your headline should say what you do and where — not just your job title.",
+    "The About section is where most profiles fall apart. Write it like you're talking to a smart person who has 30 seconds.",
+    "Set your location to UAE and configure Open to Work — recruiters filter by location constantly.",
+  ],
+  midImages: [
+    "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=80",
+  ],
+  steps: [
+    {
+      title: "Step 1: Fix the Photo and Headline First",
+      detail:
+        "Professional headshot, business attire, clear face. Headline should include your role, a key skill, and your location. These two things decide whether anyone reads further.",
+      image:
+        "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?auto=format&fit=crop&w=1200&q=80",
+    },
+    {
+      title: "Step 2: Rewrite the About Section From Scratch",
+      detail:
+        "Who you are, what you've achieved, what you're looking for. First person, specific, honest. Three short paragraphs is plenty. Delete anything generic.",
+      image:
+        "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1200&q=80",
+    },
+    {
+      title: "Step 3: Update Experience With Outcomes, Not Responsibilities",
+      detail:
+        "Revenue generated, cost saved, team size managed, projects delivered. Numbers and results. Anyone can list responsibilities — outcomes are what get you shortlisted.",
+      image:
+        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80",
+    },
+    {
+      title: "Step 4: Set Location to UAE and Stay Lightly Active",
+      detail:
+        "Update your location immediately. Comment thoughtfully on two or three posts a week in your industry. That level of activity meaningfully increases your profile visibility.",
+      image:
+        "https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&w=1200&q=80",
+    },
+  ],
+  budgetRows: [],
+  comments: [
+    {
+      name: "Anil P.",
+      text: "Changed my headline and got three recruiter messages in the same week. I'd had the same profile for two years with nothing.",
+      rating: 5,
+    },
+    {
+      name: "Nour H.",
+      text: "The About section advice is exactly right. I rewrote mine and suddenly people were actually reading my profile.",
+      rating: 4,
+    },
+  ],
+},
+
+"uae-job-market-reality-2026": {
+  intro: [
+    "The UAE job market in 2026 is strong in some places and genuinely difficult in others — and which one you experience depends almost entirely on what you do.",
+    "This guide is an honest read on where things stand. Not a cheerful overview designed to make you feel good, and not a doom-and-gloom take either. Just what's actually happening and what you can do about it.",
+    "If you're job searching here right now, or planning to, this is worth understanding before you start sending CVs.",
+  ],
+  highlights: [
+    "Tech, healthcare, logistics, and renewable energy are actively hiring in 2026.",
+    "Regional experience is increasingly valued — show you understand how business works here.",
+    "Networking in the UAE is not optional. Warm introductions consistently outperform cold applications.",
+    "A tailored CV and proper follow-up already puts you ahead of most candidates.",
+  ],
+  midImages: [
+    "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&w=1200&q=80",
+  ],
+  steps: [
+    {
+      title: "Step 1: Identify Which Sector You're Actually In",
+      detail:
+        "Stop thinking about 'the UAE job market' as one thing. Research specifically what's happening in your industry right now. The experience varies dramatically by sector.",
+      image:
+        "https://images.unsplash.com/photo-1453738773917-9c3eff1db985?auto=format&fit=crop&w=1200&q=80",
+    },
+    {
+      title: "Step 2: Make Your CV Speak in Outcomes",
+      detail:
+        "Results, numbers, impact. Not a list of things you were responsible for. Every bullet point should answer the question: what actually changed because you were there?",
+      image:
+        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80",
+    },
+    {
+      title: "Step 3: Invest in Your Network Before You Need It",
+      detail:
+        "Industry events, LinkedIn connections, professional communities. The people who find the best opportunities here are usually the ones who built relationships before they were looking.",
+      image:
+        "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
+    },
+    {
+      title: "Step 4: Follow Up Professionally and Consistently",
+      detail:
+        "One week after applying, send a brief follow-up. It's professional, it shows genuine interest, and most candidates don't do it. That alone puts you in a better position.",
+      image:
+        "https://images.unsplash.com/photo-1553028826-f4804a6dba3b?auto=format&fit=crop&w=1200&q=80",
+    },
+  ],
+  budgetRows: [],
+  comments: [
+    {
+      name: "James T.",
+      text: "The networking point is the most honest thing I've read about finding work in Dubai. It really does work differently here than in Europe.",
+      rating: 5,
+    },
+    {
+      name: "Meera S.",
+      text: "Sector-specific advice is what I needed. The general 'UAE market is booming' articles were useless for my situation. This actually helped.",
+      rating: 5,
+    },
+  ],
+},
 };
 
 const defaultExtras = {
