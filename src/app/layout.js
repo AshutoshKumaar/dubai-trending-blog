@@ -46,12 +46,11 @@ export default function RootLayout({ children }) {
       
       {/* ✅ IMPORTANT: script HEAD ke andar */}
       <head>
-        <Script
+       <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7698682190094249"
           crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
+        ></script>
       </head>
 
       <body className={`${mooli.variable} ${geistMono.variable} antialiased`}>
