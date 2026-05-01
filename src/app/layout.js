@@ -49,7 +49,7 @@ export default function RootLayout({ children }) {
           {children}
           <SiteFooter />
         </div>
-        <Script
+        <Script   
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7698682190094249"
           crossOrigin="anonymous"
