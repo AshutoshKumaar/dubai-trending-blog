@@ -4,70 +4,80 @@ const articleExtrasMap = {
   // ─────────────────────────────────────────────
   "dubai-cost-of-living-2026-guide": {
     intro: [
-      "Dubai can transform your financial life — but only if you understand the cost structure before you land, not after.",
-      "This guide won't sugarcoat numbers or make the city look cheap. It'll help you build a realistic monthly model that actually holds together once you're living it.",
-      "Approach the city with honest numbers, clear priorities, and a weekly check-in habit, and you'll find the advantages far outweigh the adjustments.",
+      "When I started researching Dubai living costs, one pattern kept showing up — most people underestimate their first 2–3 months badly.",
+      "They focus on salary and rent, but ignore small daily expenses and setup costs that hit immediately after arrival.",
+      "This guide gives you a realistic monthly model based on actual expat spending patterns — not assumptions.",
     ],
+
     highlights: [
-      "Lock in your rent ceiling before viewing a single property — it anchors every other decision.",
-      "Use conservative estimates for variable costs in your first three months.",
-      "Weekly spending reviews beat monthly bill shocks every time.",
-      "Automate savings on day one — before lifestyle habits form around the leftover.",
+      "Plan using your actual in-hand salary, not your offer letter.",
+      "Keep a 2–3 month buffer for initial setup costs.",
+      "Weekly budgeting works better than monthly tracking.",
+      "Housing + commute together decide your real cost of living.",
     ],
+
     midImages: [
       "/images/cost-living-mid-1.png",
       "/images/cost-living-mid-2.png",
       "/images/cost-living-mid-3.png",
       "/images/cost-living-mid-4.png",
     ],
+
     steps: [
       {
-        title: "Step 1: Calculate Your Real Take-Home, Not Your Offer Letter Number",
+        title: "Understand Your Real Income First",
         detail:
-          "Start with what hits your account monthly — not the gross figure, not the bonus projection, not the promised commission. Build your budget on the predictable base only.",
-        image:
-          "/images/cost-living-step-1.png",
+          "Always calculate your budget based on money that actually reaches your bank account. Avoid planning based on bonuses or variable income.",
+        image: "/images/cost-living-step-1.png",
       },
       {
-        title: "Step 2: Set Your Housing Ceiling Before You Start Browsing",
+        title: "Balance Rent with Location",
         detail:
-          "Apartment hunting without a hard rent limit is how people end up over-committed by 20 percent within the first month. Set the ceiling first, then look.",
-        image:
-          "/images/cost-living-step-2.png",
+          "Cheap rent in a far area often increases transport and lifestyle costs. Choose a location that reduces daily friction.",
+        image: "/images/cost-living-step-2.png",
       },
       {
-        title: "Step 3: Build a Weekly Spending System, Not a Monthly One",
+        title: "Track Weekly Spending",
         detail:
-          "Monthly budgets create monthly surprises. Divide food, transport, and discretionary spend into weekly limits so you catch drift early, not on the 28th.",
-        image:
-          "/images/cost-living-step-3.png",
+          "Breaking expenses into weekly limits helps you catch overspending early instead of realizing it at month end.",
+        image: "/images/cost-living-step-3.png",
       },
       {
-        title: "Step 4: Transfer Savings Before You See What's Left",
+        title: "Automate Savings Early",
         detail:
-          "Saving what's left over at month-end rarely works in a city that makes spending frictionless. Automate the transfer immediately after salary credit and budget from what remains.",
-        image:
-          "/images/cost-living-step-4.png",
+          "Transfer savings immediately after salary credit. This builds discipline without relying on willpower.",
+        image: "/images/cost-living-step-4.png",
       },
     ],
+
     budgetRows: [
-      { category: "Rent + Utilities", share: "35%", note: "Pick an area that handles both rent and commute — not just rent." },
-      { category: "Food + Groceries", share: "18%", note: "Home cooking three to four nights a week changes this number significantly." },
-      { category: "Transport", share: "12%", note: "Metro-first, capped ride-hailing." },
-      { category: "Insurance + Health", share: "8%", note: "Keep a monthly reserve for out-of-pocket medical costs." },
-      { category: "Savings + Emergency Fund", share: "20%", note: "Transfer this the same day salary arrives." },
-      { category: "Leisure + Personal", share: "7%", note: "Flex spending — but still with a ceiling." },
+      {
+        category: "Rent + Utilities",
+        share: "AED 3000 – 5000",
+        note: "Studio or shared apartment depending on location.",
+      },
+      {
+        category: "Food",
+        share: "AED 800 – 1200",
+        note: "Mix of home cooking and occasional eating out.",
+      },
+      {
+        category: "Transport",
+        share: "AED 300 – 800",
+        note: "Metro + occasional taxi.",
+      },
+      {
+        category: "Savings",
+        share: "AED 1000 – 2000",
+        note: "Should be automated monthly.",
+      },
     ],
+
     comments: [
       {
-        name: "Ravi M.",
-        text: "The weekly review habit is so simple but it genuinely fixed my budgeting — I stopped being surprised at month end.",
+        name: "Insight",
+        text: "Most expats overspend in their first 2–3 months due to unplanned expenses. Once routines stabilize, costs drop significantly.",
         rating: 5,
-      },
-      {
-        name: "Aisha K.",
-        text: "Really clear guide. Would love a family version with school fees factored in next.",
-        rating: 4,
       },
     ],
   },

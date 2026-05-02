@@ -10,7 +10,7 @@ export const posts = [
     category: "Living in Dubai",
     date: "March 2, 2026",
     readTime: "8 min read",
-    author: "Editorial Desk",
+    author: "Abdul Karim",
     image:
       "/images/dubai-cost-of-living-2026.png",
     sections: [
@@ -18,7 +18,7 @@ export const posts = [
         heading: "Start With the Full Monthly Picture, Not Just the Salary",
         paragraphs: [
           "Most people moving to Dubai make the same mistake: they see the salary number and assume everything will fall into place after arrival. It rarely works that way. Rent deposits, SIM cards, transport setup, kitchen basics, and that first grocery run all hit within the first two weeks — before the first paycheck even lands.",
-          "The smarter move is to build your complete monthly spending model before you book the flight. Write down fixed costs first — rent, utilities, phone — then estimate variable ones like food and transport using conservative numbers. This way, you are making decisions with real boundaries, not wishful thinking.",
+          "The smarter move is to build your complete monthly spending model before you book the flight. Write down fixed costs first — rent, utilities, phone — then estimate variable ones like food and transport using conservative numbers. I also cross-check public service basics through the UAE Government Portal because small official fees are easy to forget when you are planning from abroad. (Source: UAE Government Portal)",
         ],
       },
       {
@@ -52,7 +52,7 @@ export const posts = [
     category: "Neighborhood Guide",
     date: "March 1, 2026",
     readTime: "7 min read",
-    author: "Dubai Local Team",
+    author: "Abdul Karim",
     image:
       "/images/best-areas-live-dubai.png",
     sections: [
@@ -74,7 +74,7 @@ export const posts = [
         heading: "Families Need Stability, Not a Trending Address",
         paragraphs: [
           "For families, the neighborhood decision is less about prestige and more about the quality of daily life at ground level. Good schools within a reasonable distance, reliable clinics, safe walkable streets, play areas for kids, and a supermarket that doesn't require a 20-minute drive — these are the things that make a community genuinely liveable rather than just photogenic.",
-          "Before signing anything, visit the area during school drop-off time and on a weekday evening. Traffic patterns change completely. You'll learn more about parking availability and congestion in 30 minutes of real observation than in hours of reading reviews online.",
+          "Before signing anything, visit the area during school drop-off time and on a weekday evening. Traffic patterns change completely. For families, I also compare nearby schools against the official KHDA school information before treating an area as practical. You'll learn more about parking availability and congestion in 30 minutes of real observation than in hours of reading reviews online. (Source: Dubai Official Portal)",
         ],
       },
       {
@@ -94,7 +94,7 @@ export const posts = [
     category: "Labour Law",
     date: "February 28, 2026",
     readTime: "9 min read",
-    author: "Legal Research Team",
+    author: "Abdul Karim",
     image:
       "/images/uae-labour-law-2026.png",
     sections: [
@@ -122,7 +122,7 @@ export const posts = [
       {
         heading: "Formal Channels Work When You're Prepared",
         paragraphs: [
-          "If internal resolution fails, the UAE Ministry of Human Resources and Emiratisation provides a structured process for labour disputes. The quality of your outcome at this stage depends heavily on how organized your documentation is. Clear facts with dates and copies consistently produce better results than detailed verbal accounts without evidence.",
+          "If internal resolution fails, the UAE Ministry of Human Resources and Emiratisation provides a structured process for labour disputes. I always tell employees to read the official MOHRE guidance before escalating, because the correct channel and wording matter more than people expect. The quality of your outcome at this stage depends heavily on how organized your documentation is. (Source: UAE Government Portal)",
           "Stay calm, follow the process step by step, and keep records of every update and communication throughout. Employees who treat this like a professional process — not an emotional confrontation — tend to get their matters resolved more efficiently.",
         ],
       },
@@ -136,7 +136,7 @@ export const posts = [
     category: "Travel",
     date: "February 25, 2026",
     readTime: "6 min read",
-    author: "City Explorer",
+    author: "Abdul Karim",
     image:
       "/images/dubai-weekend-budget.png",
     sections: [
@@ -158,7 +158,7 @@ export const posts = [
         heading: "Transport Is Where Budgets Quietly Disappear",
         paragraphs: [
           "Taxis in Dubai are reasonable by international standards, but they add up quickly when you're making unplanned decisions. A metro-first approach with one planned taxi ride per day keeps transport costs predictable. Check station proximity before you choose your stops, and remember that many central tourist areas are genuinely walkable in the evening when temperatures drop.",
-          "If you're using the metro, a Nol card saves money compared to single-trip tickets and removes the stress of buying tickets repeatedly. Top it up the evening before your weekend starts, not at the station during the morning rush.",
+          "If you're using the metro, a Nol card saves money compared to single-trip tickets and removes the stress of buying tickets repeatedly. Check current zones, fares, and service updates on RTA before finalizing your route, especially if the weekend plan crosses both old Dubai and newer coastal areas. Top it up the evening before your weekend starts, not at the station during the morning rush. (Reference: Dubai RTA Official Website)",
         ],
       },
       {
@@ -178,7 +178,7 @@ export const posts = [
     category: "Jobs",
     date: "February 22, 2026",
     readTime: "8 min read",
-    author: "Career Desk",
+    author: "Abdul Karim",
     image:
       "/images/find-jobs-uae-fast.png",
     sections: [
@@ -200,7 +200,7 @@ export const posts = [
         heading: "Use Every Channel, Not Just One Portal",
         paragraphs: [
           "Job portals are useful but they're also the most competitive channel because everyone is there. Many UAE positions are filled through direct LinkedIn outreach to relevant candidates, through employee referrals, or through recruiter relationships before they're ever posted publicly. If you're only applying on portals, you're missing a significant portion of the actual job market.",
-          "Build a parallel approach: regular LinkedIn activity and connection building, one or two specialist recruiters in your field, direct applications through company career pages, and genuine networking within your professional community. More input channels means more probability of response.",
+          "Build a parallel approach: regular LinkedIn activity and connection building, one or two specialist recruiters in your field, direct applications through company career pages, and genuine networking within your professional community. For roles in regulated sectors, confirm the employer and work-permit route through official UAE labour information rather than relying only on recruiter promises. (Source: UAE Government Portal)",
         ],
       },
       {
@@ -220,7 +220,7 @@ export const posts = [
     category: "Documents",
     date: "February 20, 2026",
     readTime: "7 min read",
-    author: "Documentation Desk",
+    author: "Abdul Karim",
     image:
       "/images/emirates-id-renewal.png",
     sections: [
@@ -241,7 +241,7 @@ export const posts = [
       {
         heading: "Track Actively, Don't Just Wait",
         paragraphs: [
-          "Once submitted, a lot of people go into passive waiting mode — they assume no news is good news. In reality, some applications pause at a stage that requires additional action, and the notification may go to a spam folder or a phone number that's hard to reach. Checking the ICA smart services portal every few days takes two minutes and keeps you genuinely informed.",
+          "Once submitted, a lot of people go into passive waiting mode — they assume no news is good news. In reality, some applications pause at a stage that requires additional action, and the notification may go to a spam folder or a phone number that's hard to reach. Checking the ICP smart services portal every few days takes two minutes and keeps you genuinely informed. (Official Info: UAE Immigration Website)",
           "Keep your application reference number saved somewhere accessible. If anything needs following up, that number is the first thing any support channel will ask for.",
         ],
       },
@@ -262,14 +262,14 @@ export const posts = [
     category: "City Services",
     date: "February 18, 2026",
     readTime: "5 min read",
-    author: "Public Services Team",
+    author: "Abdul Karim",
     image:
       "/images/uae-traffic-fine-guide.png",
     sections: [
       {
         heading: "Always Start With the Right Source",
         paragraphs: [
-          "The internet is full of third-party sites that claim to show UAE traffic fines, but unofficial sources create more problems than they solve — outdated information, confusing interfaces, and in some cases, payment to the wrong destination. The correct approach is to go directly to the official channels: the RTA website, the Abu Dhabi Police portal, or the relevant emirate's official fine check service.",
+          "The internet is full of third-party sites that claim to show UAE traffic fines, but unofficial sources create more problems than they solve — outdated information, confusing interfaces, and in some cases, payment to the wrong destination. The correct approach is to go directly to official channels such as RTA in Dubai, Abu Dhabi Police, or the relevant emirate's fine check service. (Reference: Dubai RTA Official Website)",
           "Before you start any check, have your vehicle plate number, registration details, and traffic file number ready. These details are on your vehicle registration card. Having them at hand makes the process clean and immediate.",
         ],
       },
@@ -304,7 +304,7 @@ export const posts = [
     category: "Business",
     date: "February 15, 2026",
     readTime: "9 min read",
-    author: "SME Research Unit",
+    author: "Abdul Karim",
     image:
       "/images/start-business-dubai.png",
     sections: [
@@ -325,7 +325,7 @@ export const posts = [
       {
         heading: "Setup and Licensing Require Careful Decisions",
         paragraphs: [
-          "Business activity selection in the UAE is more specific than many founders realize. The activity listed on your trade license determines what you're legally permitted to do. Choosing a category that doesn't match your actual business can create operational and legal friction later. Research the correct activity codes carefully, and if you're unsure, a brief consultation with a business setup specialist is worth the cost.",
+          "Business activity selection in the UAE is more specific than many founders realize. The activity listed on your trade license determines what you're legally permitted to do. Choosing a category that doesn't match your actual business can create operational and legal friction later. Research the correct activity codes through the relevant Dubai licensing portal before you spend on branding or office space. (Source: Dubai Official Portal)",
           "Mainland versus free zone is another decision worth understanding properly before choosing. Each structure has different ownership rules, visa entitlements, and geographical permissions for trading. The right answer depends entirely on your specific business model.",
         ],
       },
@@ -346,7 +346,7 @@ export const posts = [
     category: "Transport",
     date: "February 12, 2026",
     readTime: "6 min read",
-    author: "Transit Team",
+    author: "Abdul Karim",
     image:
       "/images/dubai-metro-nol-tips.png",
     sections: [
@@ -354,7 +354,7 @@ export const posts = [
         heading: "The Metro Rewards Consistent Habits",
         paragraphs: [
           "Commuting in Dubai on public transport works well for people who approach it like a system — a routine with small regular improvements — rather than a daily challenge to improvise through. Once you stop treating each morning as a fresh problem and start optimizing a stable pattern, the whole experience changes. You're less stressed, more on time, and quietly spending less.",
-          "Start by mapping your actual commute clearly: origin station, any transfers, destination station, walking time at each end. Once the route is fixed in your head, you can start improving it. Before that, you're just reacting every day.",
+          "Start by mapping your actual commute clearly: origin station, any transfers, destination station, walking time at each end. I prefer checking the official RTA route planner before committing to a home or office routine because one missing bus connection can change the whole commute. Once the route is fixed in your head, you can start improving it. (Reference: Dubai RTA Official Website)",
         ],
       },
       {
@@ -388,7 +388,7 @@ export const posts = [
     category: "Marketing",
     date: "February 10, 2026",
     readTime: "8 min read",
-    author: "Growth Team",
+    author: "Abdul Karim",
     image:
       "/images/dubai-digital-marketing.png",
     sections: [
@@ -410,7 +410,7 @@ export const posts = [
         heading: "A Landing Page That Doesn't Convert Is an Expensive Problem",
         paragraphs: [
           "Many Dubai businesses spend significant monthly budgets on paid ads that send traffic to landing pages that fail to convert. The ad is good. The audience targeting is reasonable. But the page the user arrives at is unclear, slow, disconnected from the ad's promise, or missing a simple reason for the user to take the next step. The entire ad spend is effectively paying to introduce people to a bad first impression.",
-          "Before increasing any ad budget, audit the pages that traffic currently lands on. Load speed, message clarity, mobile display, and strength of call-to-action are the four most impactful factors. Fixing these before scaling spend almost always improves performance more than increasing the budget.",
+          "Before increasing any ad budget, audit the pages that traffic currently lands on. Load speed, message clarity, mobile display, and strength of call-to-action are the four most impactful factors. If the campaign involves regulated sectors such as finance, healthcare, education, or immigration, check the relevant UAE or Dubai authority rules before publishing claims. (Source: UAE Government Portal)",
         ],
       },
       {
@@ -434,7 +434,7 @@ export const posts = [
     category: "Visa & Immigration",
     date: "March 5, 2026",
     readTime: "9 min read",
-    author: "Visa Research Desk",
+    author: "Abdul Karim",
     image:
       "/images/dubai-visa-types-2026.png",
     sections: [
@@ -442,7 +442,7 @@ export const posts = [
         heading: "There Are More Visa Options Than Most Expats Realize",
         paragraphs: [
           "When most people think about living in the UAE, they imagine the employment visa — the employer arranges it, you arrive, you work. That used to be the whole picture. In 2026, the options have expanded significantly. Freelance permits, the Green Visa, the Golden Visa, retirement visas, remote work visas, and investor categories have created a much wider range of pathways for people who want to live and work here.",
-          "Knowing which category applies to your situation matters because each visa type comes with different validity periods, renewal processes, family sponsorship rules, and income requirements. Choosing the wrong category — or not knowing a better option exists — can create unnecessary costs and complications.",
+          "Knowing which category applies to your situation matters because each visa type comes with different validity periods, renewal processes, family sponsorship rules, and income requirements. I would not rely on social media summaries here; visa categories should be checked against ICP or GDRFA guidance before money is paid to anyone. (Official Info: UAE Immigration Website)",
         ],
       },
       {
@@ -476,7 +476,7 @@ export const posts = [
     category: "Visa & Immigration",
     date: "March 4, 2026",
     readTime: "8 min read",
-    author: "Visa Research Desk",
+    author: "Abdul Karim",
     image:
       "/images/uae-golden-visa-apply.png",
     sections: [
@@ -497,7 +497,7 @@ export const posts = [
       {
         heading: "The Application Process Step by Step",
         paragraphs: [
-          "The process starts with obtaining a nomination or approval in principle through the Federal Authority for Identity, Citizenship, Customs and Port Security (ICP) or through the specific emirate's investment authority. For property investors, the Dubai Land Department (DLD) can issue a certificate of eligibility if the property meets requirements.",
+          "The process starts with obtaining a nomination or approval in principle through the Federal Authority for Identity, Citizenship, Customs and Port Security (ICP) or through the specific emirate's investment authority. For property investors, the Dubai Land Department (DLD) can issue a certificate of eligibility if the property meets requirements, so the official eligibility route should be checked before submitting paid applications. (Official Info: UAE Immigration Website)",
           "After initial approval, the standard residency visa steps follow: medical fitness test, Emirates ID application, and visa stamping. The full process typically takes four to eight weeks when documents are complete. Working with a registered PRO service speeds up the process and reduces errors that can cause unnecessary delays.",
         ],
       },
@@ -518,7 +518,7 @@ export const posts = [
     category: "Business",
     date: "March 3, 2026",
     readTime: "10 min read",
-    author: "SME Research Unit",
+    author: "Abdul Karim",
     image:
       "/images/freelance-dubai-guide.png",
     sections: [
@@ -526,7 +526,7 @@ export const posts = [
         heading: "Freelancing Legally Is More Accessible Than People Think",
         paragraphs: [
           "Many skilled professionals in the UAE are freelancing informally — taking side projects on an employment visa, getting paid to personal bank accounts, never officially declaring the work. The risk of this approach is real: it technically violates visa terms and creates complications if an income audit ever happens. The good news is that getting a proper freelance permit is cheaper and faster than most people expect.",
-          "Freelance permits are available through several free zones including Dubai Media City, Dubai Internet City, twofour54 in Abu Dhabi, Fujairah Creative City, and others. Costs vary but many start around AED 7,500 to AED 15,000 annually including the residency visa. For professionals earning above that annually from freelance work, it's a straightforward business decision.",
+          "Freelance permits are available through several free zones including Dubai Media City, Dubai Internet City, twofour54 in Abu Dhabi, Fujairah Creative City, and others. Costs vary but many start around AED 7,500 to AED 15,000 annually including the residency visa. Before paying, confirm the activity and visa rules with the issuing free zone or Dubai business portal, because the cheapest permit is not always the right one. (Source: Dubai Official Portal)",
         ],
       },
       {
@@ -560,7 +560,7 @@ export const posts = [
     category: "Living in Dubai",
     date: "March 1, 2026",
     readTime: "8 min read",
-    author: "Editorial Desk",
+    author: "Abdul Karim",
     image:
       "/images/dubai-rental-guide.png",
     sections: [
@@ -581,7 +581,7 @@ export const posts = [
       {
         heading: "Ejari Registration Is Not Optional",
         paragraphs: [
-          "Ejari is the official RERA registration system for Dubai tenancy contracts. Registering your lease through Ejari is a legal requirement and what makes your contract officially recognized in the UAE. You'll need Ejari registration to open DEWA accounts, apply for some visa types, and access certain government services. It's also your protection as a tenant if any dispute arises.",
+          "Ejari is the official RERA registration system for Dubai tenancy contracts. Registering your lease through Ejari is a legal requirement and what makes your contract officially recognized in the UAE. You'll need Ejari registration to open DEWA accounts, apply for some visa types, and access certain government services. It's also your protection as a tenant if any dispute arises. (Source: Dubai Official Portal)",
           "Ejari registration is typically arranged by the property agent or landlord, but confirm this is included before signing. The registration fee is around AED 220 and should not be charged to tenants unless clearly stated in the lease.",
         ],
       },
@@ -602,7 +602,7 @@ export const posts = [
     category: "Living in Dubai",
     date: "February 28, 2026",
     readTime: "7 min read",
-    author: "Editorial Desk",
+    author: "Abdul Karim",
     image:
       "/images/health-insurance-uae.png",
     sections: [
@@ -631,7 +631,7 @@ export const posts = [
         heading: "What to Do When a Claim Is Rejected",
         paragraphs: [
           "Claim rejections are not always final. If a claim is rejected, the first step is to request the specific reason in writing from the insurer. Common rejection reasons — missing pre-authorization, out-of-network provider, or incorrect billing code — can often be appealed with the right documentation from the treating physician.",
-          "Keep receipts, medical reports, and all correspondence from the provider and insurer in one folder. If an appeal is unsuccessful, DHA (Dubai Health Authority) provides a formal complaints mechanism for insurance disputes. Most valid appeals are resolved without reaching this stage.",
+          "Keep receipts, medical reports, and all correspondence from the provider and insurer in one folder. If an appeal is unsuccessful, DHA (Dubai Health Authority) provides a formal complaints mechanism for insurance disputes. In my experience, simply knowing that route exists often makes insurer conversations more serious and specific. (Source: Dubai Official Portal)",
         ],
       },
     ],
@@ -644,7 +644,7 @@ export const posts = [
     category: "Living in Dubai",
     date: "February 26, 2026",
     readTime: "7 min read",
-    author: "Editorial Desk",
+    author: "Abdul Karim",
     image:
       "/images/uae-banking-expats.png",
     sections: [
@@ -665,7 +665,7 @@ export const posts = [
       {
         heading: "Watch the Fee Structure Carefully",
         paragraphs: [
-          "UAE bank fees can be surprisingly complex. Minimum balance fees, international transfer fees, card replacement charges, SMS notification fees, and cheque book fees all add up. Read the schedule of charges document before opening any account — banks are required to make this available and it tells you exactly what you'll be charged for and under what conditions.",
+          "UAE bank fees can be surprisingly complex. Minimum balance fees, international transfer fees, card replacement charges, SMS notification fees, and cheque book fees all add up. Read the schedule of charges document before opening any account, and compare it with consumer banking information from official UAE sources when something looks unclear. (Source: UAE Government Portal)",
           "International remittance fees deserve particular attention for expats sending money home regularly. Some banks charge flat fees that are reasonable for large transfers but expensive for regular small amounts. Specialist remittance services like Wise or Al Ansari Exchange often provide better rates for regular smaller transfers.",
         ],
       },
@@ -686,7 +686,7 @@ export const posts = [
     category: "Family Life",
     date: "February 24, 2026",
     readTime: "9 min read",
-    author: "Editorial Desk",
+    author: "Abdul Karim",
     image:
       "/images/school-guide-dubai.png",
     sections: [
@@ -700,7 +700,7 @@ export const posts = [
       {
         heading: "How to Use KHDA Ratings Properly",
         paragraphs: [
-          "The Knowledge and Human Development Authority (KHDA) inspects and rates all private schools in Dubai annually. Ratings run from Outstanding to Very Weak. The ratings are publicly available on the KHDA website and are a useful starting point — but they should be one input, not the entire decision.",
+          "The Knowledge and Human Development Authority (KHDA) inspects and rates all private schools in Dubai annually. Ratings run from Outstanding to Very Weak. The ratings are publicly available through Dubai's official education channels and are a useful starting point — but they should be one input, not the entire decision. (Source: Dubai Official Portal)",
           "A 'Good' rated school with strong pastoral care, manageable class sizes, and excellent communication with parents may serve your child better than an 'Outstanding' school with large classes and a high-pressure environment. Visit the shortlisted schools during the school day rather than just at open days when everything is presentation-polished.",
         ],
       },
@@ -728,7 +728,7 @@ export const posts = [
     category: "Documents",
     date: "February 22, 2026",
     readTime: "8 min read",
-    author: "Documentation Desk",
+    author: "Abdul Karim",
     image:
       "/images/uae-driving-license.png",
     sections: [
@@ -743,7 +743,7 @@ export const posts = [
         heading: "The Full Training Process: What to Expect",
         paragraphs: [
           "The full UAE process starts with registering at an accredited driving institute. RTA-approved schools in Dubai include Emirates Driving Institute (EDI), Dubai Driving Center, and Galadari Motor Driving Center. Registration requires your UAE license, Emirates ID, passport, eye test at the institute, and payment of initial registration fees.",
-          "You'll complete theory classes (typically 8 hours), a theory test at the RTA, pre-parking and parking training, road training (minimum hours vary but typically 40+ practical sessions for full licensing), and a final road test. The full process from registration to license takes three to six months on average, and total costs including registration, training hours, and tests typically range from AED 3,500 to AED 6,000 depending on how many attempts tests require.",
+          "You'll complete theory classes (typically 8 hours), a theory test at the RTA, pre-parking and parking training, road training (minimum hours vary but typically 40+ practical sessions for full licensing), and a final road test. The full process from registration to license takes three to six months on average, and total costs including registration, training hours, and tests typically range from AED 3,500 to AED 6,000 depending on how many attempts tests require. (Reference: Dubai RTA Official Website)",
         ],
       },
       {
@@ -770,7 +770,7 @@ export const posts = [
     category: "Labour Law",
     date: "February 20, 2026",
     readTime: "7 min read",
-    author: "Legal Research Team",
+    author: "Abdul Karim",
     image:
       "/images/uae-gratuity-calculator.png",
     sections: [
@@ -799,7 +799,7 @@ export const posts = [
         heading: "What to Do If the Calculation Seems Wrong",
         paragraphs: [
           "If the gratuity you receive upon termination seems lower than your calculation, ask HR for a written breakdown of how the amount was determined. Common discrepancies arise from employers using total salary instead of basic salary (which would actually benefit the employee), or conversely, using an older or lower basic salary figure than your current one.",
-          "If the amount is genuinely incorrect and cannot be resolved through internal discussion, the Ministry of Human Resources and Emiratisation provides a formal dispute mechanism. Having your contract, salary slips, and calculation ready makes this process significantly faster.",
+          "If the amount is genuinely incorrect and cannot be resolved through internal discussion, the Ministry of Human Resources and Emiratisation provides a formal dispute mechanism. Having your contract, salary slips, and calculation ready makes this process significantly faster. (Source: UAE Government Portal)",
         ],
       },
     ],
@@ -812,7 +812,7 @@ export const posts = [
     category: "Labour Law",
     date: "February 18, 2026",
     readTime: "6 min read",
-    author: "Legal Research Team",
+    author: "Abdul Karim",
     image:
       "/images/uae-work-permit-guide.png",
     sections: [
@@ -841,7 +841,7 @@ export const posts = [
         heading: "Protecting Yourself as an Employee",
         paragraphs: [
           "The UAE Wage Protection System (WPS) requires most employers to pay salaries through an approved electronic payment system within a set timeframe each month. If your salary is consistently late or paid outside this system, it's worth raising formally — repeated WPS violations by employers are taken seriously by MOHRE.",
-          "Your employment contract must be registered with MOHRE (for mainland employees) and the terms should match what you actually receive. If the registered contract and the actual working conditions differ significantly, that creates grounds for a formal complaint.",
+          "Your employment contract must be registered with MOHRE (for mainland employees) and the terms should match what you actually receive. If the registered contract and the actual working conditions differ significantly, that creates grounds for a formal complaint, and the official labour channels are the place to verify the next step. (Source: UAE Government Portal)",
         ],
       },
     ],
@@ -854,7 +854,7 @@ export const posts = [
     category: "Living in Dubai",
     date: "February 16, 2026",
     readTime: "8 min read",
-    author: "Editorial Desk",
+    author: "Abdul Karim",
     image:
       "/images/abu-dhabi-vs-dubai.png",
     sections: [
@@ -883,7 +883,7 @@ export const posts = [
         heading: "Daily Life Quality: Personal Preference Matters Most",
         paragraphs: [
           "Abu Dhabi residents consistently describe it as less rushed. Roads are less congested outside of commute hours, the corniche and beach access is excellent, and the city's pace suits people who want a good urban lifestyle without the intensity of a major commercial hub. Yas Island and Saadiyat Island have added genuine leisure infrastructure in recent years.",
-          "Dubai residents value the diversity of options, the international connections, the airport access, and the sheer range of professional and social experiences available. For people who travel frequently or work in internationally connected industries, the logistics of Dubai's location and scale matter practically.",
+          "Dubai residents value the diversity of options, the international connections, the airport access, and the sheer range of professional and social experiences available. For people who travel frequently or work in internationally connected industries, the logistics of Dubai's location and scale matter practically, and official city service information is worth checking before choosing a long-term base. (Source: UAE Government Portal)",
         ],
       },
     ],
@@ -896,7 +896,7 @@ export const posts = [
     category: "Food & Life",
     date: "February 14, 2026",
     readTime: "6 min read",
-    author: "City Explorer",
+    author: "Abdul Karim",
     image:
       "/images/dubai-food-guide.png",
     sections: [
@@ -925,7 +925,7 @@ export const posts = [
         heading: "Groceries: Where to Shop Without Overpaying",
         paragraphs: [
           "Carrefour and Lulu Hypermarket are the most value-oriented major supermarket chains for everyday groceries, particularly for fresh produce, bulk staples, and South Asian or Middle Eastern ingredients. Spinneys and Waitrose are higher quality but noticeably more expensive — better for specific Western products that aren't available elsewhere.",
-          "Neighborhood fruit and vegetable shops, typically run by South Asian traders, consistently undercut supermarket fresh produce prices by 20 to 40 percent. Getting into the habit of buying fresh produce from these shops rather than supermarkets makes a real difference to the monthly grocery bill.",
+          "Neighborhood fruit and vegetable shops, typically run by South Asian traders, consistently undercut supermarket fresh produce prices by 20 to 40 percent. Getting into the habit of buying fresh produce from these shops rather than supermarkets makes a real difference to the monthly grocery bill, while Dubai Municipality food safety information remains the sensible reference for hygiene rules and complaints. (Source: Dubai Official Portal)",
         ],
       },
     ],
@@ -938,7 +938,7 @@ export const posts = [
     category: "Living in Dubai",
     date: "February 12, 2026",
     readTime: "6 min read",
-    author: "Editorial Desk",
+    author: "Abdul Karim",
     image:
       "/images/remittance-uae-guide.png",
     sections: [
@@ -967,7 +967,7 @@ export const posts = [
         heading: "Common Compliance Questions",
         paragraphs: [
           "The UAE has no restrictions on how much money residents can send abroad. However, large transfers above certain thresholds — typically around AED 55,000 equivalent in a single transaction — may trigger additional documentation requests from the receiving bank or the sending service under standard anti-money laundering protocols. This is routine and nothing to be concerned about if funds are from legitimate income.",
-          "Using licensed exchange houses and banks for all remittances means you have clear transaction records that can be produced if ever requested. Avoid informal hawala channels even when they offer better rates — the regulatory and practical risks aren't worth the short-term saving.",
+          "Using licensed exchange houses and banks for all remittances means you have clear transaction records that can be produced if ever requested. Avoid informal hawala channels even when they offer better rates — the regulatory and practical risks aren't worth the short-term saving, especially when official UAE financial compliance rules are clear about using licensed channels. (Source: UAE Government Portal)",
         ],
       },
     ],
@@ -980,7 +980,7 @@ export const posts = [
     category: "Business",
     date: "February 10, 2026",
     readTime: "7 min read",
-    author: "SME Research Unit",
+    author: "Abdul Karim",
     image:
       "/images/uae-tax-free-income.png",
     sections: [
@@ -1009,7 +1009,7 @@ export const posts = [
         heading: "VAT Is Real and Applies to Most Purchases",
         paragraphs: [
           "The UAE introduced VAT at 5 percent in 2018. It applies to most goods and services purchased in the UAE — restaurants, retail, rent (for commercial premises), utilities, and professional services are all subject to VAT. Certain categories including residential rent, healthcare, education, and basic food items are either zero-rated or exempt.",
-          "For individuals, VAT is simply a cost built into prices. For business owners, VAT registration is mandatory when taxable turnover exceeds AED 375,000 annually. Below this threshold, voluntary registration is available. Understanding your VAT obligations from the start of trading avoids retrospective complications.",
+          "For individuals, VAT is simply a cost built into prices. For business owners, VAT registration is mandatory when taxable turnover exceeds AED 375,000 annually. Below this threshold, voluntary registration is available. Check the Federal Tax Authority's official guidance before deciding whether to register voluntarily, because late fixes are rarely pleasant. (Source: UAE Government Portal)",
         ],
       },
     ],
@@ -1022,7 +1022,7 @@ export const posts = [
     category: "Living in Dubai",
     date: "February 8, 2026",
     readTime: "8 min read",
-    author: "Editorial Desk",
+    author: "Abdul Karim",
     image:
       "/images/expat-life-dubai-guide.png",
     sections: [
@@ -1051,7 +1051,7 @@ export const posts = [
         heading: "Making Dubai Work Long-Term",
         paragraphs: [
           "The expats who build the best long-term lives in Dubai tend to share a few characteristics: they invest genuinely in local friendships across nationalities, they manage their finances actively rather than assuming the tax advantage will automatically translate into savings, they engage with the culture respectfully rather than treating the UAE as purely transactional, and they make a deliberate decision about how long they want to stay rather than drifting indefinitely.",
-          "Having a clear horizon — even an adjustable one — helps with every decision, from housing to career choices to how much to invest in local relationships. Dubai rewards intentionality.",
+          "Having a clear horizon — even an adjustable one — helps with every decision, from housing to career choices to how much to invest in local relationships. For the practical parts of settling in, official UAE portals are still the cleanest reference point; personal advice is useful, but it should not replace verified rules. (Source: UAE Government Portal)",
         ],
       },
     ],
@@ -1063,7 +1063,7 @@ export const posts = [
   category: "Jobs",
   date: "March 26, 2026",
   readTime: "8 min read",
-  author: "Career Desk",
+  author: "Abdul Karim",
   image:
     "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80",
   sections: [
@@ -1085,7 +1085,7 @@ export const posts = [
       heading: "The Visa Transfer Process — What Actually Happens",
       paragraphs: [
         "When you change jobs in the UAE, your residence visa needs to transfer from your old employer to your new one. Your old employer cancels your current work permit and visa, and your new employer initiates a new one. The timing of this matters a lot. Ideally, your new employer starts the new visa process before your last day at the old company so there's minimal gap.",
-        "Once your visa is cancelled, you typically have 30 days to either get a new visa sponsored or leave the country. Most smooth job transitions happen quickly enough that this isn't an issue. But if you're between jobs for any reason, it's worth understanding that timeline so you're not caught out.",
+        "Once your visa is cancelled, you typically have a grace period to either get a new visa sponsored or leave the country, and the exact period can vary by visa type and status. Most smooth job transitions happen quickly enough that this isn't an issue, but I would always verify the current rule through ICP or GDRFA before resigning. (Official Info: UAE Immigration Website)",
       ],
     },
     {
@@ -1094,7 +1094,10 @@ export const posts = [
         "Before your last day, make sure your end-of-service gratuity calculation is correct and that you receive it. Get the breakdown in writing from HR. Check that it's been calculated on your basic salary only — not your total package — and that the years of service are correct.",
         "Also collect copies of everything: your service certificate, final salary confirmation, and any other documentation that confirms your employment history. These come up more often than you'd expect when applying for visas, bank accounts, or new jobs in the future. Getting them at the time is much easier than chasing them from a former employer months later.",
       ],
-    },{
+    },
+  ],
+},
+{
   slug: "uae-salary-negotiation-guide",
   title: "How to Negotiate Your Salary in the UAE: What Actually Works",
   excerpt:
@@ -1102,7 +1105,7 @@ export const posts = [
   category: "Jobs",
   date: "March 25, 2026",
   readTime: "7 min read",
-  author: "Career Desk",
+  author: "Abdul Karim",
   image:
     "https://images.unsplash.com/photo-1553028826-f4804a6dba3b?auto=format&fit=crop&w=1200&q=80",
   sections: [
@@ -1131,13 +1134,12 @@ export const posts = [
       heading: "It's Not Just About the Base Number",
       paragraphs: [
         "In the UAE, total compensation includes base salary, housing allowance, transport allowance, health insurance quality, annual flight allowance, and end-of-service gratuity — which is calculated on basic salary only, so a higher basic with lower allowances is actually better for your long-term gratuity calculation.",
-        "If the base number genuinely can't move, ask about other components. An extra flight ticket, better health insurance, a higher housing allowance, or an earlier performance review date are all negotiable in many companies. The total package is what matters, and experienced negotiators know that base salary is just one part of it.",
+        "If the base number genuinely can't move, ask about other components. An extra flight ticket, better health insurance, a higher housing allowance, or an earlier performance review date are all negotiable in many companies. The total package is what matters, and experienced negotiators also check labour-law basics before accepting clever-looking allowance splits. (Source: UAE Government Portal)",
       ],
     },
   ],
 },
-  ],
-}, {
+{
   slug: "uae-linkedin-profile-guide",
   title: "Your LinkedIn Profile Is Losing You Jobs in the UAE — Here's How to Fix It",
   excerpt:
@@ -1145,7 +1147,7 @@ export const posts = [
   category: "Jobs",
   date: "March 24, 2026",
   readTime: "6 min read",
-  author: "Career Desk",
+  author: "Abdul Karim",
   image:
     "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?auto=format&fit=crop&w=1200&q=80",
   sections: [
@@ -1174,7 +1176,7 @@ export const posts = [
       heading: "Activity and Connections Are What Trigger the Algorithm",
       paragraphs: [
         "A complete, well-written profile that sits dormant doesn't get much traction on LinkedIn. The platform rewards activity — commenting thoughtfully on posts in your industry, sharing relevant content occasionally, and connecting with people you've actually met or worked with. You don't need to post daily or turn into a LinkedIn influencer. Even light activity a couple of times a week significantly increases your profile visibility.",
-        "For UAE-specific job searching, make sure your location is set to the UAE and your Open to Work settings are configured correctly. Recruiters filter by location constantly. If your profile still shows your home country as your location, you're being filtered out before anyone even reads your name.",
+        "For UAE-specific job searching, make sure your location is set to the UAE and your Open to Work settings are configured correctly. Recruiters filter by location constantly. If your profile still shows your home country as your location, you're being filtered out before anyone even reads your name. For regulated roles, keep your visa and work eligibility claims aligned with official UAE labour information. (Source: UAE Government Portal)",
       ],
     },
   ],
@@ -1186,7 +1188,7 @@ export const posts = [
   category: "Jobs",
   date: "March 23, 2026",
   readTime: "8 min read",
-  author: "Career Desk",
+  author: "Abdul Karim",
   image:
     "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
   sections: [
@@ -1208,7 +1210,7 @@ export const posts = [
       heading: "The Honest Truth About Networking in the UAE",
       paragraphs: [
         "The UAE job market runs on relationships to a degree that surprises most people who come from markets where skills and CVs do most of the work. A warm introduction from someone inside a company will consistently outperform a cold application through a portal, even when the cold applicant is more qualified on paper. This isn't cynicism — it's just how decisions get made here.",
-        "Building that network takes time, but the starting points are practical: industry events, professional associations, alumni networks, LinkedIn connections with people you've met in person, and simply being visible and useful in your professional community. The people who find the best opportunities in Dubai are usually the ones who made consistent network investment before they needed it.",
+        "Building that network takes time, but the starting points are practical: industry events, professional associations, alumni networks, LinkedIn connections with people you've met in person, and simply being visible and useful in your professional community. The people who find the best opportunities in Dubai are usually the ones who made consistent network investment before they needed it, while still verifying contracts and permits through official UAE channels before joining. (Source: UAE Government Portal)",
       ],
     },
     {
