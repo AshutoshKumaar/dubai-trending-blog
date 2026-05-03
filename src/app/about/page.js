@@ -1,131 +1,115 @@
 export const metadata = {
-  title: "About Us",
+  title: "About Dubai Trending",
   description:
-    "Learn about Dubai Trending, an independent Dubai-focused publisher covering news, guides, lifestyle, jobs, travel, and business.",
+    "Learn about Dubai Trending and how we publish practical, real-world guides for jobs, documents, and daily life in Dubai.",
 };
-
-const coverageAreas = [
-  "Dubai practical news and city updates",
-  "Resident and expat-focused practical guides",
-  "Lifestyle and local trend coverage",
-  "Jobs, career, and work-related information",
-  "Travel insights for visitors and planners",
-  "Local business and service-related explainers",
-];
-
-const trustPoints = [
-  "Independent digital publisher founded by AK Abdul Karim",
-  "Weekly publishing schedule focused on accuracy and clarity",
-  "Reader-first editorial approach with clear and practical writing",
-  "Transparent informational pages including contact, privacy, and editorial policy",
-];
 
 export default function AboutPage() {
   return (
     <main className="min-h-screen bg-slate-50 text-slate-900">
+      
+      {/* HERO */}
       <section className="mx-auto w-full max-w-6xl px-4 py-12 sm:px-6">
-        <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm sm:p-10">
+        <div className="rounded-3xl border bg-white p-8 shadow-sm sm:p-10">
           <p className="text-xs font-bold uppercase tracking-wider text-amber-600">
             About Dubai Trending
           </p>
-          <h1 className="mt-3 max-w-4xl text-4xl font-black leading-tight sm:text-5xl">
-            A professional Dubai-focused blog for readers who need clear,
-            current, and practical information
+
+          <h1 className="mt-3 text-4xl font-black sm:text-5xl">
+            Practical Dubai Guides Built on Real Experiences
           </h1>
-          <p className="mt-6 max-w-4xl text-base leading-8 text-slate-700">
-            Dubai Trending is an independent content platform created to cover
-            trending topics and useful information related to Dubai. The website
-            is built for residents, tourists, expats, job seekers, and business
-            owners who want content that is informative, readable, and relevant
-            to real-life decisions.
+
+          <p className="mt-6 text-base leading-8 text-slate-700">
+            Dubai Trending is an independent blog focused on simplifying everyday life in the UAE.
+            The goal is not just to explain topics — but to make them actually understandable
+            and useful in real situations.
           </p>
-          <p className="mt-4 max-w-4xl text-base leading-8 text-slate-700">
-            The editorial direction focuses on practical Dubai topics that
-            readers search for regularly, including jobs, documents, transport,
-            neighborhoods, city services, and selected lifestyle updates. The
-            aim is to publish useful articles that remain readable and relevant
-            after the first visit.
+
+          <p className="mt-4 text-base leading-8 text-slate-700">
+            Most information online explains things at a surface level. What we focus on instead
+            is what actually happens — real costs, common mistakes, and practical decisions
+            that people face after moving to Dubai.
+          </p>
+
+          <p className="mt-4 text-base leading-8 text-slate-700">
+            Whether you're a job seeker, expat, or someone planning to move, this platform is
+            designed to give you clear and realistic guidance.
+          </p>
+
+          <p className="mt-5 text-sm text-slate-500">
+            Written and managed by <strong>Abdul Karim</strong> • UAE Research & Practical Guides
           </p>
         </div>
       </section>
 
-      <section className="mx-auto grid w-full max-w-6xl gap-6 px-4 pb-10 sm:px-6 lg:grid-cols-[1.2fr_0.8fr]">
-        <article className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
-          <h2 className="text-2xl font-black">What Dubai Trending Covers</h2>
-          <div className="mt-5 grid gap-3 md:grid-cols-2">
-            {coverageAreas.map((item) => (
-              <div
-                key={item}
-                className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 text-sm leading-6 text-slate-700"
-              >
-                {item}
-              </div>
-            ))}
-          </div>
-        </article>
-
-        <article className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
-          <h2 className="text-2xl font-black">Publishing Style</h2>
-          <p className="mt-4 text-sm leading-7 text-slate-700">
-            The site uses a friendly tone while maintaining a professional page
-            structure. Content is published on a weekly schedule and is written
-            to remain accessible for readers who want fast understanding without
-            sacrificing clarity.
-          </p>
-          <div className="mt-5 flex flex-wrap gap-2">
-            <span className="rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-700">
-              Weekly updates
-            </span>
-            <span className="rounded-full bg-amber-50 px-3 py-1 text-xs font-semibold text-amber-700">
-              Friendly tone
-            </span>
-            <span className="rounded-full bg-emerald-50 px-3 py-1 text-xs font-semibold text-emerald-700">
-              Independent publisher
-            </span>
-          </div>
-        </article>
-      </section>
-
+      {/* WHAT WE COVER */}
       <section className="mx-auto w-full max-w-6xl px-4 pb-10 sm:px-6">
-        <article className="rounded-3xl border border-slate-200 bg-slate-900 p-6 text-slate-100 shadow-sm sm:p-8">
-          <h2 className="text-2xl font-black">Why Readers and Advertisers Can Trust This Site</h2>
-          <div className="mt-5 grid gap-3 md:grid-cols-2">
-            {trustPoints.map((item) => (
-              <div
-                key={item}
-                className="rounded-2xl border border-slate-700 bg-slate-800/80 px-4 py-4 text-sm leading-6 text-slate-200"
-              >
-                {item}
-              </div>
-            ))}
-          </div>
-          <p className="mt-6 max-w-4xl text-sm leading-7 text-slate-300">
-            Dubai Trending is structured as an independent blog with clear
-            navigation, dedicated informational pages, and original articles
-            designed to help readers understand common Dubai topics in a more
-            practical way.
-          </p>
-        </article>
+        <div className="rounded-3xl border bg-white p-6 shadow-sm">
+          <h2 className="text-2xl font-black">What This Blog Covers</h2>
+
+          <ul className="mt-5 grid gap-3 md:grid-cols-2 text-sm text-slate-700">
+            <li>✔ Cost of living and real monthly expenses</li>
+            <li>✔ Jobs, hiring patterns, and application tips</li>
+            <li>✔ Visa, Emirates ID, and documentation guides</li>
+            <li>✔ Transport systems like metro, Nol card, and travel</li>
+            <li>✔ Daily life decisions for residents and expats</li>
+            <li>✔ Practical insights based on real situations</li>
+          </ul>
+        </div>
       </section>
 
-      <section className="mx-auto w-full max-w-6xl px-4 pb-16 sm:px-6">
-        <article className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
-          <h2 className="text-2xl font-black">Editorial Contact</h2>
-          <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-700">
-            For editorial questions, corrections, feedback, or partnership
-            inquiries related to site content, readers can contact the Dubai
-            Trending support desk using the email below.
+      {/* EXPERIENCE SECTION */}
+      <section className="mx-auto w-full max-w-6xl px-4 pb-10 sm:px-6">
+        <div className="rounded-3xl border bg-white p-6 shadow-sm">
+          <h2 className="text-2xl font-black">How Content Is Created</h2>
+
+          <p className="mt-4 text-sm leading-7 text-slate-700">
+            Every article is written based on real patterns observed across expat experiences,
+            public resources, and commonly faced problems. The focus is on clarity — not
+            complicated explanations.
           </p>
-          <div className="mt-6 rounded-2xl border border-amber-200 bg-amber-50 px-5 py-5">
-            <p className="text-xs font-bold uppercase tracking-wide text-amber-700">
-              Support Email
-            </p>
-            <p className="mt-2 text-lg font-bold text-slate-900">
-              support@dubaitrending.com
-            </p>
-          </div>
-        </article>
+
+          <p className="mt-3 text-sm leading-7 text-slate-700">
+            Topics are selected based on what people actually search for and struggle with,
+            such as job applications, cost planning, and navigating local systems.
+          </p>
+
+          <p className="mt-3 text-sm leading-7 text-slate-700">
+            Wherever possible, information is cross-checked with official UAE sources to
+            maintain accuracy.
+          </p>
+        </div>
       </section>
+
+      {/* TRUST SECTION */}
+      <section className="mx-auto w-full max-w-6xl px-4 pb-10 sm:px-6">
+        <div className="rounded-3xl border bg-green-50 p-6">
+          <h2 className="text-2xl font-black">Why You Can Trust This Site</h2>
+
+          <ul className="mt-4 grid gap-2 text-sm sm:grid-cols-2 text-slate-700">
+            <li>✔ Independent content (no misleading promotions)</li>
+            <li>✔ Practical, experience-based insights</li>
+            <li>✔ Regularly updated articles</li>
+            <li>✔ Written for real-life use, not just reading</li>
+          </ul>
+        </div>
+      </section>
+
+      {/* CONTACT */}
+      <section className="mx-auto w-full max-w-6xl px-4 pb-16 sm:px-6">
+        <div className="rounded-3xl border bg-white p-6 shadow-sm">
+          <h2 className="text-2xl font-black">Contact & Support</h2>
+
+          <p className="mt-4 text-sm text-slate-700">
+            For feedback, corrections, or content-related queries, you can reach out via email.
+          </p>
+
+          <div className="mt-5 rounded-xl bg-amber-50 p-4">
+            <p className="text-sm font-bold">support@dubaitrendings.com</p>
+          </div>
+        </div>
+      </section>
+
     </main>
   );
 }

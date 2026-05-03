@@ -25,116 +25,118 @@ const quickCategories = [
 
 const primaryTools = tools.slice(0, 4);
 
-export const metadata = {
-  title: `Dubai Trending | ${posts.length} Practical Dubai Guides, Jobs, Documents, and City Living Articles`,
-  description:
-    "Read practical Dubai guides covering jobs, documents, transport, neighborhood choices, and everyday city living.",
-  alternates: {
-    canonical: "/",
-  },
-};
-
 export default function Home() {
   const editorPicks = posts.slice(0, 6);
   const latestPosts = posts.slice(6, 18);
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-slate-100 via-slate-50 to-white text-slate-900">
+      
       <HeroShowcase posts={posts} />
 
-      <section className="mx-auto grid w-full max-w-6xl gap-6 px-4 pb-8 sm:px-6 lg:grid-cols-[1.4fr_1fr]">
-        <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
-          <h2 className="text-2xl font-black">Welcome to Dubai Trending Blog</h2>
-          <p className="mt-3 text-slate-700">
-            Dubai Trending publishes practical weekly guides on jobs, documents,
-            transport, neighborhood choices, and everyday city living.
+      {/* ✅ ABOUT + TRUST CONTENT */}
+      <section className="mx-auto w-full max-w-6xl px-4 py-8 sm:px-6">
+        <div className="rounded-3xl border bg-white p-6 shadow-sm">
+          <h1 className="text-3xl font-black">
+            Dubai Trending – Practical UAE Guides for Real Life
+          </h1>
+
+          <p className="mt-4 text-slate-700">
+            Dubai Trending is built to help people understand real life in the UAE —
+            from jobs and visas to transport, cost of living, and everyday decisions
+            that actually matter.
           </p>
+
           <p className="mt-3 text-slate-700">
-            The goal is simple: help readers understand common Dubai topics in
-            clear English without filler, exaggerated claims, or confusing layouts.
+            Most online guides explain things at a surface level. Here, the focus is
+            on what actually happens — real costs, common mistakes, and practical
+            decisions that make life easier.
           </p>
-          <div className="mt-5 flex flex-wrap gap-2">
-            {["Dubai", "UAE Jobs", "Visa", "Emirates ID", "Labour"].map((tag) => (
-              <span key={tag} className="rounded bg-red-600 px-2 py-1 text-xs font-semibold text-white">
-                {tag}
-              </span>
-            ))}
-          </div>
+
+          <p className="mt-3 text-slate-700">
+            Whether you're moving to Dubai or already living here, the goal is simple:
+            clear, useful, and honest information you can actually use.
+          </p>
+
+          <p className="mt-4 text-sm text-slate-500">
+            Written by Abdul Karim • UAE Practical Guides
+          </p>
 
           <ToolModals tools={primaryTools} />
         </div>
-
-        <aside className="space-y-4">
-          <div className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
-            <h2 className="text-lg font-extrabold">Quick Categories</h2>
-            <div className="mt-4 grid grid-cols-2 gap-2 text-sm">
-              {quickCategories.map((item) => (
-                <Link
-                  key={item.label}
-                  href={`/blog?category=${encodeURIComponent(item.category)}`}
-                  className="rounded-lg border border-slate-200 bg-slate-100 px-3 py-2 text-center font-semibold text-slate-700 transition hover:-translate-y-0.5 hover:border-blue-300 hover:bg-white hover:text-blue-700"
-                >
-                  {item.label}
-                </Link>
-              ))}
-            </div>
-          </div>
-        </aside>
       </section>
 
-      <section className="mx-auto w-full max-w-6xl px-4 pb-10 sm:px-6">
-        <div className="mb-5 flex items-center justify-between">
-          <h2 className="text-2xl font-black">Editor Picks</h2>
-          <Link href="/blog" className="text-sm font-bold text-blue-700 transition hover:text-blue-900">
-            Explore all
-          </Link>
+      {/* ✅ QUICK NAV */}
+      <section className="mx-auto w-full max-w-6xl px-4 pb-8 sm:px-6">
+        <div className="rounded-3xl border bg-white p-5 shadow-sm">
+          <h2 className="text-xl font-extrabold">Quick Categories</h2>
+          <div className="mt-4 grid grid-cols-2 gap-2">
+            {quickCategories.map((item) => (
+              <Link
+                key={item.label}
+                href={`/blog?category=${encodeURIComponent(item.category)}`}
+                className="rounded-lg border bg-slate-100 px-3 py-2 text-center font-semibold hover:bg-white hover:text-blue-700"
+              >
+                {item.label}
+              </Link>
+            ))}
+          </div>
         </div>
+      </section>
+
+      {/* ✅ EDITOR PICKS */}
+      <section className="mx-auto w-full max-w-6xl px-4 pb-10 sm:px-6">
+        <h2 className="text-2xl font-black mb-5">Editor Picks</h2>
+
         <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
           {editorPicks.map((post) => (
             <Link
               key={post.slug}
               href={`/blog/${post.slug}`}
-              className="group rounded-2xl border border-slate-200 bg-white p-4 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
+              className="rounded-2xl border bg-white p-4 shadow-sm hover:shadow-md"
             >
-              <p className="text-xs font-semibold uppercase tracking-wide text-red-600">{post.category}</p>
-              <h3 className="mt-2 line-clamp-2 text-lg font-extrabold group-hover:text-blue-700">{post.title}</h3>
-              <p className="mt-2 text-sm text-slate-600">{post.date}</p>
+              <p className="text-xs text-red-600 font-semibold">{post.category}</p>
+              <h3 className="mt-2 text-lg font-extrabold">{post.title}</h3>
+              <p className="text-sm text-slate-500 mt-2">{post.date}</p>
             </Link>
           ))}
         </div>
       </section>
 
+      {/* ✅ LATEST POSTS */}
       <section className="mx-auto w-full max-w-6xl px-4 pb-12 sm:px-6">
-        <div className="mb-5 flex items-center justify-between">
-          <h2 className="text-2xl font-black">More Latest Blogs</h2>
-          <Link href="/blog" className="text-sm font-bold text-blue-700 transition hover:text-blue-900">
-            View all {posts.length} posts
-          </Link>
-        </div>
+        <h2 className="text-2xl font-black mb-5">Latest Articles</h2>
 
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {latestPosts.map((post) => (
             <article
               key={post.slug}
-              className="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg"
+              className="rounded-2xl border bg-white shadow-sm hover:shadow-lg"
             >
               <div className="relative h-44 w-full">
                 <Image src={post.image} alt={post.title} fill className="object-cover" />
               </div>
+
               <div className="p-4">
-                <p className="text-xs font-semibold uppercase tracking-wide text-blue-700">{post.category}</p>
-                <h3 className="mt-2 line-clamp-2 text-lg font-extrabold leading-snug transition group-hover:text-blue-800">
+                <p className="text-xs text-blue-700 font-semibold">{post.category}</p>
+
+                <h3 className="mt-2 text-lg font-extrabold">
                   {post.title}
                 </h3>
-                <p className="mt-2 line-clamp-2 text-sm text-slate-600">{post.excerpt}</p>
+
+                <p className="mt-2 text-sm text-slate-600">
+                  {post.excerpt}
+                </p>
+
                 <p className="mt-3 text-xs text-slate-500">
                   {post.date} • {post.readTime}
                 </p>
+
                 <Link
                   href={`/blog/${post.slug}`}
-                  className="mt-4 inline-flex text-sm font-bold text-slate-900 transition hover:text-blue-700"
+                  className="mt-3 inline-block text-sm font-bold text-blue-700"
                 >
-                  Read article -&gt;
+                  Read article →
                 </Link>
               </div>
             </article>
@@ -142,31 +144,41 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ✅ TRUST SECTION */}
       <section className="mx-auto w-full max-w-6xl px-4 pb-10 sm:px-6">
-        <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
-          <h2 className="text-2xl font-black">Popular Reader Tools</h2>
-          <ToolModals tools={tools} className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3" />
+        <div className="rounded-3xl border bg-green-50 p-6">
+          <h2 className="text-2xl font-black">Why Trust This Blog</h2>
+
+          <ul className="mt-4 grid gap-2 text-sm sm:grid-cols-2">
+            <li>✔ Real-world, experience-based insights</li>
+            <li>✔ Regularly updated UAE guides</li>
+            <li>✔ No clickbait or misleading info</li>
+            <li>✔ Simple, practical explanations</li>
+          </ul>
         </div>
       </section>
 
-      <section className="mx-auto w-full max-w-6xl px-4 pb-10 sm:px-6">
-        <div className="rounded-3xl border border-blue-200 bg-blue-50 p-6">
-          <h2 className="text-2xl font-black text-slate-900">Join Weekly Dubai Updates</h2>
+      {/* ✅ NEWSLETTER */}
+      <section className="mx-auto w-full max-w-6xl px-4 pb-12 sm:px-6">
+        <div className="rounded-3xl border bg-blue-50 p-6">
+          <h2 className="text-2xl font-black">Join Weekly Dubai Updates</h2>
           <p className="mt-2 text-sm text-slate-700">
-            Get practical blog updates on jobs, documents, local services, and city living.
+            Get updates on jobs, documents, and practical Dubai insights.
           </p>
           <NewsletterSignup />
         </div>
       </section>
 
+      {/* ✅ FINAL VALUE SECTION */}
       <section className="mx-auto w-full max-w-6xl px-4 pb-16 sm:px-6">
-        <div className="rounded-3xl border border-slate-200 bg-slate-900 p-6 text-slate-100">
-          <h2 className="text-2xl font-black">What Readers Can Expect</h2>
-          <ul className="mt-4 grid gap-2 text-sm text-slate-200 sm:grid-cols-2">
-            <li>Original long-form articles with clear structure</li>
-            <li>Simple navigation across blog categories and legal pages</li>
-            <li>Practical topics for residents, expats, visitors, and job seekers</li>
-            <li>Readable English written for general audiences</li>
+        <div className="rounded-3xl bg-slate-900 p-6 text-white">
+          <h2 className="text-2xl font-black">What You’ll Find Here</h2>
+
+          <ul className="mt-4 grid gap-2 text-sm sm:grid-cols-2">
+            <li>Practical job & visa guides</li>
+            <li>Real cost of living breakdowns</li>
+            <li>Step-by-step processes</li>
+            <li>Clear and simple explanations</li>
           </ul>
         </div>
       </section>

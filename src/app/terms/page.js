@@ -1,69 +1,80 @@
 export const metadata = {
   title: "Terms of Use",
   description:
-    "Read the terms of use for Dubai Trending, including content use, reader responsibilities, and website access conditions.",
+    "Understand the terms and conditions for using Dubai Trending, including content usage, reader responsibility, and website policies.",
 };
 
 const termsSections = [
   {
-    title: "General Use of the Website",
+    title: "Use of Website",
     text:
-      "Dubai Trending is provided as an informational website for readers looking for Dubai-related news, guides, lifestyle coverage, jobs, travel, and business content. By using the site, visitors agree to use the content responsibly and in accordance with applicable law.",
+      "Dubai Trending is an informational platform designed to provide practical content related to Dubai. By accessing this website, you agree to use it responsibly and in accordance with applicable laws.",
   },
   {
-    title: "Informational Nature of Content",
+    title: "Informational Purpose Only",
     text:
-      "Content published on the website is intended for general informational and editorial purposes. It should not be interpreted as legal, immigration, employment, financial, or government-authorized advice unless explicitly stated.",
+      "All content on this website is intended for general informational use. It should not be considered legal, financial, immigration, employment, or official advice.",
   },
   {
-    title: "Reader Responsibility",
+    title: "User Responsibility",
     text:
-      "Readers are responsible for verifying time-sensitive or official information with authorized institutions, government platforms, or regulated service providers where necessary.",
+      "Users are responsible for verifying any time-sensitive or important information through official UAE sources or qualified professionals before making decisions.",
   },
   {
-    title: "Content Use and Restrictions",
+    title: "Content Usage",
     text:
-      "Reproduction, bulk copying, automated scraping, republishing, or misuse of published material without permission is not permitted. Limited fair reference may be acceptable where properly attributed and lawful.",
+      "All content on Dubai Trending is the intellectual property of the website. Copying, republishing, scraping, or distributing content without permission is not allowed, except for limited fair use with proper attribution.",
   },
   {
-    title: "Third-Party Links and Services",
+    title: "External Links",
     text:
-      "The website may reference third-party sources, tools, services, or advertisements. Dubai Trending is not responsible for the policies, accuracy, or operations of external platforms linked from the site.",
+      "The website may include references to third-party platforms or services. Dubai Trending is not responsible for the content, policies, or reliability of any external site.",
   },
   {
-    title: "Changes to Website Content",
+    title: "Updates and Changes",
     text:
-      "Website content, structure, and published materials may be updated, edited, expanded, or removed at any time in order to maintain relevance, accuracy, and operational quality.",
+      "Content, structure, and policies on the website may be updated or changed at any time to maintain accuracy, relevance, and performance.",
   },
 ];
 
 export default function TermsPage() {
   return (
     <main className="min-h-screen bg-slate-50 text-slate-900">
+
+      {/* HEADER */}
       <section className="mx-auto w-full max-w-6xl px-4 py-12 sm:px-6">
-        <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm sm:p-10">
-          <p className="text-xs font-bold uppercase tracking-wider text-amber-600">
+        <div className="rounded-3xl border bg-white p-8 shadow-sm sm:p-10">
+          <p className="text-xs font-bold uppercase text-amber-600">
             Terms of Use
           </p>
-          <h1 className="mt-3 text-4xl font-black leading-tight sm:text-5xl">
-            Terms and conditions for using Dubai Trending
+
+          <h1 className="mt-3 text-4xl font-black sm:text-5xl">
+            Terms and Conditions for Using Dubai Trending
           </h1>
-          <p className="mt-5 max-w-4xl text-base leading-8 text-slate-700">
-            These terms explain the general conditions under which visitors may
-            access, read, and interact with Dubai Trending. The purpose of this
-            page is to clarify reader responsibilities, acceptable use of the
-            site, and the informational nature of the content published across the
-            platform.
+
+          <p className="mt-5 text-base leading-8 text-slate-700">
+            These terms explain how the Dubai Trending website can be used and
+            what users should understand before relying on the information provided.
+          </p>
+
+          <p className="mt-3 text-base text-slate-700">
+            By using this website, you agree to follow these terms and use the
+            content responsibly.
+          </p>
+
+          <p className="mt-4 text-sm text-slate-500">
+            Managed by Abdul Karim • Dubai Practical Content
           </p>
         </div>
       </section>
 
+      {/* SECTIONS */}
       <section className="mx-auto w-full max-w-6xl px-4 pb-10 sm:px-6">
         <div className="grid gap-6 md:grid-cols-2">
           {termsSections.map((section) => (
             <article
               key={section.title}
-              className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm"
+              className="rounded-3xl border bg-white p-6 shadow-sm"
             >
               <h2 className="text-xl font-black">{section.title}</h2>
               <p className="mt-3 text-sm leading-7 text-slate-700">
@@ -74,16 +85,23 @@ export default function TermsPage() {
         </div>
       </section>
 
+      {/* FINAL CONTACT */}
       <section className="mx-auto w-full max-w-6xl px-4 pb-16 sm:px-6">
-        <article className="rounded-3xl border border-slate-200 bg-slate-900 p-6 text-slate-100 shadow-sm sm:p-8">
-          <h2 className="text-2xl font-black">Questions About These Terms</h2>
-          <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-300">
-            If clarification is needed regarding content usage, attribution,
-            published material, or reader obligations, the support team can be
-            contacted through the website contact page and support email channel.
+        <article className="rounded-3xl border bg-slate-900 p-6 text-white shadow-sm sm:p-8">
+          <h2 className="text-2xl font-black">Questions or Clarifications</h2>
+
+          <p className="mt-4 text-sm leading-7 text-slate-300">
+            If you have questions about content usage, policies, or terms,
+            you can contact the support team through the contact page or
+            email provided on the website.
+          </p>
+
+          <p className="mt-3 text-sm text-slate-300">
+            All requests are reviewed to ensure clarity and proper guidance.
           </p>
         </article>
       </section>
+
     </main>
   );
 }

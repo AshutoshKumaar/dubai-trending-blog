@@ -1,58 +1,71 @@
 export const metadata = {
   title: "Disclaimer",
   description:
-    "Read the disclaimer for Dubai Trending, including limitations on advice, official affiliations, and content reliance.",
+    "Read the disclaimer for Dubai Trending, including content limitations, external references, and user responsibility.",
 };
 
 const disclaimerSections = [
   {
-    title: "No Official Affiliation",
+    title: "Independent Publisher (No Official Affiliation)",
     text:
-      "Dubai Trending is an independent publisher and should not be interpreted as an official government, legal, immigration, employment, or regulatory authority unless explicitly stated on a specific page.",
+      "Dubai Trending is an independent informational blog. It is not affiliated with any UAE government authority, immigration department, legal body, or official organization unless clearly stated on a specific page.",
   },
   {
-    title: "No Professional Advice",
+    title: "Content Is for General Information Only",
     text:
-      "Content on this site does not replace legal advice, financial advice, employment counsel, visa consultation, or any other regulated professional service. Readers should seek qualified support for high-stakes decisions.",
+      "The content on this website is created to simplify complex topics and provide general understanding. It should not be considered legal, financial, employment, or immigration advice.",
   },
   {
-    title: "Accuracy and Timeliness",
+    title: "Verify Important Information",
     text:
-      "Reasonable effort is made to publish relevant and useful content, but regulations, service procedures, pricing, and operational details can change. Readers should verify critical information from official or authoritative sources.",
+      "While every effort is made to keep content accurate and up to date, policies, procedures, and costs in Dubai can change. Readers should always verify important details from official sources before making decisions.",
   },
   {
-    title: "Third-Party References",
+    title: "Third-Party Services and Links",
     text:
-      "Links, references, tools, or mentions of third-party products and services are provided for general convenience and editorial context. Dubai Trending does not guarantee third-party accuracy, safety, or outcomes.",
+      "The website may mention or reference third-party services, tools, or external platforms for informational purposes. Dubai Trending does not control or guarantee the accuracy, reliability, or outcomes of any third-party service.",
   },
 ];
 
 export default function DisclaimerPage() {
   return (
     <main className="min-h-screen bg-slate-50 text-slate-900">
+      
+      {/* HEADER */}
       <section className="mx-auto w-full max-w-6xl px-4 py-12 sm:px-6">
-        <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm sm:p-10">
-          <p className="text-xs font-bold uppercase tracking-wider text-amber-600">
+        <div className="rounded-3xl border bg-white p-8 shadow-sm sm:p-10">
+          <p className="text-xs font-bold uppercase text-amber-600">
             Disclaimer
           </p>
-          <h1 className="mt-3 text-4xl font-black leading-tight sm:text-5xl">
-            Important reading before relying on website content
+
+          <h1 className="mt-3 text-4xl font-black sm:text-5xl">
+            Important Information About This Website
           </h1>
-          <p className="mt-5 max-w-4xl text-base leading-8 text-slate-700">
-            This disclaimer is intended to clarify the purpose and limitations of
-            the content published on Dubai Trending. The website is built to
-            provide helpful editorial content and practical reference material,
-            but readers should understand the boundaries of that role.
+
+          <p className="mt-5 text-base leading-8 text-slate-700">
+            This page explains the scope and limitations of the information
+            published on Dubai Trending. The goal is to keep expectations clear
+            so readers understand how to use the content responsibly.
+          </p>
+
+          <p className="mt-3 text-base text-slate-700">
+            All content is written for general awareness and practical
+            understanding — not as official or professional advice.
+          </p>
+
+          <p className="mt-4 text-sm text-slate-500">
+            Managed by Abdul Karim • Dubai Practical Guides
           </p>
         </div>
       </section>
 
+      {/* MAIN SECTIONS */}
       <section className="mx-auto w-full max-w-6xl px-4 pb-10 sm:px-6">
         <div className="grid gap-6 md:grid-cols-2">
           {disclaimerSections.map((section) => (
             <article
               key={section.title}
-              className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm"
+              className="rounded-3xl border bg-white p-6 shadow-sm"
             >
               <h2 className="text-xl font-black">{section.title}</h2>
               <p className="mt-3 text-sm leading-7 text-slate-700">
@@ -63,17 +76,24 @@ export default function DisclaimerPage() {
         </div>
       </section>
 
+      {/* FINAL GUIDANCE */}
       <section className="mx-auto w-full max-w-6xl px-4 pb-16 sm:px-6">
-        <article className="rounded-3xl border border-slate-200 bg-slate-900 p-6 text-slate-100 shadow-sm sm:p-8">
-          <h2 className="text-2xl font-black">Reader Guidance</h2>
-          <p className="mt-4 max-w-4xl text-sm leading-7 text-slate-300">
-            Before making decisions related to employment, visa status, legal
-            obligations, business setup, or financial commitments, readers should
-            consult official sources or licensed professionals. Dubai Trending is
-            intended to support understanding, not replace authorized advice.
+        <article className="rounded-3xl border bg-slate-900 p-6 text-white shadow-sm sm:p-8">
+          <h2 className="text-2xl font-black">Reader Responsibility</h2>
+
+          <p className="mt-4 text-sm leading-7 text-slate-300">
+            Before making decisions related to jobs, visas, legal matters,
+            business setup, or financial commitments, readers should consult
+            official UAE sources or licensed professionals.
+          </p>
+
+          <p className="mt-3 text-sm text-slate-300">
+            Dubai Trending is designed to support understanding and awareness —
+            not replace professional advice or official guidance.
           </p>
         </article>
       </section>
+
     </main>
   );
 }
