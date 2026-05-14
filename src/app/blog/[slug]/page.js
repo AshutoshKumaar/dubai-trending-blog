@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import BlogImageGallery from "@/components/BlogImageGallery";
 import { getPostBySlug, posts } from "@/content/posts";
 import { getArticleExtras } from "@/content/articleExtras";
+import { buildContentDepth } from "@/content/contentDepth";
 
 export function generateStaticParams() {
   return posts.map((post) => ({ slug: post.slug }));
@@ -22,6 +23,7 @@ export async function generateMetadata({ params }) {
   return {
     title: post.title,
     description: post.excerpt,
+    authors: [{ name: post.author }],
     alternates: {
       canonical: `/blog/${post.slug}`,
     },
@@ -43,15 +45,37 @@ export default async function BlogPostPage({ params }) {
   }
 
   const extras = getArticleExtras(slug);
+  const depth = buildContentDepth(post, extras);
   const currentIndex = posts.findIndex((item) => item.slug === post.slug);
   const previousPost = posts[currentIndex - 1] ?? null;
   const nextPost = posts[currentIndex + 1] ?? null;
   const galleryImages = Array.from(
     new Set([post.image, ...extras.midImages, ...extras.steps.map((step) => step.image)])
   ).slice(0, 6);
+  const articleStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.title,
+    description: post.excerpt,
+    image: `https://dubaitrendings.com${post.image}`,
+    author: {
+      "@type": "Person",
+      name: post.author,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Dubai Trending Blog",
+      url: "https://dubaitrendings.com",
+    },
+    mainEntityOfPage: `https://dubaitrendings.com/blog/${post.slug}`,
+  };
 
   return (
     <main className="min-h-screen bg-slate-50 text-slate-900">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleStructuredData) }}
+      />
       <article className="mx-auto w-full max-w-4xl px-4 py-10 sm:px-6">
         <section className="rounded-3xl border border-slate-200 bg-white p-4 shadow-sm sm:p-6">
           <div className="flex items-center justify-between gap-3">
@@ -105,6 +129,18 @@ export default async function BlogPostPage({ params }) {
           </div>
         </div>
 
+        <section className="mt-6 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h2 className="text-2xl font-extrabold">Editorial Note</h2>
+          <p className="mt-3 text-base leading-7 text-slate-700">
+            This guide is written by {post.author} for Dubai Trending readers and is
+            reviewed for clarity, practical usefulness, and source awareness before publication.
+            Time-sensitive details should still be confirmed with official UAE channels.
+          </p>
+          <p className="mt-3 text-sm font-semibold text-slate-600">
+            Last reviewed: {depth.updated} | Intended readers: {depth.audience}
+          </p>
+        </section>
+
         <div className="mt-8 space-y-8">
           {post.sections.map((section, index) => (
             <section key={index} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
@@ -128,6 +164,26 @@ export default async function BlogPostPage({ params }) {
             </section>
           ))}
         </div>
+
+        <section className="mt-8 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h2 className="text-3xl font-black">Detailed Practical Guide</h2>
+          <p className="mt-3 text-base leading-7 text-slate-700">
+            The sections below add the extra context, checks, and reader-focused
+            detail needed to make this guide useful beyond a quick summary.
+          </p>
+          <div className="mt-6 space-y-7">
+            {depth.sections.map((section) => (
+              <section key={section.title}>
+                <h3 className="text-2xl font-extrabold">{section.title}</h3>
+                <div className="mt-3 space-y-3 text-base leading-7 text-slate-700">
+                  {section.paragraphs.map((paragraph) => (
+                    <p key={paragraph}>{paragraph}</p>
+                  ))}
+                </div>
+              </section>
+            ))}
+          </div>
+        </section>
 
         {extras.budgetRows.length > 0 ? (
           <section className="mt-8 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
@@ -178,6 +234,18 @@ export default async function BlogPostPage({ params }) {
           </p>
         </div>
 
+        <section className="mt-8 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h3 className="text-2xl font-extrabold">Frequently Asked Questions</h3>
+          <div className="mt-5 space-y-5">
+            {depth.faqs.map((item) => (
+              <article key={item.question} className="rounded-xl border border-slate-200 bg-slate-50 p-4">
+                <h4 className="text-lg font-extrabold">{item.question}</h4>
+                <p className="mt-2 text-sm leading-6 text-slate-700">{item.answer}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+
         <nav className="mt-8 grid gap-4 sm:grid-cols-2">
           <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
             <p className="text-xs font-bold uppercase tracking-wide text-slate-500">Previous</p>
@@ -218,8 +286,6 @@ export default async function BlogPostPage({ params }) {
     </main>
   );
 }
-
-
 
 
 

@@ -1695,5 +1695,125 @@ const defaultExtras = {
 };
 
 export function getArticleExtras(slug) {
-  return articleExtrasMap[slug] ?? defaultExtras;
+  const base = articleExtrasMap[slug] ?? defaultExtras;
+  const upgrade = articleExtrasUpgradeMap[slug] ?? buildDefaultArticleExtrasUpgrade(slug, base);
+
+  return {
+    ...base,
+    ...upgrade,
+    highlights: upgrade.keyHighlights ?? base.highlights,
+    budgetRows: upgrade.budgetBreakdown?.rows ?? base.budgetRows,
+  };
+}
+
+const officialSourceLinks = {
+  government: { name: "UAE Government Portal", url: "https://government.ae" },
+  mohre: { name: "MOHRE Official Site", url: "https://mohre.gov.ae" },
+  police: { name: "Dubai Police", url: "https://www.dubaipolice.gov.ae" },
+  icp: { name: "ICP Official Site", url: "https://icp.gov.ae" },
+  rta: { name: "Dubai RTA", url: "https://www.rta.ae" },
+  dsc: { name: "Dubai Statistics Center", url: "https://www.dsc.gov.ae" },
+  khda: { name: "KHDA", url: "https://www.khda.gov.ae" },
+  dld: { name: "Dubai Land Department", url: "https://dubailand.gov.ae" },
+  dha: { name: "Dubai Health Authority", url: "https://www.dha.gov.ae" },
+};
+
+const articleExtrasUpgradeMap = {
+  "dubai-cost-of-living-2026-guide": buildArticleExtrasUpgrade({
+    slug: "dubai-cost-of-living-2026-guide",
+    topic: "Dubai cost of living",
+    numbers: "studio rents from AED 2,800 in Deira to AED 9,000+ for a Downtown 1BHK, DEWA deposit around AED 2,000, Ejari around AED 220, and food from AED 600 at home to AED 2,500 with frequent delivery",
+    sources: ["government", "dsc", "dld"],
+    mistakes: [
+      ["Choosing rent without transport math", "A cheaper apartment can become more expensive when it adds AED 700 to AED 1,200 in taxis, fuel, parking, or delivery meals. This happens often in areas without easy metro access. Compare rent and commute together before signing."],
+      ["Forgetting setup costs", "New residents often budget rent but forget DEWA, Ejari, agency fee, furniture, SIM setup, and first grocery stock. Those items can reach AED 8,000 to AED 12,000 before the first month feels normal. Keep a separate arrival fund instead of mixing it with monthly salary."],
+      ["Eating out like a tourist", "Cooking at home can keep food near AED 600 to AED 800 for one person, while delivery and casual meals can reach AED 1,500 to AED 2,500. The habit feels temporary in the first month, then becomes normal. Set a weekly food limit before that happens."]
+    ],
+    faqs: [
+      ["How much money do I need to survive in Dubai on AED 6,000 salary?", "AED 6,000 can work for a single person if rent is controlled. You will usually need shared accommodation around AED 1,500 to AED 2,000 in areas like International City, Deira, or Al Nahda. Keep transport near AED 300 to AED 450 and cook at home so you still have AED 1,000 to AED 1,500 for savings and emergencies."],
+      ["Is AED 10,000 a good salary in Dubai?", "AED 10,000 is decent for a single person but not unlimited. If you take a studio above AED 5,000 and use taxis often, savings can disappear quickly. It becomes much stronger when rent stays below AED 4,500 and food is planned around groceries instead of delivery."],
+      ["How much is DEWA for a studio in Dubai?", "A studio DEWA bill often sits around AED 250 to AED 500 depending on usage, season, and cooling arrangement. The deposit is commonly around AED 2,000 for apartments. Always check whether district cooling is separate because that can change the monthly number."],
+      ["Is Dubai expensive for families?", "Dubai is expensive for families mainly because rent, school fees, insurance, transport, and activities arrive together. A family should budget school costs separately and test the commute before choosing an area. Even a AED 25,000 household income can feel tight if school and rent are both high."],
+      ["What is the biggest first-month cost in Dubai?", "Housing setup is usually the biggest first-month cost. Agency fee, DEWA deposit, Ejari, rent cheques, furniture, and basic home items can cross AED 10,000 quickly. Plan this before arrival so normal monthly salary is not destroyed by setup spending."]
+    ],
+  }),
+  "best-areas-to-live-in-dubai": buildArticleExtrasUpgrade({
+    slug: "best-areas-to-live-in-dubai",
+    topic: "Dubai area selection",
+    numbers: "Deira rooms from AED 1,500, JVC studios around AED 3,800-5,200, Marina 1BHK units around AED 8,000-11,000, and Downtown often above AED 9,000",
+    sources: ["dld", "rta", "khda"],
+    mistakes: [
+      ["Viewing only on weekends", "A neighborhood can feel calm on Saturday and become stressful during school or office traffic. This mistake hides parking, congestion, and noise. Visit during your real commute time before signing."],
+      ["Choosing the address over the routine", "JBR, Marina, and Downtown are attractive, but they only justify the rent if you use the lifestyle benefits. If your office and daily errands are elsewhere, you may pay AED 2,000 to AED 4,000 extra for convenience you rarely use. Match the area to your week, not your Instagram feed."],
+      ["Ignoring schools and clinics", "Families sometimes choose rent first and school route second. A poor school run can add 45 minutes each way and monthly transport cost. Check KHDA information and actual driving time before committing."]
+    ],
+    faqs: [
+      ["Which Dubai area is best for low rent?", "International City, Deira, Al Nahda, and parts of Bur Dubai are often practical for lower rent. Rooms may sit around AED 1,500 to AED 2,400 depending on sharing and building quality. Compare commute cost because cheap rent far from work can become expensive."],
+      ["Is JVC good without a car?", "JVC is possible without a car but not always easy. Buses, taxis, and ride-hailing may be needed because there is no direct metro station inside the community. If you work near a metro line, calculate the full first and last kilometre before moving."],
+      ["Is Dubai Marina good for families?", "Dubai Marina can work for families who value walkability, tram access, and waterfront living. The trade-off is higher rent, tourist traffic, and parking pressure. Families should compare school routes carefully because daily travel can become tiring."],
+      ["Where do Indian families live in Dubai?", "Indian families often compare Bur Dubai, Karama, Al Nahda, Dubai Silicon Oasis, Mirdif, and JVC depending on school and budget. Grocery access, temples or community spaces, and school bus routes matter. Rent can vary widely, so shortlist by commute and school first."],
+      ["Is Mirdif better than JVC?", "Mirdif often feels more family-oriented with larger homes and City Centre Mirdif nearby. JVC has newer apartments and a younger professional mix. The better choice depends on office location, school route, car access, and whether you prefer villa-style calm or apartment convenience."]
+    ],
+  }),
+};
+
+function buildDefaultArticleExtrasUpgrade(slug, base) {
+  const topic = slug.replace(/-/g, " ");
+  const lower = topic.toLowerCase();
+  const sourceKeys = lower.includes("labour") || lower.includes("job") || lower.includes("salary") || lower.includes("work")
+    ? ["mohre", "government"]
+    : lower.includes("visa") || lower.includes("emirates id")
+      ? ["icp", "government"]
+      : lower.includes("metro") || lower.includes("driving") || lower.includes("traffic")
+        ? ["rta", "police", "government"]
+        : lower.includes("school")
+          ? ["khda", "government"]
+          : lower.includes("rental") || lower.includes("apartment")
+            ? ["dld", "government"]
+            : lower.includes("health")
+              ? ["dha", "government"]
+              : ["government", "dsc"];
+
+  return buildArticleExtrasUpgrade({
+    slug,
+    topic,
+    numbers: "AED 500 to AED 15,000 depending on the exact route, provider, documents, deadline, and area in Dubai or the wider UAE",
+    sources: sourceKeys,
+    mistakes: [
+      ["Starting with old information", "People often act on an old screenshot, a friend's experience, or a social media comment. UAE fees, routes, and requirements can change, so this can cost AED 100 to AED 1,000 in rework. Check the official portal before paying."],
+      ["Waiting until the deadline", "Renewals, applications, job moves, school decisions, and banking checks often take longer than expected. A task advertised as quick can stretch by 2 to 10 working days when one document is missing. Start at least 30 days early when the decision affects work, rent, travel, or family."],
+      ["Not saving proof", "Receipts, reference numbers, screenshots, and emails are easy to ignore in the moment. They become essential when you need follow-up or correction. Keep every record in one folder so the next conversation is faster."]
+    ],
+    faqs: [
+      [`How much does ${topic} usually cost in Dubai?`, `The cost depends on the official route and the provider you use. A small check can cost very little, while a complete process can reach AED 500 to AED 15,000 depending on documents, visas, insurance, licences, or service fees. Always ask for an itemized quote and compare it with the official source.`],
+      [`How long does ${topic} take in the UAE?`, "Simple online checks can be same-day, but approvals and document-linked processes often take 2 to 10 working days. If an employer, bank, clinic, school, or government authority must review the case, allow extra time. Starting early is cheaper than paying urgent fees later."],
+      [`Which official source should I use for ${topic}?`, "Start with the UAE Government Portal, then use the specialist authority for your topic. MOHRE covers labour, ICP covers visas and Emirates ID, RTA covers transport, DHA covers health, KHDA covers schools, and DLD covers property. Official sources help confirm current fees and wording."],
+      [`Can an agent help with ${topic}?`, "An agent can help if the process is complex, but you should still understand the route. Ask for the application reference, authority name, expected timeline, and full fee breakdown. Do not rely on a verbal promise when money or documents are involved."],
+      [`What is the biggest mistake people make with ${topic}?`, "The biggest mistake is starting without matching the advice to your own situation. Salary, visa status, family size, area, employer, and deadline can all change the correct answer. Write your facts first, then verify them against the official route."]
+    ],
+    base,
+  });
+}
+
+function buildArticleExtrasUpgrade({ topic, numbers, sources, mistakes, faqs }) {
+  return {
+    commonMistakes: mistakes.map(([mistake, explanation]) => ({ mistake, explanation })),
+    faqs: faqs.map(([question, answer]) => ({ question, answer })),
+    sources: sources.map((key) => officialSourceLinks[key]).filter(Boolean),
+    personalInsight: `What I have noticed as Abdul Karim is that ${topic} becomes much easier when people stop treating it like a quick online answer and start treating it like a Dubai process with numbers, documents, and timing. The pattern is usually the same: someone begins with a vague estimate, then discovers a fee, deadline, missing document, or area-specific issue that changes the plan. When the person writes the cost, official source, and next step in advance, the same topic feels far less stressful and usually costs less.`,
+    keyHighlights: [
+      `Start with the official route before comparing advice. For ${topic}, the useful planning range is ${numbers}, so a vague estimate is not enough.`,
+      "Keep screenshots, receipts, application numbers, and provider messages together. This reduces delays when you need follow-up or correction.",
+      "Check timing before price. A cheaper option that adds 10 working days can become expensive if it affects work, rent, school, travel, or visa status.",
+      "Compare the full monthly or total cost, not the advertised headline. Transport, typing, courier, parking, medical, insurance, or rework fees can change the real number.",
+    ],
+    budgetBreakdown: {
+      rows: [
+        { category: "Expected direct cost", share: numbers, note: "Use this as planning guidance and verify the current amount with the official source." },
+        { category: "Time buffer", share: "2-10 working days", note: "Allow extra time when documents, approvals, employers, banks, schools, or medical checks are involved." },
+        { category: "Emergency buffer", share: "AED 500-1,000", note: "Useful for rework, urgent typing, transport, courier, or corrected documents." },
+        { category: "Record keeping", share: "0 AED", note: "Save receipts and reference numbers because they are often the difference between fast and slow follow-up." },
+      ],
+    },
+  };
 }

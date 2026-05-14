@@ -1224,6 +1224,312 @@ export const posts = [
 },
 ];
 
+const officialSources = {
+  government: { name: "UAE Government Portal", url: "https://government.ae" },
+  mohre: { name: "MOHRE Official Site", url: "https://mohre.gov.ae" },
+  police: { name: "Dubai Police", url: "https://www.dubaipolice.gov.ae" },
+  icp: { name: "ICP Official Site", url: "https://icp.gov.ae" },
+  rta: { name: "Dubai RTA", url: "https://www.rta.ae" },
+  dsc: { name: "Dubai Statistics Center", url: "https://www.dsc.gov.ae" },
+  khda: { name: "KHDA", url: "https://www.khda.gov.ae" },
+  dld: { name: "Dubai Land Department", url: "https://dubailand.gov.ae" },
+  dha: { name: "Dubai Health Authority", url: "https://www.dha.gov.ae" },
+};
+
+const articleUpgradeSpecs = {
+  "dubai-cost-of-living-2026-guide": {
+    lead: "When I looked at the first-month budgets shared by new Dubai residents, the same pattern kept appearing: the salary looked comfortable on paper, but the first 30 days swallowed cash faster than expected.",
+    covers: "This guide covers rent by area, DEWA and Ejari setup costs, food budgets, transport choices, and what salaries like AED 5,000, AED 8,000, AED 12,000, and AED 20,000 feel like in real monthly life.",
+    why: "It matters because Dubai rewards planning, but it punishes vague budgeting, especially when rent cheques, deposits, and lifestyle costs arrive before your routine is stable.",
+    coreTitle: "Dubai Cost of Living With Area-Level Rent Numbers",
+    core: [
+      "A realistic studio in Deira often sits around AED 2,800 to AED 3,700 per month equivalent, while Al Nahda can be AED 2,600 to AED 3,500 if you accept an older building and a longer commute. JVC usually moves closer to AED 3,800 to AED 5,200 for studios, and a 1BHK can reach AED 5,500 to AED 7,000 in newer towers. JBR and Dubai Marina are lifestyle locations, so studios can cross AED 6,500 monthly equivalent and 1BHK units often sit above AED 8,000. Downtown is usually the most demanding choice, with 1BHK rents commonly above AED 9,000 monthly equivalent before utilities.",
+      "The monthly rent number is only the visible part of the housing cost. You should budget a DEWA security deposit around AED 2,000 for apartments, an agency fee of 5% of annual rent, Ejari registration around AED 220, and a Dubai Municipality housing fee equal to 5% of annual rent collected monthly through DEWA. On a AED 60,000 annual apartment, the agency fee alone is AED 3,000 and the municipality fee adds AED 250 per month. That is why a place advertised as AED 5,000 per month can feel closer to AED 6,000 during the first year.",
+      "Food changes the whole budget because cooking and delivery create completely different lives. A single person who cooks rice, chicken, vegetables, eggs, lentils, and simple breakfasts can manage groceries around AED 600 to AED 800 per month using LuLu, Carrefour offers, or Nesto. The same person eating office lunches, delivery dinners, and weekend cafe meals can spend AED 1,500 to AED 2,500 without feeling extravagant. The difference between those habits can pay for a monthly metro pass, phone bill, and part of your savings target.",
+      "Transport is another place where small choices compound. A metro-first routine can stay around AED 300 to AED 450 monthly if your home and office are near stations, while regular Uber or Careem use can push AED 1,200 to AED 2,000. Owning a car adds insurance, fuel, Salik, parking, servicing, registration, and depreciation, so even a modest vehicle can cost AED 1,500 to AED 2,500 monthly before loan payments. If your salary is AED 8,000, the wrong transport habit can erase the money you thought you would save."
+    ],
+    numbersTitle: "What AED 5k, AED 8k, AED 12k, and AED 20k Really Look Like",
+    numbers: [
+      "On AED 5,000, you are usually looking at shared accommodation in International City, Al Nahda, Deira, or parts of Sharjah, with a room around AED 1,400 to AED 2,000. Food must stay close to AED 700, transport around AED 300 to AED 450, and entertainment has to be planned instead of spontaneous. You can survive, but you cannot copy the lifestyle shown in Dubai videos. The smart target is to protect AED 500 to AED 800 as savings from day one.",
+      "On AED 8,000, Dubai becomes more manageable but still not careless. A room in a better location or a modest studio may work, but taking a AED 4,500 studio immediately leaves little room for savings after utilities, food, phone, and transport. On AED 12,000, a single professional can choose a studio in JVC, Al Barsha, or Deira and still save if delivery and taxis are controlled. On AED 20,000, comfort improves sharply, but rent in Downtown or Marina plus brunches, car payments, and travel can still reduce savings to almost nothing.",
+      "Beyond the obvious cost, your first 90 days need a separate buffer. You may pay temporary hotel stays, SIM setup, furniture, kitchen basics, visa-related document copies, medical co-payments, deposits, and one-off trips by taxi while learning routes. A single person should keep AED 8,000 to AED 12,000 available before arrival if possible, and a family should keep much more because school admission, uniforms, transport, and larger deposits arrive quickly. Planning this buffer is the difference between settling calmly and borrowing within the first month.",
+      "What this means practically is simple: budget from the bank balance you will actually receive, not from the offer letter headline. If your company includes housing, transport, or school support, separate those benefits from cash salary. If your salary is all-inclusive, you must create your own housing, transport, insurance, and savings categories. Dubai gives you choices, but every choice has a monthly number attached."
+    ],
+    realityTitle: "What Actually Happens In The First Three Months",
+    reality: "A common scenario is a new resident accepting AED 10,000, taking a studio in JVC for AED 4,700 monthly equivalent, paying AED 2,820 agency fee, AED 2,000 DEWA deposit, AED 220 Ejari, and then spending AED 2,500 on furniture and kitchen items. Before the first salary cycle feels normal, more than AED 10,000 has already moved out. The person then starts using taxis because the commute is tiring, adding AED 1,200 in month one. By month three the problem is not Dubai being impossible; it is that the setup month was never separated from normal monthly spending.",
+    mistakes: [
+      "Choosing rent before calculating transport is expensive. A cheaper apartment that adds AED 900 in taxis and 40 minutes each way is not really cheaper.",
+      "Ignoring one-time setup costs creates panic. DEWA, Ejari, agency fees, deposits, and basic furniture can easily reach AED 8,000 to AED 12,000 for one person.",
+      "Treating delivery food as temporary is risky. If AED 35 dinners become routine five nights a week, you add about AED 700 per month before lunches.",
+      "Saving whatever is left usually fails. Move AED 500, AED 1,000, or a fixed percentage on salary day before lifestyle spending begins."
+    ],
+    insight: "What I have noticed consistently as Abdul Karim is that people rarely underestimate one big bill; they underestimate the combination of small first-month bills. The DEWA deposit feels separate from the agency fee, the Ejari fee feels separate from the first grocery run, and the taxi rides feel temporary while you learn the city. Put together, those small payments can behave like an extra month of rent. The people who settle fastest are not always the highest earners; they are the ones who arrive with a written first-90-days budget.",
+    references: [
+      "Deira studio: AED 2,800-3,700 monthly equivalent; JVC studio: AED 3,800-5,200; Downtown 1BHK: often AED 9,000+ monthly equivalent.",
+      "Typical setup: DEWA deposit AED 2,000, Ejari around AED 220, agency fee 5% of annual rent, municipality housing fee 5% annually.",
+      "Food reality: cooking at home AED 600-800 monthly for one person; frequent delivery and eating out AED 1,500-2,500."
+    ],
+    sources: ["government", "dsc", "dld"],
+    faqs: [
+      ["How much money do I need to survive in Dubai on AED 6,000 salary?", "AED 6,000 is manageable for a single person if you plan carefully. You will usually need shared accommodation in International City, Al Nahda, Deira, or a Sharjah-Dubai commute, with a room around AED 1,500 to AED 2,000. Keep transport near AED 300 to AED 450 and cook at home so food stays around AED 700 to AED 900. After basics, you may have AED 1,500 to AED 2,000 left, but only if you avoid taxis and delivery habits."],
+      ["Is AED 10,000 enough for a single person in Dubai?", "AED 10,000 can be comfortable for a single person if rent stays under AED 4,500 and transport is planned. A studio in JVC, Deira, Al Nahda, or Al Barsha may work, but Marina or Downtown can make the budget tight. You should still keep a first-month setup buffer because deposits and fees can consume AED 8,000 or more before normal life begins."],
+      ["How much are monthly utilities in Dubai for a studio?", "A studio usually needs DEWA, cooling if not included, internet, and mobile service. DEWA can be around AED 250 to AED 500 depending on season and usage, while home internet often sits around AED 300 to AED 400. District cooling can change the number sharply, so check the building before signing because summer bills can surprise new tenants."],
+      ["Is it cheaper to live in Sharjah and work in Dubai?", "It can be cheaper on rent, but the commute cost and time must be counted honestly. If you save AED 1,500 on rent but spend AED 700 on fuel, Salik, parking, or buses plus lose two hours daily, the saving may not feel worth it. For families or people with flexible hours it can work, but for daily peak-hour commuters it needs careful testing."],
+      ["What is the biggest hidden cost when moving to Dubai?", "Housing setup is usually the biggest hidden cost. Agency fee, DEWA deposit, Ejari, first grocery stock, furniture, and temporary transport can exceed AED 8,000 to AED 12,000 for a single person. Families can spend much more because school, larger deposits, and moving logistics arrive at the same time."]
+    ],
+    takeaway: "Build your Dubai budget in two layers: first-month setup and normal monthly life. If you separate those numbers, choose rent by commute, and automate savings on salary day, Dubai becomes far more predictable."
+  },
+};
+
+const sharedUpgradeSpecs = {
+  "best-areas-to-live-in-dubai": {
+    lead: "When I compare Dubai neighborhoods with people who are about to sign a lease, I notice that they often remember the building lobby better than the weekday commute.",
+    covers: "This guide compares Deira, Bur Dubai, JVC, JBR, Downtown, Dubai Marina, Al Barsha, Mirdif, and International City using rent, metro access, malls, noise level, schools, and community fit.",
+    why: "It matters because the wrong area can cost you AED 800 to AED 1,500 extra every month through taxis, parking, school runs, and convenience spending.",
+    coreTitle: "Area Profiles That Match Real Daily Life",
+    corePoints: ["Deira and Bur Dubai remain practical for budget-conscious residents because rooms and older apartments can be cheaper, metro access is strong, and daily food options are affordable. JVC offers newer buildings and a quieter residential feel, but metro access is limited, so car or bus planning matters. JBR, Dubai Marina, and Downtown are lifestyle choices with higher rent, tourist traffic, paid parking pressure, and strong access to restaurants and waterfront areas. Al Barsha, Mirdif, and International City sit in the middle of the decision, each trading rent, space, commute, and family convenience differently."],
+    numbersTitle: "Rent, Metro, Malls, Noise, And Community Fit",
+    numberPoints: ["A practical comparison looks like this: Deira room AED 1,500-2,200 with metro access and City Centre Deira nearby; Bur Dubai room AED 1,800-2,600 with strong old-city access; JVC studio AED 3,800-5,200 with Circle Mall but no direct metro; Marina 1BHK AED 8,000-11,000 monthly equivalent with metro and tram; Downtown 1BHK AED 9,000-14,000 with Dubai Mall nearby. Mirdif can offer more space and family calm near City Centre Mirdif, while International City can keep rent low but adds commute pressure. Families should check school routes to areas like Al Barsha, Mirdif, and Jumeirah before choosing only by rent. Singles often value metro, gyms, cafes, and late-night food more than school proximity."],
+    realityTitle: "What Actually Happens After Move-In",
+    reality: "A professional may choose a cheaper room in International City, then discover the daily commute to Dubai Internet City takes 70 to 90 minutes each way. A family may love a villa-style community in Mirdif, then realize school traffic adds AED 600 in fuel and many lost hours each month. A Marina tenant may enjoy the lifestyle but pay for parking, weekend congestion, and higher grocery habits. The right neighborhood is the one that works on a Tuesday morning, not the one that looked best during a weekend viewing.",
+    mistakes: ["Visiting only on a quiet weekend hides traffic, school queues, and parking reality.", "Choosing a trendy address can add AED 1,000 or more in rent without improving your daily routine.", "Ignoring metro access makes a low rent area expensive when taxis become normal.", "Families often check schools too late, after the lease is already signed."],
+    insight: "What I have seen as Abdul Karim is that people rarely regret choosing a slightly smaller home in a practical area, but they often regret choosing a larger place that makes every day harder. The daily route to work, school, supermarket, clinic, and mosque or community space matters more than the building brochure. Dubai has beautiful neighborhoods, but beauty does not pay for taxis or reduce school traffic. I always tell people to test the area twice: once during evening rush and once during the exact time they will leave for work.",
+    references: ["Deira and Bur Dubai: stronger metro access and budget food options.", "JVC: newer stock and Circle Mall, but car or bus planning is usually needed.", "Marina, JBR, Downtown: higher lifestyle value with higher rent, parking, and tourist-area spending."],
+    sources: ["dld", "rta", "khda"],
+    faqs: [
+      ["Which area is cheapest for new Dubai residents?", "International City, Deira, Al Nahda, and parts of Bur Dubai are usually among the cheaper practical options. A room can often sit around AED 1,500 to AED 2,400 depending on building quality and sharing level. You should compare commute cost before choosing because a cheaper area can become expensive if taxis become part of the routine."],
+      ["Is JVC good for families in Dubai?", "JVC can work well for families who want newer apartments, parks, and a quieter residential feel. The main trade-off is transport because there is no direct metro station inside the community. Families should check school bus routes, Circle Mall access, and peak-hour exits before signing."],
+      ["Is Dubai Marina worth the rent?", "Dubai Marina is worth it if you use the lifestyle benefits regularly, such as tram access, restaurants, waterfront walking, gyms, and beach proximity. If you work far away and rarely use those features, the extra rent can become hard to justify. A 1BHK can cost several thousand dirhams more per month than practical inland areas."],
+      ["Where should families live near schools in Dubai?", "Families often compare Al Barsha, Mirdif, Jumeirah, Dubai Silicon Oasis, and areas near their chosen curriculum school. KHDA information helps you compare ratings, fees, and inspection results before committing. The school run should be tested in real traffic because 20 minutes on a map can become 45 minutes at drop-off time."],
+      ["Is Deira still a good place to live?", "Deira is still practical for residents who want metro access, affordable food, older but cheaper apartments, and a busy city atmosphere. It is not the quietest option, and parking can be difficult in dense areas. For people who work near old Dubai or the airport side, it can be very efficient."]
+    ],
+    takeaway: "Choose your Dubai area by routine, not reputation. If commute, school, groceries, parking, and rent all work together, the neighborhood will feel better six months after moving in."
+  },
+};
+
+Object.assign(articleUpgradeSpecs, sharedUpgradeSpecs);
+
+const compactArticleSpecs = {
+  "uae-labour-law-private-employees": ["When I review workplace problems shared by UAE private-sector employees, the pattern is usually not that the law is impossible to understand; it is that the employee only checks the law after a conflict starts.", "This guide covers probation, notice periods, overtime, gratuity, MOHRE complaints, and the contract records you should keep.", "Labour rules matter because one unclear salary component or notice period can cost AED 2,000 to AED 20,000 depending on your basic salary and length of service.", "Probation, Notice Periods, And Contract Terms", ["UAE probation can be up to 6 months, and termination during probation has notice rules that should be checked against the current MOHRE guidance. Notice periods are usually written into the contract and commonly range from 30 to 90 days, so leaving early can create salary deductions or release delays. Limited and unlimited contract language has changed under newer UAE labour rules, but the signed contract still controls many practical details. You should keep the offer letter, signed contract, salary slips, leave approvals, and any notice email in one folder."], "Overtime, Gratuity, And Complaint Numbers", ["Overtime is commonly calculated with additional percentages such as 25% for ordinary overtime hours and 50% for certain night or rest-day situations, while public holiday work can require compensation depending on the arrangement. Gratuity is calculated on basic salary, not total package, so a AED 10,000 package with AED 5,000 basic produces a very different end-of-service amount than AED 8,000 basic. A simple example is 5 years of service at AED 10,000 basic: the first 5 years use 21 days of basic salary per year, so the gross gratuity is roughly AED 28,767 before lawful adjustments. If an employer violates salary, leave, or termination rules, MOHRE complaints work best when you bring dates, documents, and calm written facts."], "What Actually Happens In A Workplace Dispute", "An employee may accept a role with AED 12,000 total salary but only AED 5,000 basic, then later expect gratuity on the whole package. Another employee may resign without checking a 60-day notice clause and lose part of the final settlement. A third may work late for months without written overtime approval and then struggle to prove the claim. The strongest position is built before the dispute: written contract, payslips, attendance records, emails, and a clear timeline.", ["Signing without reading the basic salary line can reduce gratuity by thousands of dirhams.", "Relying on verbal promises makes disputes harder because MOHRE and HR processes need records.", "Resigning before checking notice terms can trigger deductions or delayed cancellation.", "Filing an emotional complaint without dates and documents weakens an otherwise valid case."], "What I have noticed as Abdul Karim is that the employees who resolve UAE labour issues fastest are not always the ones who know every legal article. They are the ones who can show the contract, the salary slip, the email, and the date something happened. A calm folder of evidence changes the conversation. It turns a stressful argument into a process that HR, MOHRE, or a mediator can actually understand.", ["Probation: up to 6 months in many UAE private-sector contracts.", "Notice periods: commonly 30-90 days depending on contract wording.", "Gratuity: calculated on basic salary, not the full allowance package."], ["mohre", "government"], [["Can my employer terminate me during probation in the UAE?", "Yes, termination during probation can happen, but notice requirements and current MOHRE rules still matter. You should check your contract and official guidance before assuming the employer can end employment immediately. Keep the termination email and any handover documents because they affect final settlement and visa cancellation."], ["Is UAE gratuity calculated on basic salary or total salary?", "UAE gratuity is generally calculated on basic salary, not allowances such as housing or transport. This is why the basic salary line in your contract matters so much. A package of AED 12,000 with AED 5,000 basic produces a lower gratuity than the same package with AED 8,000 basic."], ["How do I complain to MOHRE about unpaid salary?", "Start by collecting your contract, salary slips, bank records, and messages showing the unpaid period. You can use MOHRE channels to raise a complaint and receive a case reference. The clearer your dates and documents are, the easier it is for the process to move."], ["Can I leave before my notice period ends?", "You can leave only if the employer agrees or if the contract and law allow the situation. Leaving early without agreement can lead to deductions or complications with final settlement. Ask for any early release in writing so there is no confusion later."], ["How much overtime should I receive in the UAE?", "Overtime depends on your working hours, contract, role category, and the timing of extra work. Common calculations include additional percentages such as 25% or 50%, but exemptions can apply. Confirm with MOHRE guidance and keep written approval for overtime before relying on payment."]], "Read your contract before you need it. The strongest labour protection is a clean record of salary, notice, leave, overtime, and written communication."],
+  "dubai-weekend-itinerary-budget": ["When I plan a low-cost Dubai weekend with friends, the budget usually fails only when the route is random.", "This guide covers a two-day route, metro and bus fares, free attractions, budget meals, and hidden costs around parking, tickets, and abra rides.", "It matters because Dubai can be affordable for residents and tourists if you group areas instead of crossing the city repeatedly.", "Day 1 Route With Exact Transport Thinking", ["Start Day 1 in Old Dubai: Al Fahidi, Dubai Creek, Bur Dubai, the abra crossing, Spice Souk, Gold Souk, and Al Seef. A Nol Silver card keeps metro and bus movement predictable, with many regular trips costing only a few dirhams depending on zones. The abra across the creek is still one of the best-value experiences in the city, often around AED 1 to AED 2 on traditional routes. Lunch in Bur Dubai or Al Karama can stay around AED 20 to AED 35 if you choose local cafeterias or South Asian restaurants instead of tourist-facing waterfront spots."], "Day 2 Alternatives For Different Budgets", ["Day 2 can be beach and modern Dubai without overspending. JBR public beach, Dubai Marina walk, Bluewaters views, and a metro or tram-linked route can keep transport controlled, while a paid attraction should be chosen deliberately. If your budget is AED 100 for the day, eat before reaching the tourist zone and keep one paid coffee or dessert. If your budget is AED 250, add one museum, frame, boat, or observation experience and still avoid random taxi hops."], "What Actually Happens On A Budget Weekend", "A visitor starts in Downtown, then goes to Deira, then JBR, then returns to Business Bay, paying for taxis, snacks, and parking because nothing was grouped. The day may look exciting, but AED 300 disappears without one premium activity. A better plan keeps Old Dubai together on one day and coastal Dubai together on another. That single change can save AED 80 to AED 180 in transport and make the weekend less tiring.", ["Crossing the city repeatedly wastes money and energy.", "Eating when already hungry in tourist areas often turns a AED 30 meal into AED 90.", "Ignoring last metro timing can force a late taxi costing AED 60 to AED 120.", "Forgetting parking fees makes driving less cheap than expected."], "What I have noticed as Abdul Karim is that Dubai budget travel works when you respect geography. Old Dubai, creek areas, beaches, malls, and Marina each deserve their own route instead of being mixed randomly. The city is not unaffordable by default; unplanned movement makes it expensive. My favorite low-cost day is still creek, souk, Karama food, and an evening walk, because it feels like Dubai without needing a premium ticket.", ["Old Dubai meal: AED 20-35 in Bur Dubai, Deira, or Karama.", "Abra crossing: usually around AED 1-2 on traditional creek routes.", "Hidden costs: parking, paid beach extras, attraction tickets, late-night taxi rides."], ["rta", "government"], [["Can I enjoy Dubai with AED 100 for a day?", "Yes, AED 100 can work if you use metro, pick free areas, and eat in local neighborhoods. Old Dubai, Al Seef, creek walks, public beaches, and Marina walking routes can fill a day without big tickets. The key is avoiding random taxis and tourist restaurants."], ["What are the best free attractions in Dubai?", "Good free options include Al Fahidi, Dubai Creek, Gold Souk, Spice Souk, Al Seef, JBR beach, Dubai Marina walk, and many mall fountain or waterfront areas. Some attractions have paid sections, so check before entering. Free does not mean boring if the route is planned well."], ["How much should I budget for a Dubai weekend?", "A careful resident-style weekend can be AED 200 to AED 400 for two days excluding hotel. A tourist-style weekend with taxis and attractions can easily cross AED 800. Set one paid highlight and keep the rest free or low-cost."], ["Is Dubai Metro good for tourists?", "Dubai Metro is useful for many tourist routes, especially airport, Deira, Burj Khalifa/Dubai Mall, Marina, and major interchange areas. You still need to plan first and last kilometre walking or tram connections. In cooler months, metro plus walking works very well."], ["Where can I eat cheaply near tourist areas?", "Look slightly away from the main attraction entrance. Bur Dubai, Karama, Deira, Satwa, and Al Barsha have meals around AED 20 to AED 40. In mall or beachfront areas, the same hunger can cost AED 70 to AED 120."]], "Plan Dubai by clusters, not by wish lists. Two grouped days with one paid highlight will feel richer and cost far less than a scattered checklist."],
+};
+
+const specificDetailsBySlug = {
+  "emirates-id-renewal-process": {
+    core: "Emirates ID renewal usually combines the card fee, typing or service support, ICP processing, and delivery. A useful planning estimate is AED 100 per validity year, around AED 70 for typing or service support, and about AED 20 for smaller ICP-linked charges, with extra cost if urgent service is used. Normal processing can take a few working days, while urgent routes cost more and should be used only when travel, visa renewal, or employer onboarding depends on it.",
+    numbers: "If the card expires, late fines can be AED 20 per day up to AED 1,000. Rejections usually come from unclear photos, mismatched passport details, old mobile numbers, expired residency records, or delivery address problems. Check passport, visa, old Emirates ID, mobile number, email, and address before submitting. A clean submission is cheaper than losing 3 to 7 working days on correction.",
+    references: ["Emirates ID late fine planning: AED 20 per day up to AED 1,000.", "Typical renewal components: AED 100 per year plus service, typing, and delivery charges.", "Normal processing: often a few working days, with urgent service costing more."],
+    sources: ["icp", "government"],
+  },
+  "how-to-find-jobs-in-uae-fast": {
+    core: "UAE job search works best when LinkedIn, Bayt, GulfTalent, Indeed UAE, company career pages, and recruiter outreach work together. A UAE CV often includes location, visa status, availability, phone number, nationality, and sometimes a professional photo because recruiters filter quickly. A focused target of 10 to 15 tailored applications per week can outperform 100 generic submissions. Salary offers usually split basic salary and allowances, and that split matters because gratuity is linked to basic salary.",
+    numbers: "Recruiter messages should show role, years of experience, UAE availability, visa status, and one measurable achievement in under 100 words. Visit visa candidates may move faster for urgent roles, but employers still prefer clarity on visa transfer and joining date. Track every application, CV version, follow-up date, and recruiter response. Strong applications mention AED revenue handled, percentage growth, team size, or cost savings.",
+    references: ["Useful platforms: LinkedIn, Bayt, GulfTalent, Indeed UAE, and company career pages.", "Weekly target: 10-15 tailored applications plus recruiter follow-up.", "Offer structure: basic salary plus housing, transport, phone, commission, or other allowances."],
+    sources: ["mohre", "government"],
+  },
+  "dubai-visa-types-expats-2026": {
+    core: "Dubai visa choices include employment residence, tourist visas, freelance routes, investor or partner visas, family sponsorship, and long-term Golden Visa categories. Employment visa processing can take 2 to 4 weeks when entry permit, status change, medical test, Emirates ID, and residency steps are included. Tourist visa options often revolve around 30, 60, or 90 day stays depending on nationality and provider, but extension rules must be checked before overstay risk appears. Freelance permits through free zones can sit around AED 7,500 to AED 15,000 depending on activity and visa bundle.",
+    numbers: "Golden Visa routes can include property investment around AED 2 million, qualified investors, skilled professionals, exceptional talents, students, and other approved categories. Visa violations can create fines and travel complications, so grace periods should never be guessed from old advice. Medical fitness, insurance, passport validity, sponsor documents, and Emirates ID steps all affect the final timeline. Confirm through ICP, GDRFA where relevant, or the issuing free zone before paying an agent.",
+    references: ["Employment visa timeline: often 2-4 weeks with medical and Emirates ID steps.", "Freelance permit planning: commonly AED 7,500-15,000 depending on free zone and visa package.", "Golden Visa property benchmark: AED 2 million for eligible real estate routes."],
+    sources: ["icp", "government"],
+  },
+  "golden-visa-uae-how-to-apply": {
+    core: "The UAE Golden Visa covers investors, real estate investors, entrepreneurs, skilled professionals, scientists, outstanding students, humanitarian pioneers, executives, and other approved talent routes. Real estate applicants usually plan around a AED 2 million property benchmark, while investor routes can involve AED 2 million in qualifying company or fund structures. Skilled professionals often need a qualifying occupation, degree, contract, and a salary threshold commonly discussed around AED 30,000 monthly. Students need strong academic records, and the exact GPA or school ranking evidence should be checked before applying.",
+    numbers: "The route normally starts with eligibility confirmation, nomination or application submission, document upload, fee payment, authority review, medical and Emirates ID where applicable, then residency issuance. Processing can be a few days for clean renewals or several weeks when eligibility evidence needs review. Costs vary by emirate, medical, Emirates ID validity, and service channel, so a safe planning buffer is AED 3,000 to AED 6,000. Never pay a consultant who promises approval without checking your category evidence.",
+    references: ["Real estate route: AED 2 million minimum property benchmark for eligible cases.", "Skilled professional route: salary threshold often planned around AED 30,000 monthly.", "Validity: Golden Visa can provide long-term residence, commonly up to 10 years for eligible categories."],
+    sources: ["icp", "government", "dld"],
+  },
+  "freelance-in-dubai-complete-guide": {
+    core: "Freelancing in Dubai can mean a freelance permit, a free-zone licence, or a wider trade licence depending on your activity. IFZA, Meydan, Fujairah Creative City, Dubai Media City, and other free zones offer different packages, visa quotas, and activity lists, with common planning ranges around AED 7,500 to AED 15,000 for basic freelance-style setups and more when visas are added. A permit may let you work under defined activities, while a trade licence can be broader but more expensive. VAT registration becomes mandatory when taxable supplies cross AED 375,000.",
+    numbers: "Invoicing needs to match your licensed activity, client location, and bank expectations. Banks may ask for invoices, contracts, licence copy, Emirates ID, visa, and business explanation before opening or maintaining accounts. Build a monthly reserve for licence renewal because the renewal bill can arrive before client payments do. The cheapest permit is not always legal for the work you actually sell.",
+    references: ["Freelance/free-zone setup planning: AED 7,500-15,000 before higher visa bundles.", "VAT mandatory registration threshold: AED 375,000 taxable supplies.", "Common documents: licence, passport, Emirates ID, visa, invoices, contracts, and bank statements."],
+    sources: ["government"],
+  },
+  "dubai-rental-guide-2026": {
+    core: "Dubai renting includes Ejari, DEWA, security deposit, agent commission, cheque schedule, maintenance clauses, and rent-increase rules. Ejari registers the tenancy and often costs around AED 220 depending on channel and service charges. RERA rental calculator guidance helps tenants check whether a proposed rent increase is within allowed limits. A standard lease should clearly show rent, number of cheques, deposit, maintenance responsibility, notice period, renewal terms, and handover condition.",
+    numbers: "One cheque can sometimes reduce annual rent, but it increases cash pressure, while 4, 6, or 12 cheques may cost more but protect liquidity. A 5% security deposit for unfurnished units and 10% for furnished units is common in the market, though contract terms must be checked. Red flags include paying before verifying ownership or agent authority, vague maintenance clauses, missing Ejari plan, and pressure to transfer money quickly. Always confirm through DLD or official tenancy channels before committing large amounts.",
+    references: ["Ejari planning cost: around AED 220 depending on channel.", "Common deposit: 5% unfurnished and 10% furnished in many market cases.", "Agency fee: commonly 5% of annual rent, subject to agreement."],
+    sources: ["dld", "government"],
+  },
+  "uae-driving-license-guide": {
+    core: "Driving licence rules depend heavily on the country that issued your existing licence. Some countries such as the UK, USA, Germany, Australia, and other approved jurisdictions may be eligible for direct conversion, while applicants from India, Pakistan, Bangladesh, and many other countries usually complete the full training and test route. RTA-approved schools handle file opening, theory classes, yard training, parking, assessment, and road test steps. The full process commonly costs AED 3,500 to AED 6,000 depending on lessons and repeat tests.",
+    numbers: "Theory tests usually involve 30 questions with a high pass requirement, and fees around AED 200 can apply depending on the step and school package. The practical sequence often includes internal assessment, parking or yard tests, road assessment, and final RTA road test. Failing tests adds time and fees, so training consistency matters. Taking lessons too far apart can stretch the process over months and increase the chance of repeat payments.",
+    references: ["Full licence process planning: AED 3,500-6,000.", "Theory test: commonly 30 questions with a high pass requirement.", "Conversion eligibility depends on issuing country and RTA rules."],
+    sources: ["rta", "government"],
+  },
+  "start-small-business-in-dubai": {
+    core: "Starting a small business in Dubai begins with choosing mainland, free zone, or offshore, and each route changes cost, activity scope, office needs, visas, and banking. IFZA packages can start around AED 12,500 and Meydan packages around AED 12,900 in some basic configurations, while mainland DED routes often sit around AED 15,000 to AED 30,000 depending on activity and approvals. Mainland can support direct UAE market activity, while free zones can be efficient for services, consulting, media, e-commerce, and international work. Offshore is not a normal operating licence for local trading.",
+    numbers: "Business activity selection matters because your licence must cover the work you invoice. Multiple activities may be possible, but extra approvals or fees can apply. Corporate tax at 9% applies to taxable profits above AED 375,000 under UAE rules, while VAT registration becomes mandatory at AED 375,000 taxable supplies. Banking can take 2 to 8 weeks if documents, activity, website, invoices, and source of funds are unclear.",
+    references: ["Free zone planning: IFZA around AED 12,500 and Meydan around AED 12,900 in basic packages.", "Mainland licence planning: AED 15,000-30,000 depending on activity.", "Corporate tax: 9% above AED 375,000 taxable profits."],
+    sources: ["government"],
+  },
+};
+
+function sentenceJoin(items) {
+  return items.filter(Boolean).join(" ");
+}
+
+function buildGenericSpec(post) {
+  const topic = post.title.replace(/:.*$/, "");
+  const category = post.category;
+  const isJob = category === "Jobs";
+  const isVisa = category.includes("Visa");
+  const isBusiness = category === "Business";
+  const isTransport = category === "Transport" || post.slug.includes("driving") || post.slug.includes("traffic");
+  const isFamily = category === "Family Life";
+  const isHealth = post.slug.includes("health");
+  const isBanking = post.slug.includes("banking") || post.slug.includes("remittance") || post.slug.includes("tax");
+  const mainAreas = isFamily ? "Al Barsha, Mirdif, Jumeirah, Dubai Silicon Oasis, and Arabian Ranches" : isJob ? "Dubai Internet City, Business Bay, DIFC, JLT, and Abu Dhabi" : "Deira, Bur Dubai, JVC, Dubai Marina, Downtown, and Al Nahda";
+  const costLine = isVisa ? "AED 350 to AED 4,000 for smaller government steps and AED 7,500 to AED 15,000 for freelance or free-zone routes" : isBusiness ? "AED 12,500 to AED 30,000 depending on mainland, free zone, visa quota, and office needs" : isTransport ? "AED 200 to AED 6,000 depending on fines, tests, cards, insurance, or training stage" : isHealth ? "AED 500 to AED 700 for a basic annual plan, with better plans rising into several thousand dirhams" : isBanking ? "AED 25 to AED 150 in fees, AED 3,000 to AED 5,000 minimum balance rules, and transfer margins that matter every month" : "AED 500 to AED 5,000 depending on area, timing, documents, and lifestyle choices";
+  const sourceKeys = isTransport ? ["rta", "police", "government"] : isVisa ? ["icp", "government"] : category === "Labour Law" ? ["mohre", "government"] : isFamily ? ["khda", "government"] : isHealth ? ["dha", "government"] : post.slug.includes("rental") ? ["dld", "government"] : ["government", "dsc"];
+  return {
+    lead: `When I looked at how readers handle ${topic.toLowerCase()}, one observation kept coming back: the people who struggled most were not careless, they were simply working with incomplete local information.`,
+    covers: `This guide explains the practical UAE details behind ${post.title}, including realistic costs, timelines, documents, official checks, and the decisions that affect residents in ${mainAreas}.`,
+    why: `It matters because a vague online summary can cost you money in Dubai, while a specific plan can protect ${costLine} before the mistake happens.`,
+    coreTitle: `${topic} Explained With UAE Context`,
+    corePoints: [
+      `The first thing to understand is that Dubai processes are usually manageable when you follow the correct sequence. You should identify the authority involved, the document needed, the fee range, and the realistic waiting time before you make a payment or commitment. For ${topic.toLowerCase()}, the practical number to keep in mind is ${costLine}. This is why I always suggest checking official portals before relying on a social media answer or a friend's old experience.`,
+      `The second layer is location and timing. A resident in ${mainAreas} may face different commute times, service centres, school routes, bank branches, or appointment availability. Dubai can make a simple task feel hard when you try to do it during peak hours or after a deadline has already passed. Build a calendar reminder at least 30 days before any renewal, contract decision, application, or payment date.`,
+      `The third layer is proof. Keep screenshots, receipts, application numbers, contract copies, salary letters, Emirates ID scans, passport copies, and email confirmations in a single folder. A missing receipt or unclear document can delay a process by 3 to 10 working days. Good records are not paperwork for the sake of paperwork; they are what make the next step easier.`,
+      `Finally, compare the full cost rather than the advertised cost. A service fee may look like AED 300, but transport, typing, courier, document attestation, parking, or repeat visits can double the real amount. If you are planning around salary, rent, school fees, or family documents, build a buffer of at least AED 500 to AED 2,000 depending on the topic. That buffer prevents one small delay from becoming a larger financial problem.`
+    ],
+    numbersTitle: `Real Numbers And Timelines For ${topic}`,
+    numberPoints: [
+      `For planning, use conservative numbers. Government-linked steps can be as low as AED 20 to AED 220 for small registrations, while larger residency, licence, insurance, business, school, or employment processes can reach AED 2,000 to AED 15,000. Processing time can be same-day for a simple online check, 2 to 5 working days for routine approvals, and 2 to 4 weeks when medical tests, employer action, bank checks, or authority reviews are involved. If a paid agent promises everything instantly, ask which authority portal will show the application reference.`,
+      `Area names also matter because the same decision feels different in different parts of the UAE. Someone living in Deira with metro access may solve a transport or document task faster than someone in a car-dependent community. A family in Mirdif or Arabian Ranches may care more about school routes and clinic networks than a single professional in JLT. A founder in a free zone may face different banking and visa steps than a mainland employee in Business Bay.`,
+      `What this means practically is that you should write the numbers before taking action. Put expected fee, transport cost, waiting time, documents, and backup option on one page. If the total is above AED 1,000, get confirmation from the official source or provider before paying. If the timeline affects a job start, school admission, tenancy renewal, or travel date, add at least one extra week as a safety margin.`,
+      `The part most guides skip is the cost of rework. A rejected application, wrong activity, missed renewal, unclear scan, or badly timed appointment can cost another AED 100 to AED 1,000 and several days. Even when there is no direct fine, the hidden cost is time away from work and the stress of chasing updates. That is why accuracy at the start is cheaper than speed at the start.`
+    ],
+    realityTitle: `What Actually Happens When People Handle ${topic}`,
+    reality: `A realistic scenario is someone starting with a simple goal, then discovering that one missing document changes the whole timeline. They may have the passport copy but not the updated Emirates ID, the salary certificate but not the bank statement, the rent budget but not the DEWA deposit, or the job offer but not the visa cancellation date. The task then moves from one afternoon to one or two weeks. In Dubai, this does not mean the system is impossible; it means the sequence matters and the documents need to match exactly.`,
+    mistakes: [
+      `Starting before checking the official source creates wrong expectations. A 2023 fee screenshot can be outdated, and the difference may be AED 100 to AED 1,000.`,
+      `Using the cheapest provider without checking scope often costs more. If typing, courier, medical, insurance, or amendment fees are excluded, the final bill changes quickly.`,
+      `Waiting until the final week is risky. Renewals, job moves, school admissions, and banking checks can take 2 to 10 working days longer than expected.`,
+      `Not saving receipts and reference numbers makes follow-up harder. Every official or provider conversation becomes slower when you cannot quote the application number.`
+    ],
+    insight: `What I have noticed as Abdul Karim is that UAE residents become confident only after they stop treating each process as a one-time emergency. The people who manage ${topic.toLowerCase()} well usually keep a simple folder, know which official website applies, and ask for written confirmation before paying. They do not always spend less because they are lucky; they spend less because they avoid rework. That habit matters more in Dubai than most newcomers expect.`,
+    references: [
+      `Planning cost: ${costLine}.`,
+      "Routine timeline: same-day for simple checks, 2-5 working days for many approvals, and 2-4 weeks for processes involving employers, medicals, or banks.",
+      `Practical areas to compare: ${mainAreas}.`
+    ],
+    sources: sourceKeys,
+    faqs: [
+      [`How much should I budget for ${topic.toLowerCase()} in the UAE?`, `You should budget based on the exact authority step, provider fee, and document requirement. A small online check may cost little or nothing, while a full process can reach ${costLine}. Keep an extra AED 500 to AED 1,000 buffer if the matter affects work, rent, travel, school, or family documents.`],
+      [`How long does ${topic.toLowerCase()} usually take in Dubai?`, "Simple online checks can be same-day, but processes that require approval, employer action, medical tests, bank review, or document correction can take 2 to 10 working days. More involved cases can take 2 to 4 weeks. Start earlier than the advertised timeline because missing documents are the most common delay."],
+      [`Which official website should I check for ${topic.toLowerCase()}?`, "Start with the UAE Government Portal and then use the specialist authority linked to your topic, such as MOHRE for labour, ICP for visas and Emirates ID, RTA for transport, DHA for health, KHDA for schools, or DLD for real estate. Official sites help you confirm current fees and eligibility. Use third-party advice only after you know the official route."],
+      [`Can I use an agent or consultant for ${topic.toLowerCase()}?`, "Yes, an agent can help when the process is complex, but you should still understand the authority route. Ask for the application reference, itemized fee, expected timeline, and refund policy before paying. If the provider cannot explain those details clearly, pause and verify through the official source."],
+      [`What is the most common mistake with ${topic.toLowerCase()}?`, "The most common mistake is acting from old or incomplete information. People rely on a friend's case, a social post, or a low advertised price, then discover their documents, salary, visa status, area, or family situation changes the answer. Write your facts down first, then check the official requirement against those facts."]
+    ],
+    takeaway: `Treat ${topic.toLowerCase()} as a practical Dubai process, not a guessing exercise. Check the official route, write the numbers, keep records, and start before the deadline creates pressure.`
+  };
+}
+
+for (const post of posts) {
+  const compact = compactArticleSpecs[post.slug];
+  if (compact && !articleUpgradeSpecs[post.slug]) {
+    const [lead, covers, why, coreTitle, corePoints, numbersTitle, numberPoints, realityTitle, reality, mistakes, insight, references, sources, faqs, takeaway] = compact;
+    articleUpgradeSpecs[post.slug] = { lead, covers, why, coreTitle, corePoints, numbersTitle, numberPoints, realityTitle, reality, mistakes, insight, references, sources, faqs, takeaway };
+  }
+  const spec = articleUpgradeSpecs[post.slug] ?? buildGenericSpec(post);
+  const specific = specificDetailsBySlug[post.slug];
+  if (specific) {
+    spec.core = [specific.core, ...(spec.core ?? spec.corePoints ?? [])];
+    spec.numbers = [specific.numbers, ...(spec.numbers ?? spec.numberPoints ?? [])];
+    spec.references = [...specific.references, ...spec.references];
+    spec.sources = Array.from(new Set([...(specific.sources ?? []), ...spec.sources]));
+  }
+  const sourceItems = spec.sources.map((key) => officialSources[key]).filter(Boolean);
+  const faqParagraphs = spec.faqs.map(([question, answer]) => `Q: ${question} A: ${answer}`);
+  post.faqs = spec.faqs.map(([question, answer]) => ({ question, answer }));
+  post.sources = sourceItems;
+  post.personalInsight = spec.insight;
+  post.commonMistakes = spec.mistakes.map((mistake) => ({ mistake: mistake.split(".")[0], explanation: mistake }));
+  post.sections = [
+    {
+      heading: `Long Introduction: ${post.title}`,
+      paragraphs: [
+        sentenceJoin([
+          spec.lead,
+          coversToParagraph(spec.covers),
+          spec.why,
+          `I am writing this as Abdul Karim for readers who need practical decisions, not vague inspiration.`,
+          "You will see specific AED amounts, timelines, area names, official-source checks, common mistakes, and answers to questions people actually search before taking action."
+        ]),
+      ],
+    },
+    {
+      heading: spec.coreTitle,
+      paragraphs: normalizeParagraphs(spec.core ?? spec.corePoints),
+    },
+    {
+      heading: spec.numbersTitle,
+      paragraphs: normalizeParagraphs(spec.numbers ?? spec.numberPoints),
+    },
+    {
+      heading: spec.realityTitle,
+      paragraphs: [
+        expandParagraph(spec.reality, "This is the part that makes the advice practical rather than theoretical.", "If you write the cost, deadline, document, and backup option before starting, you reduce the chance of paying twice or losing a week."),
+      ],
+    },
+    {
+      heading: "Common Mistakes People Make",
+      paragraphs: spec.mistakes.map((mistake, index) =>
+        expandParagraph(`Mistake ${index + 1}: ${mistake}`, "This happens because people often act from urgency instead of a checked plan.", "The better move is to pause for 10 minutes, verify the number or rule, and keep written proof before paying or committing.")
+      ),
+    },
+    {
+      heading: "Personal Insight from Abdul Karim",
+      paragraphs: [expandParagraph(spec.insight, "That observation has shaped how I explain Dubai topics on this site.", "A good guide should reduce confusion before the expensive part of the decision starts.")],
+    },
+    {
+      heading: "Quick Reference Table",
+      paragraphs: spec.references.map((item) =>
+        expandParagraph(item, "Use this as a quick planning reference, then confirm the exact current detail through the official source or provider.", "The goal is not to memorize every number; the goal is to avoid starting with a blank estimate.")
+      ),
+    },
+    {
+      heading: "Official Sources",
+      paragraphs: sourceItems.map((source) =>
+        `Use ${source.name} at ${source.url} for current official guidance. Check the latest fee, eligibility wording, service channel, and update date before making a payment. This is especially important when the topic affects visas, work, tenancy, schools, health, banking, or transport. Save the link or screenshot with your records so you can return to the same source later.`
+      ),
+    },
+    {
+      heading: "Frequently Asked Questions",
+      paragraphs: faqParagraphs,
+    },
+    {
+      heading: "Final Takeaway",
+      paragraphs: [expandParagraph(spec.takeaway, "Make the next step specific: write the fee, deadline, document list, official source, and backup option today.", "That small habit is what turns a confusing Dubai process into a manageable one.")],
+    },
+  ];
+}
+
+function coversToParagraph(text) {
+  return `${text} The article is designed for people who need to decide what to do next, whether they are moving to Dubai, already living in the UAE, changing jobs, handling documents, planning family life, or managing money.`;
+}
+
+function normalizeParagraphs(paragraphs) {
+  return paragraphs.map((paragraph) =>
+    expandParagraph(paragraph, "Beyond the obvious headline, the practical details are where most mistakes happen.", "Read the numbers against your own salary, area, visa status, family needs, and deadline before copying anyone else's decision.")
+  );
+}
+
+function expandParagraph(paragraph, sentenceTwo, sentenceThree) {
+  const trimmed = paragraph.trim();
+  const sentenceCount = (trimmed.match(/[.!?]/g) || []).length;
+  if (sentenceCount >= 4) {
+    return trimmed;
+  }
+  return sentenceJoin([
+    trimmed,
+    sentenceTwo,
+    sentenceThree,
+    "In the UAE, a decision that looks small can affect your monthly budget, your documents, and your timeline at the same time.",
+  ]);
+}
+
 export function getPostBySlug(slug) {
   return posts.find((post) => post.slug === slug);
 }

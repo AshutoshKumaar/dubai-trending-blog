@@ -54,7 +54,7 @@ export default function Home() {
           </p>
 
           <p className="mt-3 text-slate-700">
-            Whether you're moving to Dubai or already living here, the goal is simple:
+            Whether you&apos;re moving to Dubai or already living here, the goal is simple:
             clear, useful, and honest information you can actually use.
           </p>
 

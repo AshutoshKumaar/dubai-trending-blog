@@ -32,7 +32,7 @@ export default function AboutPage() {
           </p>
 
           <p className="mt-4 text-base leading-8 text-slate-700">
-            Whether you're a job seeker, expat, or someone planning to move, this platform is
+            Whether you&apos;re a job seeker, expat, or someone planning to move, this platform is
             designed to give you clear and realistic guidance.
           </p>
 
