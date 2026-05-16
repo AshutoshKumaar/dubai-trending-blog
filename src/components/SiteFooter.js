@@ -26,15 +26,6 @@ const socialLinks = [
     ),
   },
   {
-    label: "X",
-    href: " https://x.com/sheikhaMahera",
-    icon: (
-      <svg viewBox="0 0 24 24" aria-hidden="true" className="h-4 w-4 fill-current">
-        <path d="M18.9 3H21l-4.6 5.2L21.8 21h-4.2l-3.3-4.4L10.4 21H8.2l4.9-5.6L2.8 3H7l3 4 3.6-4Zm-1.5 15.4h1.2L6.3 5.5H5.1l12.3 12.9Z" />
-      </svg>
-    ),
-  },
-  {
     label: "Instagram",
     href: "https://www.instagram.com/abdul_karim_official_?igsh=aThyNGswaWRvYTVz",
     icon: (

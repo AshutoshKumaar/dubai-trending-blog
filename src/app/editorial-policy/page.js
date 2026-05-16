@@ -49,28 +49,33 @@ export default function EditorialPolicyPage() {
       {/* HEADER */}
       <section className="mx-auto w-full max-w-6xl px-4 py-12 sm:px-6">
         <div className="rounded-3xl border bg-white p-8 shadow-sm sm:p-10">
-          <p className="text-xs font-bold uppercase text-amber-600">
+          <p className="text-xs font-bold uppercase tracking-wider text-amber-600">
             Editorial Policy
           </p>
 
-          <h1 className="mt-3 text-4xl font-black sm:text-5xl">
+          <h1 className="mt-3 text-4xl font-black leading-tight sm:text-5xl">
             How Content Is Created and Maintained on Dubai Trending
           </h1>
 
-          <p className="mt-5 text-base leading-8 text-slate-700">
+          <p className="mt-5 max-w-4xl text-base leading-8 text-slate-700">
             This page explains how Dubai Trending selects topics, writes content,
-            and maintains accuracy over time. The aim is to keep the process
-            transparent so readers can understand how information is created and
-            updated.
+            and maintains accuracy over time. The goal is to keep the publishing
+            process transparent so readers understand how information is created,
+            reviewed, and updated.
           </p>
 
-          <p className="mt-3 text-base text-slate-700">
+          <p className="mt-3 max-w-4xl text-base leading-8 text-slate-700">
             The focus is always on practical clarity — helping readers understand
-            real-life situations in Dubai without unnecessary complexity.
+            real-life situations in Dubai without unnecessary complexity or
+            misleading information.
           </p>
 
           <p className="mt-4 text-sm text-slate-500">
             Managed by Abdul Karim • UAE Content & Research
+          </p>
+
+          <p className="mt-2 text-xs text-slate-400">
+            Last updated: May 2026
           </p>
         </div>
       </section>
@@ -83,10 +88,57 @@ export default function EditorialPolicyPage() {
               key={section.title}
               className="rounded-3xl border bg-white p-6 shadow-sm"
             >
-              <h2 className="text-xl font-black">{section.title}</h2>
+              <h2 className="text-xl font-black">
+                {section.title}
+              </h2>
+
               <p className="mt-3 text-sm leading-7 text-slate-700">
                 {section.text}
               </p>
+
+              {section.title === "Experience and Research Basis" && (
+                <div className="mt-4 rounded-xl bg-amber-50 p-4 text-sm text-slate-700">
+                  <p>
+                    Where relevant, information may be cross-checked using
+                    publicly available official sources such as:
+                  </p>
+
+                  <ul className="mt-3 list-disc space-y-2 pl-5">
+                    <li>
+                      <a
+                        href="https://u.ae/en"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-semibold text-blue-700 underline"
+                      >
+                        UAE Government Portal
+                      </a>
+                    </li>
+
+                    <li>
+                      <a
+                        href="https://www.rta.ae"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-semibold text-blue-700 underline"
+                      >
+                        Dubai RTA
+                      </a>
+                    </li>
+
+                    <li>
+                      <a
+                        href="https://www.mohre.gov.ae"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-semibold text-blue-700 underline"
+                      >
+                        MOHRE
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              )}
             </article>
           ))}
         </div>
@@ -95,16 +147,30 @@ export default function EditorialPolicyPage() {
       {/* CONTACT */}
       <section className="mx-auto w-full max-w-6xl px-4 pb-16 sm:px-6">
         <article className="rounded-3xl border bg-slate-900 p-6 text-white shadow-sm sm:p-8">
-          <h2 className="text-2xl font-black">Editorial Contact</h2>
+          <h2 className="text-2xl font-black">
+            Editorial Contact
+          </h2>
 
-          <p className="mt-4 text-sm leading-7 text-slate-300">
-            If you notice an issue, outdated information, or want to suggest an
-            improvement, you can contact the support team through the contact page.
+          <p className="mt-4 max-w-4xl text-sm leading-7 text-slate-300">
+            If you notice outdated information, factual issues, or want to
+            suggest improvements to published content, you can contact the
+            editorial support team below.
           </p>
 
-          <p className="mt-3 text-sm text-slate-300">
-            All genuine feedback and correction requests are reviewed carefully.
+          <p className="mt-3 text-sm leading-7 text-slate-300">
+            Genuine feedback and correction requests are reviewed carefully to
+            improve content quality and reader trust.
           </p>
+
+          <div className="mt-6 rounded-xl bg-slate-800 p-5">
+            <p className="text-xs font-bold uppercase tracking-wide text-amber-300">
+              Editorial Email
+            </p>
+
+            <p className="mt-2 text-xl font-black text-white">
+              support@dubaitrendings.com
+            </p>
+          </div>
         </article>
       </section>
 

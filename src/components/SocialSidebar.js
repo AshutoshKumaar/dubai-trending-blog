@@ -8,12 +8,6 @@ const socialLinks = [
     icon: "f",
   },
   {
-    label: "X",
-    href: "https://x.com",
-    bgClass: "bg-black",
-    icon: "x",
-  },
-  {
     label: "LinkedIn",
     href: "https://linkedin.com",
     bgClass: "bg-blue-700",

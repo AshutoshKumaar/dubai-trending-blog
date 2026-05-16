@@ -397,7 +397,7 @@ export function buildContentDepth(post, extras = {}) {
       ...(bespoke.faqs || []),
       {
         question: `Is ${post.title} still relevant in 2026?`,
-        answer: `Yes, the guide is structured for 2026 planning and was last reviewed in May 2026. Because UAE rules, fees, routes, and provider policies can change, readers should confirm the final detail through official sources before taking action. Check <a href='https://www.uae.gov.ae' target='_blank'>UAE Government</a>, <a href='https://www.dubai.gov.ae' target='_blank'>Dubai Government</a>, or relevant authority websites.`,
+        answer: `Yes, the guide is structured for 2026 planning and was last reviewed in May 2026. Because UAE rules, fees, routes, and provider policies can change, readers should confirm the final detail through official sources before taking action. Check <a href='https://u.ae/en' target='_blank' rel='noopener noreferrer'>UAE Government</a>, <a href='https://www.dubai.ae/web/dubai.ae/home' target='_blank' rel='noopener noreferrer'>Dubai Government</a>, or relevant authority websites.`,
       },
       {
         question: "What is the safest way to use this guide?",
@@ -409,7 +409,7 @@ export function buildContentDepth(post, extras = {}) {
       },
       {
         question: "Can I rely only on online advice for this topic?",
-        answer: "No. Online advice is useful for understanding the process, but final decisions should be based on current official information. Verify through <a href='https://www.uae.gov.ae' target='_blank'>UAE official sources</a> or relevant authorities.",
+        answer: "No. Online advice is useful for understanding the process, but final decisions should be based on current official information. Verify through <a href='https://u.ae/en' target='_blank' rel='noopener noreferrer'>UAE official sources</a> or relevant authorities.",
       },
       {
         question: "What happens if I disagree with official guidance?",

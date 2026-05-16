@@ -1841,15 +1841,15 @@ export function getArticleExtras(slug) {
 }
 
 const officialSourceLinks = {
-  government: { name: "UAE Government Portal", url: "https://government.ae" },
-  mohre: { name: "MOHRE Official Site", url: "https://mohre.gov.ae" },
+  government: { name: "UAE Government Portal", url: "https://u.ae/en" },
+  mohre: { name: "MOHRE Official Site", url: "https://mohre.gov.ae/en" },
   police: { name: "Dubai Police", url: "https://www.dubaipolice.gov.ae" },
-  icp: { name: "ICP Official Site", url: "https://icp.gov.ae" },
-  rta: { name: "Dubai RTA", url: "https://www.rta.ae" },
-  dsc: { name: "Dubai Statistics Center", url: "https://www.dsc.gov.ae" },
-  khda: { name: "KHDA", url: "https://www.khda.gov.ae" },
-  dld: { name: "Dubai Land Department", url: "https://dubailand.gov.ae" },
-  dha: { name: "Dubai Health Authority", url: "https://www.dha.gov.ae" },
+  icp: { name: "ICP Official Site", url: "https://icp.gov.ae/en/" },
+  rta: { name: "Dubai RTA", url: "https://www.rta.ae/wps/portal/rta/ae/home/home" },
+  dsc: { name: "Dubai Statistics Center", url: "https://www.dsc.gov.ae/en/Pages/Home.aspx" },
+  khda: { name: "KHDA", url: "https://web.khda.gov.ae/en/" },
+  dld: { name: "Dubai Land Department", url: "https://dubailand.gov.ae/en/" },
+  dha: { name: "Dubai Health Authority", url: "https://dha.gov.ae/en" },
 };
 
 const articleExtrasUpgradeMap = {

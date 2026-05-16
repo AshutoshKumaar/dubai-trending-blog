@@ -18,7 +18,7 @@ export const posts = [
         heading: "Start With the Full Monthly Picture, Not Just the Salary",
         paragraphs: [
           "Most people moving to Dubai make the same mistake: they see the salary number and assume everything will fall into place after arrival. It rarely works that way. Rent deposits, SIM cards, transport setup, kitchen basics, and that first grocery run all hit within the first two weeks — before the first paycheck even lands.",
-          "The smarter move is to build your complete monthly spending model before you book the flight. Write down fixed costs first — rent, utilities, phone — then estimate variable ones like food and transport using conservative numbers. I also cross-check public service basics through <a href='https://www.uae.gov.ae' target='_blank'>the UAE Government Portal</a> because small official fees are easy to forget when you are planning from abroad.",
+          "The smarter move is to build your complete monthly spending model before you book the flight. Write down fixed costs first — rent, utilities, phone — then estimate variable ones like food and transport using conservative numbers. I also cross-check public service basics through <a href='https://u.ae/en' target='_blank' rel='noopener noreferrer'>the UAE Government Portal</a> because small official fees are easy to forget when you are planning from abroad.",
         ],
       },
       {
@@ -116,7 +116,7 @@ export const posts = [
         heading: "Families Need Stability, Not a Trending Address",
         paragraphs: [
           "For families, the neighborhood decision is less about prestige and more about the quality of daily life at ground level. Good schools within a reasonable distance, reliable clinics, safe walkable streets, play areas for kids, and a supermarket that doesn't require a 20-minute drive — these are the things that make a community genuinely liveable rather than just photogenic.",
-          "Before signing anything, visit the area during school drop-off time and on a weekday evening. Traffic patterns change completely. For families, I also compare nearby schools against the official <a href='https://www.khda.gov.ae' target='_blank'>KHDA school information</a> before treating an area as practical. You'll learn more about parking availability and congestion in 30 minutes of real observation than in hours of reading reviews online.",
+          "Before signing anything, visit the area during school drop-off time and on a weekday evening. Traffic patterns change completely. For families, I also compare nearby schools against the official <a href='https://web.khda.gov.ae/en/' target='_blank' rel='noopener noreferrer'>KHDA school information</a> before treating an area as practical. You'll learn more about parking availability and congestion in 30 minutes of real observation than in hours of reading reviews online.",
         ],
       },
       {
@@ -206,7 +206,7 @@ export const posts = [
       {
         heading: "Formal Channels Work When You're Prepared",
         paragraphs: [
-          "If internal resolution fails, the <a href='https://www.mohre.gov.ae' target='_blank'>UAE Ministry of Human Resources and Emiratisation (MOHRE)</a> provides a structured process for labour disputes. I always tell employees to read the official MOHRE guidance before escalating, because the correct channel and wording matter more than people expect. The quality of your outcome at this stage depends heavily on how organized your documentation is.",
+          "If internal resolution fails, the <a href='https://mohre.gov.ae/en' target='_blank' rel='noopener noreferrer'>UAE Ministry of Human Resources and Emiratisation (MOHRE)</a> provides a structured process for labour disputes. I always tell employees to read the official MOHRE guidance before escalating, because the correct channel and wording matter more than people expect. The quality of your outcome at this stage depends heavily on how organized your documentation is.",
           "Stay calm, follow the process step by step, and keep records of every update and communication throughout. Employees who treat this like a professional process — not an emotional confrontation — tend to get their matters resolved more efficiently.",
         ],
       },
@@ -291,7 +291,7 @@ export const posts = [
         heading: "Transport Is Where Budgets Quietly Disappear",
         paragraphs: [
           "Taxis in Dubai are reasonable by international standards, but they add up quickly when you're making unplanned decisions. A metro-first approach with one planned taxi ride per day keeps transport costs predictable. Check station proximity before you choose your stops, and remember that many central tourist areas are genuinely walkable in the evening when temperatures drop.",
-          "If you're using the metro, a Nol card saves money compared to single-trip tickets and removes the stress of buying tickets repeatedly. Check current zones, fares, and service updates on <a href='https://www.rta.ae' target='_blank'>RTA's official website</a> before finalizing your route, especially if the weekend plan crosses both old Dubai and newer coastal areas. Top it up the evening before your weekend starts, not at the station during the morning rush.",
+          "If you're using the metro, a Nol card saves money compared to single-trip tickets and removes the stress of buying tickets repeatedly. Check current zones, fares, and service updates on <a href='https://www.rta.ae/wps/portal/rta/ae/home/home' target='_blank' rel='noopener noreferrer'>RTA's official website</a> before finalizing your route, especially if the weekend plan crosses both old Dubai and newer coastal areas. Top it up the evening before your weekend starts, not at the station during the morning rush.",
         ],
       },
       {
@@ -333,7 +333,7 @@ export const posts = [
         heading: "Use Every Channel, Not Just One Portal",
         paragraphs: [
           "Job portals are useful but they're also the most competitive channel because everyone is there. Many UAE positions are filled through direct LinkedIn outreach to relevant candidates, through employee referrals, or through recruiter relationships before they're ever posted publicly. If you're only applying on portals, you're missing a significant portion of the actual job market.",
-          "Build a parallel approach: regular LinkedIn activity and connection building, one or two specialist recruiters in your field, direct applications through company career pages, and genuine networking within your professional community. For roles in regulated sectors, confirm the employer and work-permit route through <a href='https://www.mohre.gov.ae' target='_blank'>official UAE labour information</a> rather than relying only on recruiter promises.",
+          "Build a parallel approach: regular LinkedIn activity and connection building, one or two specialist recruiters in your field, direct applications through company career pages, and genuine networking within your professional community. For roles in regulated sectors, confirm the employer and work-permit route through <a href='https://mohre.gov.ae/en' target='_blank' rel='noopener noreferrer'>official UAE labour information</a> rather than relying only on recruiter promises.",
         ],
       },
       {
@@ -374,7 +374,7 @@ export const posts = [
       {
         heading: "Track Actively, Don't Just Wait",
         paragraphs: [
-          "Once submitted, a lot of people go into passive waiting mode — they assume no news is good news. In reality, some applications pause at a stage that requires additional action, and the notification may go to a spam folder or a phone number that's hard to reach. Checking the <a href='https://www.icp.gov.ae' target='_blank'>ICP smart services portal</a> every few days takes two minutes and keeps you genuinely informed.",
+          "Once submitted, a lot of people go into passive waiting mode — they assume no news is good news. In reality, some applications pause at a stage that requires additional action, and the notification may go to a spam folder or a phone number that's hard to reach. Checking the <a href='https://icp.gov.ae/en/' target='_blank' rel='noopener noreferrer'>ICP smart services portal</a> every few days takes two minutes and keeps you genuinely informed.",
           "Keep your application reference number saved somewhere accessible. If anything needs following up, that number is the first thing any support channel will ask for.",
         ],
       },
@@ -402,7 +402,7 @@ export const posts = [
       {
         heading: "Always Start With the Right Source",
         paragraphs: [
-          "The internet is full of third-party sites that claim to show UAE traffic fines, but unofficial sources create more problems than they solve — outdated information, confusing interfaces, and in some cases, payment to the wrong destination. The correct approach is to go directly to official channels such as <a href='https://www.rta.ae' target='_blank'>RTA in Dubai</a>, Abu Dhabi Police, or the relevant emirate's fine check service.",
+          "The internet is full of third-party sites that claim to show UAE traffic fines, but unofficial sources create more problems than they solve — outdated information, confusing interfaces, and in some cases, payment to the wrong destination. The correct approach is to go directly to official channels such as <a href='https://www.rta.ae/wps/portal/rta/ae/home/home' target='_blank' rel='noopener noreferrer'>RTA in Dubai</a>, Abu Dhabi Police, or the relevant emirate's fine check service.",
           "Before you start any check, have your vehicle plate number, registration details, and traffic file number ready. These details are on your vehicle registration card. Having them at hand makes the process clean and immediate.",
         ],
       },
@@ -1358,15 +1358,15 @@ export const posts = [
 ];
 
 const officialSources = {
-  government: { name: "UAE Government Portal", url: "https://government.ae" },
-  mohre: { name: "MOHRE Official Site", url: "https://mohre.gov.ae" },
+  government: { name: "UAE Government Portal", url: "https://u.ae/en" },
+  mohre: { name: "MOHRE Official Site", url: "https://mohre.gov.ae/en" },
   police: { name: "Dubai Police", url: "https://www.dubaipolice.gov.ae" },
-  icp: { name: "ICP Official Site", url: "https://icp.gov.ae" },
-  rta: { name: "Dubai RTA", url: "https://www.rta.ae" },
-  dsc: { name: "Dubai Statistics Center", url: "https://www.dsc.gov.ae" },
-  khda: { name: "KHDA", url: "https://www.khda.gov.ae" },
-  dld: { name: "Dubai Land Department", url: "https://dubailand.gov.ae" },
-  dha: { name: "Dubai Health Authority", url: "https://www.dha.gov.ae" },
+  icp: { name: "ICP Official Site", url: "https://icp.gov.ae/en/" },
+  rta: { name: "Dubai RTA", url: "https://www.rta.ae/wps/portal/rta/ae/home/home" },
+  dsc: { name: "Dubai Statistics Center", url: "https://www.dsc.gov.ae/en/Pages/Home.aspx" },
+  khda: { name: "KHDA", url: "https://web.khda.gov.ae/en/" },
+  dld: { name: "Dubai Land Department", url: "https://dubailand.gov.ae/en/" },
+  dha: { name: "Dubai Health Authority", url: "https://dha.gov.ae/en" },
 };
 
 const articleUpgradeSpecs = {
