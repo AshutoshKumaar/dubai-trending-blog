@@ -18,7 +18,7 @@ export const posts = [
         heading: "Start With the Full Monthly Picture, Not Just the Salary",
         paragraphs: [
           "Most people moving to Dubai make the same mistake: they see the salary number and assume everything will fall into place after arrival. It rarely works that way. Rent deposits, SIM cards, transport setup, kitchen basics, and that first grocery run all hit within the first two weeks — before the first paycheck even lands.",
-          "The smarter move is to build your complete monthly spending model before you book the flight. Write down fixed costs first — rent, utilities, phone — then estimate variable ones like food and transport using conservative numbers. I also cross-check public service basics through the UAE Government Portal because small official fees are easy to forget when you are planning from abroad. (Source: UAE Government Portal)",
+          "The smarter move is to build your complete monthly spending model before you book the flight. Write down fixed costs first — rent, utilities, phone — then estimate variable ones like food and transport using conservative numbers. I also cross-check public service basics through <a href='https://www.uae.gov.ae' target='_blank'>the UAE Government Portal</a> because small official fees are easy to forget when you are planning from abroad.",
         ],
       },
       {
@@ -40,6 +40,48 @@ export const posts = [
         paragraphs: [
           "If you wait to see what's left at the end of the month before saving, the honest answer is: usually not much. A busy city with unlimited ways to spend money will always find your leftover funds before you do.",
           "The only system that works consistently is treating savings as a non-negotiable transfer that happens right after your salary hits the account. Pick a realistic number — even AED 500 to start — automate it immediately, and build the rest of your monthly plan around whatever remains. A modest but consistent habit creates real financial stability faster than you'd expect.",
+        ],
+      },
+      {
+        heading: "Real Monthly Budget Breakdown: Single Professional Example",
+        paragraphs: [
+          "Let me walk through an actual monthly budget for someone earning AED 10,000 after tax in Dubai. Rent in a shared or studio apartment runs about AED 3,500. Utilities including electricity, water, and internet average AED 400. Phone and subscriptions total about AED 150. Transport costs using metro run AED 200, plus occasional taxis adding another AED 150. Groceries and cooking at home run AED 900 if you shop smart and avoid daily convenience purchases. That's AED 5,300 in fixed and essential spending.",
+          "The remaining AED 4,700 is where your choices matter. Eating out, entertainment, personal care, clothing, and unexpected costs come from this amount. The people who stay comfortable allocate roughly AED 600-800 for dining out and social activities, AED 300 for fitness or hobbies, AED 400 for personal care and miscellaneous items, leaving AED 3,000-3,500 for emergency buffer and actual savings. Track this with a simple spreadsheet for the first three months. The pattern will become clear and you can adjust based on reality, not assumptions.",
+        ],
+      },
+      {
+        heading: "Utilities and Hidden Monthly Costs That Surprise New Residents",
+        paragraphs: [
+          "When utility costs come due in summer, many new residents get a shock. Electricity bills in July, August, and September can easily reach AED 800-1,200 for a studio or one-bedroom apartment because air conditioning runs nearly constantly. This is completely normal and predictable, but only if you've prepared for it. Spread the cost across all 12 months in your mental budget, not just during hot months.",
+          "Beyond utilities, track other recurring costs that are easy to forget: car insurance (if applicable), vehicle registration renewal fees, annual medical check-ups required for visa sponsorship, professional membership renewals, and annual subscription services that auto-renew silently. Building a simple annual cost calendar in January is much easier than being surprised by these expenses scattered throughout the year.",
+        ],
+      },
+      {
+        heading: "The Three-Month Adjustment Reality",
+        paragraphs: [
+          "Your first three months will be a spending reality check regardless of how well you planned. Setup costs hit you hard — moving expenses, initial apartment furnishing, kitchen basics, clothing that works in Dubai's climate, tech equipment you didn't anticipate needing. By month two, you might discover that your chosen restaurant costs more than you expected, or that you're using taxis more frequently because of where you live.",
+          "This is completely normal and does not mean your budget is broken. It means it's being tested against reality and needs small adjustments. The goal of those first three months is to collect real data. Track every expense, categorize it, and note whether it's a one-time setup cost or a recurring expense. By the end of month three, your adjusted budget will be much more accurate than any pre-arrival estimate could be.",
+        ],
+      },
+      {
+        heading: "Transportation Decisions That Ripple Through Your Budget",
+        paragraphs: [
+          "One of the most underestimated budget decisions is how you'll get around Dubai. A person who commits to metro-first transportation with occasional taxis will spend dramatically less than someone who depends primarily on Ubers and taxis. But this decision isn't just about money — it's about time, comfort, and daily stress.",
+          "If you live close to a metro station and work near a metro stop, this becomes easy. Your daily transport costs are minimal and your commute is predictable. If neither location has metro access, your transport costs immediately jump by 30-40% and your daily schedule becomes less controllable. This is why neighborhood choice so directly impacts whether your overall budget succeeds or struggles.",
+        ],
+      },
+      {
+        heading: "Emergency Fund Strategy for New Dubai Residents",
+        paragraphs: [
+          "Before you optimize spending, build an emergency fund of at least one month's essential expenses. In Dubai, emergencies often involve travel home for family situations, unexpected medical costs not covered by insurance, or needing to leave a job situation quickly with some financial runway. Having AED 5,000-8,000 set aside before you start your aggressive savings plan is practically invaluable.",
+          "A realistic approach is to allocate your first month or two to building this emergency fund separately from regular savings goals. Only after that's in place should you add to longer-term savings. This order matters because it prevents you from facing a genuine emergency situation with no financial buffer.",
+        ],
+      },
+      {
+        heading: "Annual Costs and Long-Term Financial Planning",
+        paragraphs: [
+          "Monthly budgeting is essential, but annual costs add another layer. Consider visa sponsorship renewals (usually once a year), insurance policy renewals, car registration and insurance if you have a vehicle, annual gym memberships, and any professional certifications or training that requires annual fees. These costs don't hit every month, but they absolutely will hit sometime during the year.",
+          "The smartest Dubai residents divide their annual costs by 12 and add that amount to their monthly budget, creating a buffer that's ready when these costs arrive. A resident who earns AED 10,000 monthly and sets aside AED 800 for these annual costs puts themselves in a position where a AED 3,000 visa renewal doesn't feel like a crisis.",
         ],
       },
     ],
@@ -74,7 +116,7 @@ export const posts = [
         heading: "Families Need Stability, Not a Trending Address",
         paragraphs: [
           "For families, the neighborhood decision is less about prestige and more about the quality of daily life at ground level. Good schools within a reasonable distance, reliable clinics, safe walkable streets, play areas for kids, and a supermarket that doesn't require a 20-minute drive — these are the things that make a community genuinely liveable rather than just photogenic.",
-          "Before signing anything, visit the area during school drop-off time and on a weekday evening. Traffic patterns change completely. For families, I also compare nearby schools against the official KHDA school information before treating an area as practical. You'll learn more about parking availability and congestion in 30 minutes of real observation than in hours of reading reviews online. (Source: Dubai Official Portal)",
+          "Before signing anything, visit the area during school drop-off time and on a weekday evening. Traffic patterns change completely. For families, I also compare nearby schools against the official <a href='https://www.khda.gov.ae' target='_blank'>KHDA school information</a> before treating an area as practical. You'll learn more about parking availability and congestion in 30 minutes of real observation than in hours of reading reviews online.",
         ],
       },
       {
@@ -82,6 +124,48 @@ export const posts = [
         paragraphs: [
           "Keep a shortlist of three or four areas and compare them using the same set of criteria: commute time to work, monthly total cost including transport, school or clinic proximity, building condition, and your general comfort level when you're there in the evening. When it's written down side by side, the right choice usually becomes obvious.",
           "Dubai has genuinely good options across a wide price range. The best choice is simply the one that fits how you actually live — not how you imagine you might live once you're settled.",
+        ],
+      },
+      {
+        heading: "Commute Mathematics: Why 30 Minutes Changes Everything",
+        paragraphs: [
+          "Let's calculate what a 30-minute commute difference actually means. If you save 30 minutes each way, that's one hour daily. Over a 250-working-day year, that's 250 hours — more than 10 full days of time returned to your life. Those hours matter whether you spend them on fitness, sleep, family time, or side projects. But they also matter financially: daily taxis add up to AED 50-100 extra monthly for short-distance frequent trips.",
+          "A neighborhood that saves you 30 minutes to work and costs AED 500 more in rent is actually a financial win when you factor in the taxi savings and time value. This is the core calculation that most residents miss when comparing areas. The cheapest rent is rarely the cheapest total monthly cost.",
+        ],
+      },
+      {
+        heading: "School Access and Family Life Quality",
+        paragraphs: [
+          "For families with children, school location is often the single most important factor after home safety. A school that requires a 45-minute morning drive followed by a 45-minute afternoon pickup creates daily stress and limits your family's flexibility. Good school options within 15-20 minutes of home allow for simpler logistics, more family time in the evening, and realistic participation in school activities.",
+          "Before choosing any residential area, check KHDA school ratings, visit nearby schools during admission periods, and actually drive the route during the time you would normally travel. Many families discover too late that their chosen area has good schools but they're always fully enrolled or the quality doesn't match their specific needs.",
+        ],
+      },
+      {
+        heading: "Parking: The Overlooked Factor That Affects Daily Life",
+        paragraphs: [
+          "Almost every new Dubai resident underestimates the parking situation until they live somewhere. Street parking availability, building parking costs, monthly passes for commercial lots, and permit requirements vary dramatically across neighborhoods. A free or cheap parking setup in one area might be a paid lot or monthly subscription in another. This AED 100-500 monthly difference sounds small until you realize it's been adding to your rent effectively.",
+          "Some newer buildings and developments have abundant parking; others charge significant monthly fees for premium spots. Even worse are older neighborhoods where most residents compete for limited street spots. Visit your target area at 7pm on a weekday and actually look for parking. If you see residents circling for spots, that's your answer about parking reality.",
+        ],
+      },
+      {
+        heading: "Neighborhood Amenities: What Sounds Good vs. What You'll Actually Use",
+        paragraphs: [
+          "Marketing materials list neighborhood amenities enthusiastically: 'luxury gym,' 'fine dining nearby,' 'premium shopping.' But amenity value is personal. If you'll never use the high-end gym or those specific restaurants, they're not amenities for you. What actually matters is whether there's at least one gym option you'll actually visit, at least one grocery store that meets your standards, and maybe a café that fits your routine.",
+          "The amenities that matter most are often the simple ones: reliable supermarket with reasonable prices, at least one decent casual restaurant for weekday meals, pharmacy with extended hours, and a coffee shop or park where you feel comfortable spending time. Check these specific points instead of relying on marketing descriptions.",
+        ],
+      },
+      {
+        heading: "Lease Terms and Flexibility in Changing Neighborhoods",
+        paragraphs: [
+          "Beyond the neighborhood itself, understand the lease terms available. Some areas and buildings offer one-year leases easily; others strongly prefer three-year commitments with penalties for early exit. In Dubai's dynamic job market, having the flexibility to move after one year with minimal penalty is genuinely valuable. Your first Dubai apartment might not be where you want to be in year two.",
+          "Ask about lease terms and early exit clauses before getting emotionally attached to any specific place. The flexibility might be worth paying slightly more in rent, especially in your first year when life circumstances often change.",
+        ],
+      },
+      {
+        heading: "Climate and Seasonal Comfort: An Underrated Factor",
+        paragraphs: [
+          "Dubai's climate is extreme. Summer temperatures regularly exceed 45°C from June through August. This affects neighborhood quality in ways that aren't obvious until you've lived through it. Buildings with poor insulation or limited shade create AC costs of AED 1,500+ monthly. Streets with no trees make evening walks uncomfortable even in mild months. Apartments facing west or with large unshaded windows create indoor heat challenges.",
+          "When visiting neighborhoods, pay attention to tree coverage, building orientation, and shade availability. Ask current residents specifically about summer comfort and utilities. A neighborhood that feels pleasant in March might feel genuinely uncomfortable in August if shade and building quality aren't addressed.",
         ],
       },
     ],
@@ -122,8 +206,57 @@ export const posts = [
       {
         heading: "Formal Channels Work When You're Prepared",
         paragraphs: [
-          "If internal resolution fails, the UAE Ministry of Human Resources and Emiratisation provides a structured process for labour disputes. I always tell employees to read the official MOHRE guidance before escalating, because the correct channel and wording matter more than people expect. The quality of your outcome at this stage depends heavily on how organized your documentation is. (Source: UAE Government Portal)",
+          "If internal resolution fails, the <a href='https://www.mohre.gov.ae' target='_blank'>UAE Ministry of Human Resources and Emiratisation (MOHRE)</a> provides a structured process for labour disputes. I always tell employees to read the official MOHRE guidance before escalating, because the correct channel and wording matter more than people expect. The quality of your outcome at this stage depends heavily on how organized your documentation is.",
           "Stay calm, follow the process step by step, and keep records of every update and communication throughout. Employees who treat this like a professional process — not an emotional confrontation — tend to get their matters resolved more efficiently.",
+        ],
+      },
+      {
+        heading: "Real Case Study: What Happens When You're Prepared vs. Unprepared",
+        paragraphs: [
+          "Employee A receives a salary delay of 15 days. She has organized pay slips, contract copy, and emails. She contacts HR with specific dates and amounts, documents the response, and escalates to MOHRE with all records within two weeks. Resolution comes in 35 days total, includes compensation for the delay, and the matter is resolved cleanly.",
+          "Employee B receives the same 15-day salary delay. He doesn't have copies of his contract or consistent pay slip records. When he escalates, he relies on memory of amounts and dates. The back-and-forth takes 8 weeks, requires repeated clarifications, and the outcome is less favorable because documentation was missing. Same issue, different preparation = dramatically different outcome.",
+        ],
+      },
+      {
+        heading: "Gratuity Calculations and End-of-Service Payments",
+        paragraphs: [
+          "Many employees in the UAE don't fully understand gratuity — the end-of-service payment you're entitled to when employment ends. The calculation depends heavily on your contract wording, especially whether your basic salary is defined separately from allowances. Some contracts calculate gratuity on basic salary only; others include allowances. This difference can amount to thousands of dirhams by the end of your employment.",
+          "Before accepting any contract, specifically ask how gratuity will be calculated, what components are included, and confirm it in writing. When you leave the job, request an itemized gratuity calculation. If the calculation doesn't match what you understood, ask for clarification. Employers sometimes shortchange employees who don't understand their contracts or who don't ask questions at the final stage.",
+        ],
+      },
+      {
+        heading: "Leave Entitlements: What You Earn and How It Works",
+        paragraphs: [
+          "Standard UAE labour law provides annual leave entitlements, but the exact amount depends on your contract and tenure. New employees typically get fewer days initially, with the amount increasing after certain periods. Some companies offer additional leave through benefits packages. Understanding your leave balance matters not only for planning time off but also for calculating pay if employment ends before you've used accrued leave.",
+          "Keep a personal record of leave taken and the balance remaining. If you submit leave requests through email, save confirmations. Many disputes about final payments or unused leave balances could have been prevented if employees had clear documentation of their leave history.",
+        ],
+      },
+      {
+        heading: "Probation Periods and What They Legally Mean",
+        paragraphs: [
+          "UAE law allows probation periods of up to six months for most private-sector roles. During probation, employers have more flexibility to terminate employment without the same notice period requirements or compensation that apply after probation ends. However, this doesn't mean termination can be arbitrary or unfair. Proper documentation and clear communication about performance concerns are still required.",
+          "If you're in probation, understand exactly when it ends and what happens on the final day. If your employer wants to continue the relationship, confirm it clearly. If the probation period ends without explicit termination communication, you've moved into the main employment period with significantly more protection. Ask HR for explicit confirmation of probation completion if you're unclear.",
+        ],
+      },
+      {
+        heading: "Salary Delays, Deductions, and Your Right to Timely Payment",
+        paragraphs: [
+          "UAE labour law is clear about employer obligations: salary must be paid on time and in full. Delays are not acceptable, and unauthorized deductions are illegal. Yet many employees face exactly these situations. Late salaries often get justified as 'banking delays' or 'processing issues,' but these are employer problems, not employee problems. Your salary is your income — delays affect your financial obligations and stress.",
+          "If salary is delayed beyond the agreed pay date, document the delay dates and amounts clearly. A single delay might be a systems issue; repeated delays are a pattern and grounds for formal complaint. After a delay, confirm via email what the new payment date will be. If repeated delays continue, this is a situation that warrants escalation to MOHRE or labor department officials.",
+        ],
+      },
+      {
+        heading: "Notice Periods and Job Changes",
+        paragraphs: [
+          "Notice periods are a major source of confusion and disputes in the UAE. Your contract specifies the notice you must give to resign and the notice the employer must give to terminate you. These can be different amounts. Some contracts require 60 days notice to resign; others require 30. Some protect employees with 60 days termination notice; others allow shorter periods. Know your exact notice requirement before you resign.",
+          "Before handing in resignation, review your contract, understand the notice period, and consider the financial and visa implications. If you resign without proper notice, the employer may pursue compensation. If the employer terminates you without proper notice, you're entitled to compensation or extended pay-in-lieu. Get the notice terms in writing from HR before formalizing your resignation.",
+        ],
+      },
+      {
+        heading: "When to Escalate: Red Flags That Require Immediate Action",
+        paragraphs: [
+          "Certain workplace situations require faster escalation than others. Salary not paid for multiple months, threats of termination over protected activity, contract violations that are deliberate and repeated, or safety issues that management refuses to address are all red flags that demand formal escalation. Don't wait months hoping these improve. Documentation and quick escalation through proper channels are your protection.",
+          "If your situation involves potential discrimination, illegal contract changes, or unsafe working conditions, those warrant immediate consultation with someone who specializes in UAE labour issues — either a lawyer or an official channel. These aren't situations to handle purely informally.",
         ],
       },
     ],
@@ -158,7 +291,7 @@ export const posts = [
         heading: "Transport Is Where Budgets Quietly Disappear",
         paragraphs: [
           "Taxis in Dubai are reasonable by international standards, but they add up quickly when you're making unplanned decisions. A metro-first approach with one planned taxi ride per day keeps transport costs predictable. Check station proximity before you choose your stops, and remember that many central tourist areas are genuinely walkable in the evening when temperatures drop.",
-          "If you're using the metro, a Nol card saves money compared to single-trip tickets and removes the stress of buying tickets repeatedly. Check current zones, fares, and service updates on RTA before finalizing your route, especially if the weekend plan crosses both old Dubai and newer coastal areas. Top it up the evening before your weekend starts, not at the station during the morning rush. (Reference: Dubai RTA Official Website)",
+          "If you're using the metro, a Nol card saves money compared to single-trip tickets and removes the stress of buying tickets repeatedly. Check current zones, fares, and service updates on <a href='https://www.rta.ae' target='_blank'>RTA's official website</a> before finalizing your route, especially if the weekend plan crosses both old Dubai and newer coastal areas. Top it up the evening before your weekend starts, not at the station during the morning rush.",
         ],
       },
       {
@@ -200,7 +333,7 @@ export const posts = [
         heading: "Use Every Channel, Not Just One Portal",
         paragraphs: [
           "Job portals are useful but they're also the most competitive channel because everyone is there. Many UAE positions are filled through direct LinkedIn outreach to relevant candidates, through employee referrals, or through recruiter relationships before they're ever posted publicly. If you're only applying on portals, you're missing a significant portion of the actual job market.",
-          "Build a parallel approach: regular LinkedIn activity and connection building, one or two specialist recruiters in your field, direct applications through company career pages, and genuine networking within your professional community. For roles in regulated sectors, confirm the employer and work-permit route through official UAE labour information rather than relying only on recruiter promises. (Source: UAE Government Portal)",
+          "Build a parallel approach: regular LinkedIn activity and connection building, one or two specialist recruiters in your field, direct applications through company career pages, and genuine networking within your professional community. For roles in regulated sectors, confirm the employer and work-permit route through <a href='https://www.mohre.gov.ae' target='_blank'>official UAE labour information</a> rather than relying only on recruiter promises.",
         ],
       },
       {
@@ -241,7 +374,7 @@ export const posts = [
       {
         heading: "Track Actively, Don't Just Wait",
         paragraphs: [
-          "Once submitted, a lot of people go into passive waiting mode — they assume no news is good news. In reality, some applications pause at a stage that requires additional action, and the notification may go to a spam folder or a phone number that's hard to reach. Checking the ICP smart services portal every few days takes two minutes and keeps you genuinely informed. (Official Info: UAE Immigration Website)",
+          "Once submitted, a lot of people go into passive waiting mode — they assume no news is good news. In reality, some applications pause at a stage that requires additional action, and the notification may go to a spam folder or a phone number that's hard to reach. Checking the <a href='https://www.icp.gov.ae' target='_blank'>ICP smart services portal</a> every few days takes two minutes and keeps you genuinely informed.",
           "Keep your application reference number saved somewhere accessible. If anything needs following up, that number is the first thing any support channel will ask for.",
         ],
       },
@@ -269,7 +402,7 @@ export const posts = [
       {
         heading: "Always Start With the Right Source",
         paragraphs: [
-          "The internet is full of third-party sites that claim to show UAE traffic fines, but unofficial sources create more problems than they solve — outdated information, confusing interfaces, and in some cases, payment to the wrong destination. The correct approach is to go directly to official channels such as RTA in Dubai, Abu Dhabi Police, or the relevant emirate's fine check service. (Reference: Dubai RTA Official Website)",
+          "The internet is full of third-party sites that claim to show UAE traffic fines, but unofficial sources create more problems than they solve — outdated information, confusing interfaces, and in some cases, payment to the wrong destination. The correct approach is to go directly to official channels such as <a href='https://www.rta.ae' target='_blank'>RTA in Dubai</a>, Abu Dhabi Police, or the relevant emirate's fine check service.",
           "Before you start any check, have your vehicle plate number, registration details, and traffic file number ready. These details are on your vehicle registration card. Having them at hand makes the process clean and immediate.",
         ],
       },
@@ -1369,6 +1502,27 @@ function sentenceJoin(items) {
   return items.filter(Boolean).join(" ");
 }
 
+function sourceLink(source) {
+  return `<a href="${source.url}" target="_blank" rel="noopener noreferrer">${source.name}</a>`;
+}
+
+function buildOfficialSourceParagraph(source, post) {
+  return `Check ${sourceLink(source)} for current official guidance connected to ${post.title}. Confirm the latest fee, eligibility wording, service channel, and update date before making a payment. Save the link or screenshot with your records so you can return to the same source later.`;
+}
+
+function buildReferenceTable(references, sourceItems) {
+  const primarySource = sourceItems[0];
+  return {
+    headers: ["Checkpoint", "How to use it"],
+    rows: references.map((item) => [
+      item,
+      primarySource
+        ? `Verify against ${sourceLink(primarySource)} before paying, applying, signing, or booking.`
+        : "Verify the current figure with the relevant official authority before taking action.",
+    ]),
+  };
+}
+
 function buildGenericSpec(post) {
   const topic = post.title.replace(/:.*$/, "");
   const category = post.category;
@@ -1426,6 +1580,117 @@ function buildGenericSpec(post) {
   };
 }
 
+function buildArticleSections(post, spec, sourceItems, faqParagraphs) {
+  const topic = post.title.replace(/:.*$/, "");
+  const coreParagraphs = normalizeParagraphs(spec.core ?? spec.corePoints);
+  const numberParagraphs = normalizeParagraphs(spec.numbers ?? spec.numberPoints);
+  const realityParagraph = expandParagraph(
+    spec.reality,
+    "This is the part that makes the advice practical rather than theoretical.",
+    "If you write the cost, deadline, document, and backup option before starting, you reduce the chance of paying twice or losing a week."
+  );
+  const mistakes = spec.mistakes.map((mistake, index) =>
+    expandParagraph(
+      `Mistake ${index + 1}: ${mistake}`,
+      "This happens because people often act from urgency instead of a checked plan.",
+      "The better move is to pause for 10 minutes, verify the number or rule, and keep written proof before paying or committing."
+    )
+  );
+  const references = spec.references || [];
+  const sourceParagraphs = sourceItems.map((source) => buildOfficialSourceParagraph(source, post));
+  const sourceItemsList = sourceItems.map((source) => `${sourceLink(source)} - official reference for current rules, fees, channels, and service wording.`);
+  const variant = posts.findIndex((item) => item.slug === post.slug) % 6;
+  const introParagraph = sentenceJoin([
+    spec.lead,
+    coversToParagraph(spec.covers),
+    spec.why,
+    "You will see specific AED amounts, timelines, area names, official-source checks, common mistakes, and answers to questions people actually search before taking action.",
+  ]);
+  const insightParagraph = expandParagraph(
+    spec.insight,
+    "That observation has shaped how I explain Dubai topics on this site.",
+    "A good guide should reduce confusion before the expensive part of the decision starts."
+  );
+  const finalParagraph = expandParagraph(
+    spec.takeaway,
+    "Make the next step specific: write the fee, deadline, document list, official source, and backup option today.",
+    "That small habit is what turns a confusing Dubai process into a manageable one."
+  );
+
+  if (variant === 0) {
+    return [
+      { heading: `Start Here: ${topic}`, callout: spec.why, paragraphs: [introParagraph] },
+      { heading: spec.coreTitle, paragraphs: coreParagraphs },
+      { heading: "Numbers To Put In Your Notes", table: buildReferenceTable(references, sourceItems), paragraphs: numberParagraphs.slice(0, 1) },
+      { heading: spec.realityTitle, paragraphs: [realityParagraph] },
+      { heading: "Mistakes Worth Avoiding", items: mistakes },
+      { heading: "Official Links To Check", items: sourceItemsList, paragraphs: sourceParagraphs.slice(0, 1) },
+      { heading: "Reader Questions", paragraphs: faqParagraphs.slice(0, 3) },
+      { heading: "Final Takeaway", paragraphs: [finalParagraph] },
+    ];
+  }
+
+  if (variant === 1) {
+    return [
+      { heading: "What This Guide Solves", paragraphs: [introParagraph, coreParagraphs[0]] },
+      { heading: `The ${topic} Decision Map`, steps: coreParagraphs.slice(0, 4).map((detail, index) => ({ title: `Decision ${index + 1}`, detail })) },
+      { heading: "Cost And Timeline Reality", paragraphs: numberParagraphs },
+      { heading: "Quick Comparison Table", table: buildReferenceTable(references, sourceItems) },
+      { heading: "The Real-World Scenario", callout: realityParagraph },
+      { heading: "Do Not Skip These Checks", items: mistakes.slice(0, 4) },
+      { heading: "Source Links", paragraphs: sourceParagraphs },
+      { heading: "Practical FAQ", paragraphs: faqParagraphs.slice(0, 4) },
+      { heading: "Bottom Line", paragraphs: [finalParagraph] },
+    ];
+  }
+
+  if (variant === 2) {
+    return [
+      { heading: "Short Answer Before The Details", callout: spec.takeaway, paragraphs: [introParagraph] },
+      { heading: spec.coreTitle, items: coreParagraphs },
+      { heading: spec.numbersTitle, table: buildReferenceTable(references, sourceItems), paragraphs: numberParagraphs.slice(0, 2) },
+      { heading: "How It Usually Plays Out", paragraphs: [realityParagraph, insightParagraph] },
+      { heading: "Official Sources And Links", items: sourceItemsList },
+      { heading: "Frequently Asked Questions", paragraphs: faqParagraphs },
+    ];
+  }
+
+  if (variant === 3) {
+    return [
+      { heading: "The Situation In Plain English", paragraphs: [introParagraph] },
+      { heading: "First Checks", items: coreParagraphs.slice(0, 3) },
+      { heading: "Planning Numbers", paragraphs: numberParagraphs },
+      { heading: "One Realistic Example", callout: realityParagraph },
+      { heading: "Mistake Checklist", table: { headers: ["Mistake", "Better move"], rows: mistakes.map((item) => [item, "Verify the rule, save proof, and slow the decision down before money or documents move."]) } },
+      { heading: "Abdul Karim's Field Note", paragraphs: [insightParagraph] },
+      { heading: "Where To Verify", paragraphs: sourceParagraphs },
+    ];
+  }
+
+  if (variant === 4) {
+    return [
+      { heading: `Why ${topic} Needs A Plan`, paragraphs: [introParagraph] },
+      { heading: "Core Context", paragraphs: coreParagraphs },
+      { heading: "Exact Checks To Make", steps: references.map((item, index) => ({ title: `Check ${index + 1}`, detail: item })) },
+      { heading: "Numbers, Fees, And Waiting Time", paragraphs: numberParagraphs },
+      { heading: "Reader Reality Check", paragraphs: [realityParagraph] },
+      { heading: "Common Mistakes", items: mistakes },
+      { heading: "Verified Sources", table: { headers: ["Source", "URL"], rows: sourceItems.map((source) => [source.name, sourceLink(source)]) } },
+      { heading: "Questions People Ask", paragraphs: faqParagraphs.slice(0, 5) },
+      { heading: "Personal Insight", paragraphs: [insightParagraph] },
+      { heading: "Final Takeaway", paragraphs: [finalParagraph] },
+    ];
+  }
+
+  return [
+    { heading: "Practical Overview", callout: spec.why, paragraphs: [introParagraph] },
+    { heading: "What Matters Most", paragraphs: coreParagraphs.slice(0, 2) },
+    { heading: "Numbers To Confirm", items: numberParagraphs },
+    { heading: "Official Links", paragraphs: sourceParagraphs },
+    { heading: "Final Takeaway", paragraphs: [finalParagraph] },
+  ];
+}
+
 for (const post of posts) {
   const compact = compactArticleSpecs[post.slug];
   if (compact && !articleUpgradeSpecs[post.slug]) {
@@ -1446,64 +1711,7 @@ for (const post of posts) {
   post.sources = sourceItems;
   post.personalInsight = spec.insight;
   post.commonMistakes = spec.mistakes.map((mistake) => ({ mistake: mistake.split(".")[0], explanation: mistake }));
-  post.sections = [
-    {
-      heading: `Long Introduction: ${post.title}`,
-      paragraphs: [
-        sentenceJoin([
-          spec.lead,
-          coversToParagraph(spec.covers),
-          spec.why,
-          `I am writing this as Abdul Karim for readers who need practical decisions, not vague inspiration.`,
-          "You will see specific AED amounts, timelines, area names, official-source checks, common mistakes, and answers to questions people actually search before taking action."
-        ]),
-      ],
-    },
-    {
-      heading: spec.coreTitle,
-      paragraphs: normalizeParagraphs(spec.core ?? spec.corePoints),
-    },
-    {
-      heading: spec.numbersTitle,
-      paragraphs: normalizeParagraphs(spec.numbers ?? spec.numberPoints),
-    },
-    {
-      heading: spec.realityTitle,
-      paragraphs: [
-        expandParagraph(spec.reality, "This is the part that makes the advice practical rather than theoretical.", "If you write the cost, deadline, document, and backup option before starting, you reduce the chance of paying twice or losing a week."),
-      ],
-    },
-    {
-      heading: "Common Mistakes People Make",
-      paragraphs: spec.mistakes.map((mistake, index) =>
-        expandParagraph(`Mistake ${index + 1}: ${mistake}`, "This happens because people often act from urgency instead of a checked plan.", "The better move is to pause for 10 minutes, verify the number or rule, and keep written proof before paying or committing.")
-      ),
-    },
-    {
-      heading: "Personal Insight from Abdul Karim",
-      paragraphs: [expandParagraph(spec.insight, "That observation has shaped how I explain Dubai topics on this site.", "A good guide should reduce confusion before the expensive part of the decision starts.")],
-    },
-    {
-      heading: "Quick Reference Table",
-      paragraphs: spec.references.map((item) =>
-        expandParagraph(item, "Use this as a quick planning reference, then confirm the exact current detail through the official source or provider.", "The goal is not to memorize every number; the goal is to avoid starting with a blank estimate.")
-      ),
-    },
-    {
-      heading: "Official Sources",
-      paragraphs: sourceItems.map((source) =>
-        `Use ${source.name} at ${source.url} for current official guidance. Check the latest fee, eligibility wording, service channel, and update date before making a payment. This is especially important when the topic affects visas, work, tenancy, schools, health, banking, or transport. Save the link or screenshot with your records so you can return to the same source later.`
-      ),
-    },
-    {
-      heading: "Frequently Asked Questions",
-      paragraphs: faqParagraphs,
-    },
-    {
-      heading: "Final Takeaway",
-      paragraphs: [expandParagraph(spec.takeaway, "Make the next step specific: write the fee, deadline, document list, official source, and backup option today.", "That small habit is what turns a confusing Dubai process into a manageable one.")],
-    },
-  ];
+  post.sections = buildArticleSections(post, spec, sourceItems, faqParagraphs);
 }
 
 function coversToParagraph(text) {

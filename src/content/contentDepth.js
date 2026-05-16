@@ -397,19 +397,47 @@ export function buildContentDepth(post, extras = {}) {
       ...(bespoke.faqs || []),
       {
         question: `Is ${post.title} still relevant in 2026?`,
-        answer: `Yes, the guide is structured for 2026 planning and was last reviewed in May 2026. Because UAE rules, fees, routes, and provider policies can change, readers should confirm the final detail through ${sourceText} before taking action.`,
+        answer: `Yes, the guide is structured for 2026 planning and was last reviewed in May 2026. Because UAE rules, fees, routes, and provider policies can change, readers should confirm the final detail through official sources before taking action. Check <a href='https://www.uae.gov.ae' target='_blank'>UAE Government</a>, <a href='https://www.dubai.gov.ae' target='_blank'>Dubai Government</a>, or relevant authority websites.`,
       },
       {
         question: "What is the safest way to use this guide?",
-        answer: `Use it as a practical checklist. Read the full article, compare the advice with your own budget and documents, then verify the final rule or fee through an official source. This is especially important when the decision involves ${decisionText}.`,
+        answer: `Use it as a practical checklist. Read the full article, compare the advice with your own budget and documents, then verify the final rule or fee through official sources. This is especially important when the decision involves significant decisions.`,
       },
       {
         question: "What should I do if my situation is different from the examples?",
-        answer: "Treat the examples as a starting point, not a rule. Make a short list of what is different in your case, such as visa type, employer, family status, location, income, document expiry date, or timeline. Then check the relevant official route before acting.",
+        answer: "Treat the examples as a starting point, not a rule. Make a short list of what is different in your case. Then check the relevant official route before acting through authoritative government portals.",
       },
       {
         question: "Can I rely only on online advice for this topic?",
-        answer: "No. Online advice is useful for understanding the process, but final decisions should be based on current official information, written provider terms, and your own documents. This reduces the risk of delays, rejected applications, and unexpected costs.",
+        answer: "No. Online advice is useful for understanding the process, but final decisions should be based on current official information. Verify through <a href='https://www.uae.gov.ae' target='_blank'>UAE official sources</a> or relevant authorities.",
+      },
+      {
+        question: "What happens if I disagree with official guidance?",
+        answer: "If you disagree with official guidance, document your situation and seek clarification through official channels or from a qualified advisor. Do not act based on your disagreement alone. The official rule takes precedence unless you have legal grounds to challenge it, which requires professional advice.",
+      },
+      {
+        question: "How recent does my information need to be?",
+        answer: "For UAE government procedures, policies, and fees, information should be from the current year or verified as still current. Rules change regularly. Always check the date on official pages and look for update indicators. If the source date is more than 6 months old, verify it against current official pages before acting.",
+      },
+      {
+        question: "Should I keep this guide for future reference?",
+        answer: "Yes. Keep a PDF or bookmark of this guide, but recognize that specific rules, fees, and procedures may change. Use this guide as a framework for how to think about ${post.category.toLowerCase()}, but verify every specific detail through current official sources before you act on it again in the future.",
+      },
+      {
+        question: "What should I do if I find incorrect information in this guide?",
+        answer: "If you identify information that appears to be incorrect or outdated, check the official source to confirm. If the official source has changed since this guide was written, the official source is correct. Document what changed and consider reporting it so the guide can be updated.",
+      },
+      {
+        question: "Is this guide suitable for all UAE emirates?",
+        answer: "This guide covers federal UAE rules and Dubai-specific procedures. Some emirates have different local procedures or fees. If you're in Abu Dhabi, Sharjah, Ajman, or another emirate, verify that the procedure and fee structure apply to your location before acting.",
+      },
+      {
+        question: "What if my personal situation doesn't match any of the examples?",
+        answer: "Treat the examples as frameworks, not rules. Your specific situation may have unique factors such as your visa status, employer type, family circumstances, or financial situation. List the ways your situation differs from the examples, then verify the official route for your specific circumstances.",
+      },
+      {
+        question: "When should I get professional help instead of following this guide alone?",
+        answer: "Get professional help when the decision involves significant money, legal rights, family sponsorship, employment status, or anything with long-term consequences. A consultation with someone qualified in the specific area often costs less than fixing a preventable mistake.",
       },
     ],
   };

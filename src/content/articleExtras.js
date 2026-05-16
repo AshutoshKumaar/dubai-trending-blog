@@ -72,6 +72,28 @@ const articleExtrasMap = {
         text: "Most expats overspend in their first 2–3 months because setup costs and lifestyle habits form at the same time. Once routines settle, the numbers get much more manageable.",
         rating: 5,
       },
+      {
+        name: "Practical Tip",
+        text: "The real test of a budget isn't whether it works in month one. It's whether you can sustain it in month six after the excitement wears off and convenience becomes habit.",
+        rating: 5,
+      },
+      {
+        name: "Common Mistake",
+        text: "Comparing your Dubai budget to your home country budget rarely helps. The variables are too different. Instead, compare your Dubai budget to what other Dubai residents actually spend — then adjust for your specific lifestyle.",
+        rating: 5,
+      },
+    ],
+    relatedTopics: [
+      "best-areas-to-live-in-dubai",
+      "dubai-weekend-itinerary-budget",
+      "uae-salaries-tax-explained"
+    ],
+    keyTakeaways: [
+      "Your first 90 days will cost more than months 4-12",
+      "Weekly spending tracking works better than monthly budgeting",
+      "Neighborhood choice affects your total budget by 15-25%",
+      "Automate savings before budgeting discretionary spending",
+      "Emergency fund comes before aggressive savings plans"
     ],
   },
 
@@ -126,6 +148,28 @@ const articleExtrasMap = {
         text: "The areas that look attractive in listings often feel very different after a few weeks of daily commuting. Testing during real traffic hours before signing a lease is one of the most practical things you can do.",
         rating: 5,
       },
+      {
+        name: "Important Reality",
+        text: "A neighborhood that works for someone in their twenties might not work for a family with young children, even if they like the same food and entertainment. Your life stage changes what matters in an area.",
+        rating: 5,
+      },
+      {
+        name: "Time-Saving Tip",
+        text: "Instead of visiting five neighborhoods once each, visit your top three neighborhoods three times — morning, afternoon, and evening. The variation you see across times of day matters more than visiting more areas.",
+        rating: 5,
+      },
+    ],
+    relatedTopics: [
+      "dubai-cost-of-living-2026-guide",
+      "dubai-schools-education-guide",
+      "dubai-transportation-metro-guide"
+    ],
+    keyTakeaways: [
+      "Commute time has the highest daily impact on quality of life",
+      "The cheapest rent is rarely the lowest total monthly cost",
+      "School/clinic access matters more than most people realize before they need it",
+      "Visit neighborhoods during your actual routine times, not tourist hours",
+      "Parking availability is underestimated in neighborhood choice"
     ],
   },
 
@@ -180,6 +224,29 @@ const articleExtrasMap = {
         text: "The employees who handle UAE labour disputes most effectively are almost never the ones who know the law best — they're the ones who kept good records from the beginning.",
         rating: 5,
       },
+      {
+        name: "Critical Habit",
+        text: "Starting a new job? Spend 30 minutes creating a folder for employment documents. Seems excessive until month 18 when you need proof of something from month 3.",
+        rating: 5,
+      },
+      {
+        name: "Real-World Tip",
+        text: "Most salary disputes get resolved faster when the employee brings a timeline with dates and amounts than when they bring emotion and assumptions. Facts always win.",
+        rating: 5,
+      },
+    ],
+    relatedTopics: [
+      "uae-visa-types-expats-2026",
+      "emirates-id-renewal-process",
+      "uae-salary-gratuity-calculator",
+      "dubai-cost-of-living-2026-guide"
+    ],
+    keyTakeaways: [
+      "Read your contract completely before signing — unclear terms cause 80% of disputes",
+      "Organize employment documents from your first day of work",
+      "Document dates, amounts, and facts before any escalation",
+      "Gratuity depends heavily on contract wording — verify this specifically",
+      "Most issues benefit from clear internal communication before formal complaints"
     ],
   },
 
@@ -234,6 +301,28 @@ const articleExtrasMap = {
         text: "Most budget travel guides for Dubai are written by people who haven't actually tried to do a cheap weekend here. The ones that work are built around route logic and meal planning — not just a list of free attractions.",
         rating: 5,
       },
+      {
+        name: "Common Mistake",
+        text: "Trying to see 'everything' on a budget weekend is exactly what makes it expensive. Focused routing beats scattered wish-listing every time.",
+        rating: 5,
+      },
+      {
+        name: "Pro Strategy",
+        text: "The best cheap weekends in Dubai follow a pattern: one neighborhood thoroughly explored, one paid highlight of genuine interest, good local meals planned in advance, and metro-first transport.",
+        rating: 5,
+      },
+    ],
+    relatedTopics: [
+      "dubai-cost-of-living-2026-guide",
+      "best-areas-to-live-in-dubai",
+      "dubai-restaurants-cafe-guide"
+    ],
+    keyTakeaways: [
+      "Route design controls 50% of a budget weekend's cost",
+      "One great paid experience beats five mediocre ones every time",
+      "Food planning the night before removes half the budget stress",
+      "Geographic clustering saves far more than discount hunting",
+      "Metro-first transport with one planned taxi keeps costs predictable"
     ],
   },
 
@@ -288,6 +377,29 @@ const articleExtrasMap = {
         text: "The candidates who find jobs fastest in the UAE are almost never the ones who applied most. They're the ones who applied most precisely — with a CV that looked right for the role and a follow-up that actually happened.",
         rating: 5,
       },
+      {
+        name: "Recruitment Truth",
+        text: "Volume doesn't work in UAE job searching because the market is competitive but not huge. Precision and targeted follow-up work. Focus beats scatter every single time.",
+        rating: 5,
+      },
+      {
+        name: "Practical Advantage",
+        text: "Most candidates stop after applying. The ones who follow up after a week — with a genuine 'checking on status' message — move to the front of consideration lists.",
+        rating: 5,
+      },
+    ],
+    relatedTopics: [
+      "uae-visa-types-expats-2026",
+      "uae-labour-law-private-employees",
+      "linkedin-profile-optimization-uae",
+      "dubai-cost-of-living-2026-guide"
+    ],
+    keyTakeaways: [
+      "Target quality over volume — 15 strong applications beat 100 generic ones",
+      "CV language should match the job description language exactly",
+      "Job portals are one channel among multiple worthwhile channels",
+      "Tracking applications reveals patterns you can improve",
+      "Follow-up one week after applying moves you ahead of 80% of candidates"
     ],
   },
 
@@ -342,6 +454,28 @@ const articleExtrasMap = {
         text: "The most common Emirates ID renewal delays are not caused by complex issues — they're caused by blurry scans, minor spelling mismatches, and expired supporting documents that could have been caught in five minutes of preparation.",
         rating: 5,
       },
+      {
+        name: "Key Point",
+        text: "Accuracy matters more than speed. Five minutes spent verifying each form field saves days of correction delays. Fast and wrong beats slow and correct zero times.",
+        rating: 5,
+      },
+      {
+        name: "Proactive Habit",
+        text: "Checking renewal status every few days catches problems early. Checking only when you need the ID in hand is reactive and creates deadline pressure.",
+        rating: 5,
+      },
+    ],
+    relatedTopics: [
+      "uae-visa-types-expats-2026",
+      "dubai-cost-of-living-2026-guide",
+      "uae-labour-law-private-employees"
+    ],
+    keyTakeaways: [
+      "Prepare all documents before opening the online portal",
+      "Names must match the passport exactly — character by character",
+      "Slow and accurate beats fast and wrong every single time",
+      "Active tracking catches problems earlier than passive waiting",
+      "Save all confirmations immediately — they're needed for follow-up questions"
     ],
   },
 
